@@ -7,6 +7,7 @@ import libCom from '../Common/Library/CommonLibrary';
 import IsCompleteAction from '../WorkOrders/Complete/IsCompleteAction';
 
 export default function DiscardAction(context) {
+    let assnTypeLevel;
     let action = Promise.resolve();
 
     let actionName = '/SAPAssetManager/Actions/DiscardWarningMessage.action';
@@ -87,7 +88,12 @@ export default function DiscardAction(context) {
                         action = matDocDelete(context); //We handle these differently depending on type
                         break;
                     case 'Confirmation':
-                        action = context.executeAction('/SAPAssetManager/Actions/Confirmations/ConfirmationDelete.action');
+                        assnTypeLevel = libCom.getWorkOrderAssnTypeLevel(context);
+                        if (assnTypeLevel === 'Header') {
+                            action = DiscardOrderMobileStatus(context);
+                        } else if (assnTypeLevel === 'Operation') {
+                            action = DiscardOperationMobileStatus(context);
+                        }
                         break;
                     case 'MyWorkOrderTool':
                         action = context.executeAction('/SAPAssetManager/Actions/WorkOrders/Operations/PRT/CreateUpdate/PRTEquipmentDelete.action');
@@ -216,4 +222,96 @@ function AddSerialNumbersInboundOutbound(context, entityset, navigation, parent,
     });
 
     return result;
+}
+
+
+function DiscardOperationMobileStatus(context) {
+    let action = context.executeAction('/SAPAssetManager/Actions/Confirmations/ConfirmationDelete.action').then(() => {
+        if (context.binding.WorkOrderOperation.OperationMobileStatus_Nav.MobileStatus === 'COMPLETED' && context.binding.WorkOrderOperation.OperationMobileStatus_Nav['@odata.editLink']) {
+            //add return or not?
+             return context.read('/SAPAssetManager/Services/AssetManager.service', 'PMMobileStatusHistories', [], `$filter=sap.islocal() and ObjectKey eq '${context.binding.WorkOrderOperation.OperationMobileStatus_Nav.ObjectKey}'`).then(record => {
+                let linksHis = [];
+                if (record && record.length > 0) {
+                    for (let i = 0; i < record.length; i++) {
+                        let editLink = record.getItem(i)['@odata.editLink'];
+
+                        linksHis.push(context.executeAction({
+                            'Name': '/SAPAssetManager/Actions/Common/GenericDiscard.action', 
+                            'Properties': {
+                            'Target': {
+                                'EntitySet': 'PMMobileStatusHistories',
+                                'Service': '/SAPAssetManager/Services/AssetManager.service',
+                               // 'EditLink': record.getItem(0)['@odata.editLink'],
+                                'EditLink': editLink,
+                                },
+                            },
+                        }));
+                    }
+                }
+                return Promise.all(linksHis).then(() => {
+                    return context.executeAction({
+                        'Name': '/SAPAssetManager/Actions/Common/GenericDiscard.action', 
+                        'Properties': {
+                            'Target': {
+                                'EntitySet': 'PMMobileStatuses',
+                                'Service': '/SAPAssetManager/Services/AssetManager.service',
+                                'EditLink': context.binding.WorkOrderOperation.OperationMobileStatus_Nav['@odata.editLink'],
+                            },
+                        },
+                    });
+                });                  
+            });
+            
+        } else {
+            // Nothing
+            return Promise.resolve(true);
+        }
+    });
+ return action;
+}
+
+
+function DiscardOrderMobileStatus(context) {
+    let action = context.executeAction('/SAPAssetManager/Actions/Confirmations/ConfirmationDelete.action').then(() => {
+        if (context.binding.WorkOrderHeader.OrderMobileStatus_Nav.MobileStatus === 'COMPLETED' && context.binding.WorkOrderHeader.OrderMobileStatus_Nav['@odata.editLink']) {
+            //add return or not?
+             return context.read('/SAPAssetManager/Services/AssetManager.service', 'PMMobileStatusHistories', [], `$filter=sap.islocal() and ObjectKey eq '${context.binding.WorkOrderHeader.OrderMobileStatus_Nav.ObjectKey}'`).then(record => {
+                let linksHis = [];
+                if (record && record.length > 0) {
+                    for (let i = 0; i < record.length; i++) {
+                        let editLink = record.getItem(i)['@odata.editLink'];
+
+                        linksHis.push(context.executeAction({
+                            'Name': '/SAPAssetManager/Actions/Common/GenericDiscard.action', 
+                            'Properties': {
+                            'Target': {
+                                'EntitySet': 'PMMobileStatusHistories',
+                                'Service': '/SAPAssetManager/Services/AssetManager.service',
+                               // 'EditLink': record.getItem(0)['@odata.editLink'],
+                                'EditLink': editLink,
+                                },
+                            },
+                        }));
+                    }
+                }
+                return Promise.all(linksHis).then(() => {
+                    return context.executeAction({
+                        'Name': '/SAPAssetManager/Actions/Common/GenericDiscard.action', 
+                        'Properties': {
+                            'Target': {
+                                'EntitySet': 'PMMobileStatuses',
+                                'Service': '/SAPAssetManager/Services/AssetManager.service',
+                                'EditLink': context.binding.WorkOrderHeader.OrderMobileStatus_Nav['@odata.editLink'],
+                            },
+                        },
+                    });
+                });                  
+            });
+            
+        } else {
+            // Nothing
+            return Promise.resolve(true);
+        }
+    });
+ return action;
 }

@@ -101,7 +101,6 @@ export default class {
             }, error => {
                 context.dismissActivityIndicator();
                 Logger.error(context.getGlobalDefinition('/SAPAssetManager/Globals/Logs/CategoryOperations.global').getValue(), error);
-                return context.executeAction('/SAPAssetManager/Actions/WorkOrders/MobileStatus/OperationMobileStatusFailureMessage.action');
             });
         });
     }
@@ -181,7 +180,6 @@ export default class {
             /**Implementing our Logger class*/
             context.dismissActivityIndicator();
             Logger.error(context.getGlobalDefinition('/SAPAssetManager/Globals/Logs/CategoryOperations.global').getValue(), error);
-            return context.executeAction('/SAPAssetManager/Actions/WorkOrders/MobileStatus/OperationMobileStatusFailureMessage.action');
         }).then(() => {
             if (isFinalRequired) {
                 let ConfirmationNum = GenerateLocalConfirmationNumber(context);

@@ -343,13 +343,14 @@ export class NoteLibrary {
             let readLink = '';
             if (objectType.page === 'MeasuringPointDetailsPage') {
                 readLink = context.evaluateTargetPath('#Page:-Previous/#Property:@odata.readLink');
+            } else if (context.binding['@odata.editLink']) {
+                readLink = context.binding['@odata.editLink'];
             } else {
                 readLink = context.evaluateTargetPath('#Page:' + objectType.page + '/#Property:@odata.readLink');
             }
             let noteCreateLink = context.createLinkSpecifierProxy(objectType.name, objectType.entitySet, '', readLink);
             createLinks.push(noteCreateLink.getSpecifier());
         }
-
         return createLinks;
     }
 

@@ -59,7 +59,7 @@ function openConfirmationPage(context, binding) {
             'IsFromWorkOrderHold': binding.IsFromWorkOrderHold,
             'Plant' : binding.MainWorkCenterPlant,
             'doCheckWorkOrderComplete':false,
-            'IsFinalChangable': false,
+            'IsFinalChangable': true,
             'IsFinal': false,
         };
 
