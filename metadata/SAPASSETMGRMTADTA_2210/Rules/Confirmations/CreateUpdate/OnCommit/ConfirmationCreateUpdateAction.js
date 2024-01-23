@@ -17,6 +17,7 @@ import ConvertMinutesToHourString from '../../../Confirmations/ConvertMinutesToH
 import ExecuteActionWithAutoSync from '../../../ApplicationEvents/AutoSync/ExecuteActionWithAutoSync';
 import OperationCompleteFromWOListSwipe from '../../../WorkOrders/Operations/OperationCompleteFromWOListSwipe';
 import SubOperationCompleteFromListSwipe from '../../../WorkOrders/SubOperations/SubOperationCompleteFromListSwipe';
+import CompleteSubOperationMobileStatusAction from '../../../SubOperations/MobileStatus/CompleteSubOperationMobileStatusAction';
 
 export default class ConfirmationCreateUpdateAction extends CascadingAction {
 
@@ -37,9 +38,11 @@ export default class ConfirmationCreateUpdateAction extends CascadingAction {
             didCreateFinalConfirmation: true,
         };
 
+        let beforeActions = ['CompleteMobileStatusAction_WorkOrder'];
         if (this.args.SubOperationId !== undefined && this.args.doCheckSubOperationComplete) {
             nextActionArgs.SubOperationId = this.args.SubOperationId;
             nextActionArgs.doCheckOperationComplete = this.args.doCheckOperationComplete;
+            this.pushLinkedAction(new CompleteSubOperationMobileStatusAction(nextActionArgs), beforeActions);
         }
     }
 
@@ -84,19 +87,27 @@ export default class ConfirmationCreateUpdateAction extends CascadingAction {
     executeNoteUpdate(context) {
         let result = Promise.resolve(true);
         let note = CommonLibrary.getFieldValue(context, 'DescriptionNote', '', null, true);
-        if (note) {
-            NoteLibrary.setNoteTypeTransactionFlag(context, TransactionNoteType.confirmation());
-            if (context.binding.LongText && !Array.isArray(context.binding.LongText)) { //A note already exists so, call the Update action
-                result = context.executeAction('/SAPAssetManager/Actions/Notes/NoteUpdateDuringConfirmationUpdate.action');
-            } else {
-                result = context.executeAction('/SAPAssetManager/Actions/Notes/NoteCreateDuringConfirmationUpdate.action');
+        
+         return context.read('/SAPAssetManager/Services/AssetManager.service', 'ConfirmationLongTexts', [], `$filter=ConfirmationNum eq '${context.binding.ConfirmationNum}'`).then(longTextArray => {
+            if (longTextArray.length > 0) {
+                context.binding.LongText = longTextArray.getItem(0);
+                context.setActionBinding(context.binding);
             }
-        } else if (context.binding.LongText && !Array.isArray(context.binding.LongText)) { //A note exists, but it's now being removed
-            NoteLibrary.setNoteTypeTransactionFlag(context, TransactionNoteType.confirmation());
-            result = context.executeAction('/SAPAssetManager/Actions/Notes/Delete/NoteDeleteDuringConfirmationUpdate.action');
-        }
-        return result.then(function() {
-            return ExecuteActionWithAutoSync(context, '/SAPAssetManager/Actions/CreateUpdateDelete/UpdateEntitySuccessMessageNoClose.action');
+        }).then(()=> {
+            if (note) {
+                NoteLibrary.setNoteTypeTransactionFlag(context, TransactionNoteType.confirmation());
+                if (context.binding.LongText && context.binding.LongText.NewTextString.length > 0) { //A note already exists so, call the Update action
+                    result = context.executeAction('/SAPAssetManager/Actions/Notes/NoteUpdateDuringConfirmationUpdate.action');
+                }
+            } else if (context.binding.LongText && context.binding.LongText.length <= 0) { //A note is not added while creating a confirmation, need to return
+                return Promise.resolve(true);
+            } else if (context.binding.LongText && context.binding.LongText.NewTextString.length > 0) { //A note exists, but it's now being removed
+                NoteLibrary.setNoteTypeTransactionFlag(context, TransactionNoteType.confirmation());
+                result = context.executeAction('/SAPAssetManager/Actions/Notes/Delete/NoteDeleteDuringConfirmationUpdate.action');
+            }
+            return result.then(function() {
+                return ExecuteActionWithAutoSync(context, '/SAPAssetManager/Actions/CreateUpdateDelete/UpdateEntitySuccessMessageNoClose.action');
+            });
         });
     }
 
@@ -193,7 +204,7 @@ export default class ConfirmationCreateUpdateAction extends CascadingAction {
     }
 
     executeOperationComplete(context, instance) {
-        if (instance.args.doCheckOperationComplete && instance.args.isFinalConfirmation && libMobile.isOperationStatusChangeable(context)) {
+        if (instance.args.doCheckOperationComplete && instance.args.isFinalConfirmation && libMobile.isOperationStatusChangeable(context) && !instance.args.SubOperationId) {
             return context.read('/SAPAssetManager/Services/AssetManager.service', `MyWorkOrderOperations(OrderId='${instance.args.WorkOrderId}',OperationNo='${instance.args.OperationId}')`, [], '$expand=OperationMobileStatus_Nav').then(function(result) {
                 if (result && result.length > 0) {
                     let operation = result.getItem(0);
@@ -264,4 +275,3 @@ export default class ConfirmationCreateUpdateAction extends CascadingAction {
         }
     }
 }
-
