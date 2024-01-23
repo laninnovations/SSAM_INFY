@@ -1,0 +1,84 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.FormCellContainer",
+			"_Name": "FormCellContainer0",
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Value": "ithelpdesk@aramco.com",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "FormCellSimpleProperty1",
+							"IsEditable": false,
+							"IsVisible": true,
+							"Styles": {
+								"Caption": "SimplePropertyFormCellCaption",
+								"Value": "SimplePropertyFormCellValue"
+							},
+							"Caption": "To",
+							"PlaceHolder": "IT Help Desk Email",
+							"KeyboardType": "Email",
+							"Enabled": false
+						},
+						{
+							"Value": "Connected Maintenance Worker",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "FormCellSimpleProperty2",
+							"IsEditable": false,
+							"IsVisible": true,
+							"Caption": "Subject",
+							"PlaceHolder": "PlaceHolder",
+							"Enabled": false
+						},
+						{
+							"_Type": "Control.Type.FormCell.Note",
+							"_Name": "FormCellNote0",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Styles": {
+								"Value": "NoteFormCellValue"
+							},
+							"PlaceHolder": "Please add Issue Description",
+							"MaxNumberOfLines": 12,
+							"MinNumberOfLines": 1,
+							"Enabled": true
+						},
+						{
+							"_Type": "Control.Type.FormCell.Attachment",
+							"_Name": "FormCellAttachmentEmail",
+							"IsVisible": true,
+							"AttachmentActionType": [
+								"AddPhoto",
+								"TakePhoto",
+								"SelectFile"
+							]
+						}
+					],
+					"Visible": true
+				}
+			]
+		}
+	],
+	"DesignTimeTarget": {
+		"Service": "/ZSAPASSETMGRMTADTA_2210/Services/OnlineAssetManager.service",
+		"EntitySet": "ZemailAttachmentset"
+	},
+	"_Type": "Page",
+	"_Name": "EmailClient",
+	"Caption": "IT Support",
+	"ActionBar": {
+		"Items": [
+			{
+				"Text": "",
+				"_Name": "ActionBarItem0",
+				"Caption": "Send",
+				"Position": "Right",
+				"IsIconCircular": false,
+				"Visible": true,
+				"OnPress": "/ZSAPASSETMGRMTADTA_2210/Actions/EmailPageRequiredFields.action"
+			}
+		],
+		"_Name": "ActionBar1"
+	}
+}

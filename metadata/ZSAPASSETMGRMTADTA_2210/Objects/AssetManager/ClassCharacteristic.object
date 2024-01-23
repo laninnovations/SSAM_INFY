@@ -1,0 +1,46 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"ClassCharacteristics"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LAMEnabled"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "InternCharNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ItemId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "InternClassNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "IntCounter"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Characteristic",
+			"Key": false,
+			"_Name": "Characteristic"
+		},
+		{
+			"_Type": "ClassDefinition",
+			"Key": false,
+			"_Name": "ClassDefinition"
+		}
+	],
+	"_Name": "ClassCharacteristic"
+}

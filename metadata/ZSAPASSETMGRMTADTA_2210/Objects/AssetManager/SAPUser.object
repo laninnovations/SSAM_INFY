@@ -1,0 +1,36 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"SAPUsers"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UserName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "UserId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AddressNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PersonNum"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "AddressAtWork",
+			"Key": false,
+			"_Name": "AddressAtWork_Nav"
+		}
+	],
+	"_Name": "SAPUser"
+}

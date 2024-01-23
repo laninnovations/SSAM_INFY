@@ -1,0 +1,28 @@
+{
+	"_Type": "Action.Type.ODataService.Initialize",
+	"ActionResult": {
+		"_Name": "result"
+	},
+	"OnFailure": "/ZSAPASSETMGRMTADTA_2210/Rules/ReadLAMNav.js",
+	"OnSuccess": "/ZSAPASSETMGRMTADTA_2210/Rules/LAM/LAMNav.js",
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"DefiningRequests": [
+		{
+			"Name": "ZGeoInfoSet",
+			"Query": "ZGeoInfoSet",
+			"AutomaticallyRetrievesStreams": false
+		},
+		{
+			"Name": "ZIJC_LOCATIONS",
+			"Query": "ZIJC_LOCATIONS",
+			"AutomaticallyRetrievesStreams": false
+		},
+		{
+			"Name": "ZUserLists",
+			"Query": "ZUserLists",
+			"AutomaticallyRetrievesStreams": false
+		}
+	],
+	"StoreName": "SAMStore",
+	"StoreEncryptionKey": "SAPTest123"
+}

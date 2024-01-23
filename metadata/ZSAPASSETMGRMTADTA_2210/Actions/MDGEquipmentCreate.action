@@ -1,0 +1,31 @@
+{
+	"_Type": "Action.Type.ODataService.CreateEntity",
+	"ActionResult": {
+		"_Name": "MDGEquipmentCreate"
+	},
+	"OnFailure": "/SAPAssetManager/Rules/Common/UpdateRequiredFailed.js",
+	"OnSuccess": "/ZSAPASSETMGRMTADTA_2210/Actions/MDG/CreateEquipmentSuccessMessage.action",
+	"Target": {
+		"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+		"EntitySet": "ZEquipmentMDGSet"
+	},
+	"Properties": {
+		"zFunctionalloc": "#Page:MDGCRCreationEquipment/#Control:Functionallocation/#SelectedValue",
+		"zcrdesc": "#Page:MDGCRCreationEquipment/#Control:MDGChangerequestDesc/#Value",
+		"zequipdesc": "#Page:MDGCRCreationEquipment/#Control:EquipmentText/#Value",
+		"zEquipCategory": "#Page:MDGCRCreationEquipment/#Control:Category/#SelectedValue",
+		"zObjectType": "#Page:MDGCRCreationEquipment/#Control:ObjectType/#SelectedValue",
+		"zMaintPlant": "#Page:MDGCRCreationEquipment/#Control:MaintenacePlantLstPkr/#SelectedValue",
+		"zLocation": "#Page:MDGCRCreationEquipment/#Control:Location/#SelectedValue",
+		"zSortField": "#Page:MDGCRCreationEquipment/#Control:SortField/#Value",
+		"zPlanningPlant": "#Page:MDGCRCreationEquipment/#Control:PlanningPlant/#SelectedValue",
+		"zPlannerGroup": "#Page:MDGCRCreationEquipment/#Control:PlannerGroup/#SelectedValue",
+		"zMainWorkCtr": "#Page:MDGCRCreationEquipment/#Control:MainWorkCenterLstPkr/#SelectedValue",
+		"zCatalogProfile": "#Page:MDGCRCreationEquipment/#Control:CatalogProfile/#SelectedValue",
+		"zCostCenter": "#Page:MDGCRCreationEquipment/#Control:CostCenter/#SelectedValue",
+		"zcrequest": "#Page:MDGCRCreationEquipment/#Control:MDGChangerequesttype/#Value",
+		"zABCIndic": "#Page:MDGCRCreationEquipment/#Control:ABCIndicator/#SelectedValue",
+		"zEnggTagNumber": "#Page:MDGCRCreationEquipment/#Control:EnggTagNumber/#Value",
+		"zManufacturer": "DPC"
+	}
+}

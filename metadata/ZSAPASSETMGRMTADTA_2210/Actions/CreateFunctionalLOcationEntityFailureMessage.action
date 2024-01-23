@@ -1,0 +1,9 @@
+{
+	"_Type": "Action.Type.Message",
+	"Message": "Failed to Create Functional Location record",
+	"Title": "Create Functional Location",
+	"OKCaption": "OK",
+	"ActionResult": {
+		"_Name": "CreateFunctionalLOcationEntityFailureMessage"
+	}
+}

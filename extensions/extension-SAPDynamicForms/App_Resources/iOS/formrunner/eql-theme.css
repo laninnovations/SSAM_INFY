@@ -1,0 +1,364 @@
+.orbeon .fb-navbar {
+  display: none;
+}
+
+.orbeon .fb-main {
+  top: 10px;
+}
+
+.orbeon .fb-toolbox {
+  top: 10px;
+}
+
+.orbeon .navbar .navbar-inner .container .fr-language-choice {
+  display: none;
+}
+
+.orbeon .fb-main .navbar .fb-language-triggers i {
+  display: none;
+}
+
+.orbeon .navbar .navbar-inner .container img {
+  display: none;
+}
+
+.orbeon .fb-toolbox .fb-toolbox-inside .fb-tools .fb-tool {
+  font-size: 1rem;
+}
+
+.orbeon .fb-toolbox .fb-toolbox-inside .fb-tools .fb-tool .xforms-trigger button i.fa {
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+.orbeon .fb-toolbox .fb-toolbox-inside .fb-tools .fb-tool .xforms-control {
+  margin: 0.4rem 0;
+  display: inline-block;
+}
+
+.orbeon .xbl-fr-wizard .fr-wizard-toc .nav {
+  color: #000;
+  background-color: #ffffff;
+  text-shadow: none;
+}
+
+.orbeon .nav-list .btn-link {
+  color: inherit;
+}
+
+.orbeon .nav-list > .active > span > .btn-link,
+.orbeon .nav-list > .active > span > .btn-link:hover {
+  color: inherit;
+  background-color: #e5f0fa;
+  text-shadow: inherit;
+  border-bottom: 2px solid #4a97dd;
+}
+
+.orbeon .row-fluid.header-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+  margin: 0 0 5px 0;
+  padding: 10px 0;
+}
+.orbeon .row-fluid.header-sticky .fr-form-description {
+  font-size: 22px;
+  padding-left: 10px;
+}
+.orbeon .row-fluid.header-sticky .fr-status-icons {
+  text-align: right;
+  display: block;
+}
+.orbeon .row-fluid.header-sticky .fr-status-icons .fr-form-status {
+  text-align: right;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.orbeon .row-fluid.header-sticky .fr-status-icons .fr-form-status .fr-form-status-value::before {
+  content: "|";
+  margin-right: 10px;
+}
+.orbeon .row-fluid.header-sticky .fr-status-icons .fr-form-status .fr-form-status-label .xforms-output-output {
+  font-weight: normal;
+}
+.orbeon .row-fluid.header-sticky .fr-status-icons .fr-form-status .fr-form-status-value .xforms-output-output {
+  font-weight: bold;
+}
+.orbeon .row-fluid.header-sticky .span9 {
+  font-size: 22px;
+}
+
+.orbeon .row-fluid.sticky {
+  position: sticky;
+  bottom: 0;
+  background: #f3f3f3;
+  padding: 8px 0;
+}
+
+.orbeon .xbl-fr-wizard .fr-wizard-toc-inner {
+  top: 40px;
+}
+
+.orbeon .table-condensed th,
+.orbeon .table-condensed td {
+  padding: 10px 5px;
+}
+
+.orbeon .fb-toolbox .fb-toolbox-inside .fb-toolbox-icons-tools .xforms-trigger-appearance-minimal {
+  font-size: 16px;
+}
+
+.orbeon .navbar .navbar-inner {
+  background-image: none;
+  background-color: #555;
+}
+
+.orbeon .navbar-inverse .navbar-inner .container h1 {
+  color: #fefefe;
+}
+
+.orbeon .xbl-fr-error-summary .fr-level-error > .fr-error-title {
+  background-color: #eabbb9;
+  color: #32363a;
+}
+
+.orbeon .xbl-fr-error-summary .fr-error-group > li.fr-level-error {
+  padding: 2px 10px;
+  color: #B94A48;
+}
+
+.orbeon .xbl-fr-error-summary .fr-error-group .fr-level-error .fr-error-label,
+.orbeon .xbl-fr-error-summary .fr-error-group .fr-level-error .fr-error-alert {
+  color: #B94A48;
+}
+
+.orbeon .xbl-fr-error-summary .fr-error-group > li {
+  border: none;
+}
+
+.orbeon .xbl-fr-wizard .fr-wizard-toc .nav .active.visible-incomplete > span > .btn-link {
+  color: #32363a;
+  background-color: #eabbb9;
+  border-bottom: #B94A48 solid 1px;
+}
+
+.orbeon .xbl-fr-wizard .fr-wizard-toc .nav .visible-incomplete > span > .btn-link {
+  color: #B94A48;
+}
+
+.orbeon .xbl-fr-wizard .fr-wizard-toc .nav .visible-invalid > span > .btn-link {
+  color: #B94A48;
+}
+
+.orbeon .xbl-fr-wizard .fr-wizard-toc .nav li {
+  font-size: 14px;
+}
+
+.orbeon .label-important, .orbeon .badge-important {
+  background-color: #eabbb9;
+  color: #32363a;
+  font-weight: normal;
+}
+
+.orbeon .xforms-invalid > .xforms-alert.xforms-active {
+  background: #eabbb9;
+  border: #eea2a0 solid 1px;
+  color: #32363a;
+}
+
+.orbeon .xforms-invalid > .xforms-alert.xforms-active:before {
+  border-color: #eea2a0 transparent;
+}
+
+.orbeon .xforms-invalid.xforms-visited > input,
+.orbeon .xforms-invalid.xforms-visited > textarea,
+.orbeon .xforms-invalid.xforms-visited > select {
+  border-color: #B94A48;
+}
+
+.orbeon .nav-list > .active > span > .btn-link,
+.orbeon .nav-list > .active > span > .btn-link:hover {
+  border-bottom: 1px solid #08c;
+}
+
+.orbeon .xbl-fr-section h2.fr-section-title {
+  line-height: 32px;
+}
+
+.orbeon .fr-buttons .xforms-trigger button,
+.orbeon .fr-buttons .xforms-trigger input {
+  width: auto;
+  margin: 0 5px;
+}
+
+.orbeon .table th {
+  font-weight: bold;
+}
+
+.orbeon .xbl-fr-section h2.fr-section-title {
+  height: 35px;
+}
+
+@media (max-width: 576px) {
+  .orbeon .row-fluid .span8 {
+    float: right;
+    width: auto;
+  }
+
+  .orbeon .fr-save-draft-button .btn.ladda-button .ladda-label::before {
+    content: "\f0c7";
+    font-family: "FontAwesome";
+    font-size: initial;
+  }
+
+  .orbeon .fr-save-final-button .btn.ladda-button .ladda-label::before {
+    content: "\f00c";
+    font-family: "FontAwesome";
+    font-size: initial;
+  }
+
+  .orbeon .fr-save-draft-button .btn.ladda-button,
+.orbeon .fr-save-final-button .btn.ladda-button {
+    padding: 5px 7px;
+    font-size: 0;
+  }
+
+  .orbeon .fr-pdf-button .btn,
+.orbeon .fr-summary-button .btn {
+    padding-right: 18px;
+    font-size: 0;
+    padding-left: 5px;
+  }
+
+  .orbeon .fr-wizard-next-button .btn,
+.orbeon .fr-wizard-prev-button .btn {
+    padding-left: 7px;
+    font-size: 0;
+  }
+
+  .orbeon .fr-buttons .xforms-trigger button {
+    min-width: 4.5em;
+  }
+
+  .orbeon .fr-form-status-label {
+    display: none;
+  }
+
+  .orbeon .fr-form-description .xforms-output-output {
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    overflow: hidden;
+  }
+
+  .orbeon .fr-pdf-button .btn,
+.orbeon .fr-summary-button .btn {
+    display: none;
+  }
+
+  .orbeon .fr-status-icons.xforms-group .badge-important,
+.orbeon .row-fluid.header-sticky .fr-status-icons .fr-form-status .fr-form-status-value::before,
+.orbeon .row-fluid.header-sticky .fr-status-icons .fr-data-icon,
+.orbeon .row-fluid.header-sticky .fr-status-icons .fr-validity-icon {
+    display: none;
+  }
+
+  .orbeon .xbl-fr-process-button .btn {
+    padding: 5px;
+    line-height: initial;
+  }
+  .orbeon .xbl-fr-process-button .btn .fa {
+    font-size: initial;
+  }
+
+  .yui-overlay,
+.yui-panel-container {
+    position: fixed;
+  }
+}
+@media (max-width: 979px) and (min-width: 576px) {
+  .orbeon .fr-pdf-button .btn,
+.orbeon .fr-summary-button .btn {
+    padding-right: 18px;
+    padding-left: 6px;
+    font-size: 0;
+  }
+
+  .orbeon .fr-wizard-next-button .btn,
+.orbeon .fr-wizard-prev-button .btn {
+    padding-right: 15px;
+    padding-left: 7px;
+    font-size: 0;
+  }
+
+  .orbeon .xbl-fr-process-button .btn {
+    padding: 5px;
+    line-height: initial;
+  }
+  .orbeon .xbl-fr-process-button .btn .fa {
+    font-size: initial;
+  }
+
+  .yui-overlay, .yui-panel-container {
+    position: fixed;
+    top: 30%;
+    left: 20%;
+  }
+}
+@media (max-width: 979px) {
+  .orbeon .fr-buttons .xforms-trigger button {
+    display: inline-block;
+  }
+
+  .orbeon .xbl-fr-wizard .fr-wizard-toc .nav {
+    overflow-x: auto;
+  }
+  .orbeon .xbl-fr-wizard .fr-wizard-toc .nav:before {
+    content: "\f053";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Fontawesome";
+    background: #f3f3f3;
+    padding: 7px 2px;
+  }
+  .orbeon .xbl-fr-wizard .fr-wizard-toc .nav:after {
+    content: "\f054";
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #f3f3f3;
+    font-family: "Fontawesome";
+    padding: 7px 2px;
+  }
+  .orbeon .xbl-fr-wizard .fr-wizard-toc .nav li {
+    display: table-cell;
+    border-right: 1px solid #ddd;
+  }
+
+  .orbeon .xbl-fr-wizard .fr-wizard-navigation .pagination {
+    display: none;
+  }
+
+  .orbeon .xbl-fr-wizard .fr-wizard-toc {
+    position: sticky;
+    top: 40px;
+    z-index: 999;
+    background: #fff;
+    margin: 0 0 5px 0;
+  }
+
+  .yui-overlay,
+.yui-panel-container {
+    position: fixed;
+    left: 30%;
+    top: 30%;
+  }
+}
+
+/*# sourceMappingURL=eql-theme.css.map */

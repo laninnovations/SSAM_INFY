@@ -1,0 +1,131 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"EAMOverallStatusConfigs"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Phase"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PhaseDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Subphase"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SubphaseDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TransitionTextKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StatusAttribute2"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StatusProfile"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SystemStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UserStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EAMOverallStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EntityType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "IsLogged"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "IsSkippable"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StatusAttribute1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MobileStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OverallStatusLabel"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "EAMOverallStatusProfile"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Status"
+		},
+		{
+			"_Type": "Edm.Int16",
+			"Key": false,
+			"_Name": "SequenceNum"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(EAMOverallStatusSeq)",
+			"Key": false,
+			"_Name": "NextOverallStatusSeq_Nav"
+		},
+		{
+			"_Type": "Collection(EAMOverallStatusSeq)",
+			"Key": false,
+			"_Name": "OverallStatusSeq_Nav"
+		},
+		{
+			"_Type": "Collection(PMMobileStatus)",
+			"Key": false,
+			"_Name": "PMMobileStatus_Nav"
+		}
+	],
+	"_Name": "EAMOverallStatusConfig"
+}

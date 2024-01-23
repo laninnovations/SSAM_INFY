@@ -1,0 +1,206 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"Confirmations"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WorkCenter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LAMObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LAMTableKey"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "StartTimeStamp"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrderType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "CreatedTime"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "ActualWork"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ReverseIndicator"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "VarianceReason"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "StartTime"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "ActualDuration"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AccountingIndicator"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CompleteFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PersonnelNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FinalConfirmation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CreatedBy"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "FinishTime"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "CreatedDate"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "PostingDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ActivityType"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "FinishDate"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "StartDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ConfirmationNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ConfirmationCounter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrderID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Operation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SubOperation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ActualWorkUOM"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ActualDurationUOM"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "AcctIndicator",
+			"Key": false,
+			"_Name": "AcctIndicator"
+		},
+		{
+			"_Type": "ConfirmationOverviewRow",
+			"Key": false,
+			"_Name": "ConfirmationOverview"
+		},
+		{
+			"_Type": "LAMObjectDatum",
+			"Key": false,
+			"_Name": "LAMObjectDatum_Nav"
+		},
+		{
+			"_Type": "Collection(ConfirmationLongText)",
+			"Key": false,
+			"_Name": "LongText"
+		},
+		{
+			"_Type": "VarianceReason",
+			"Key": false,
+			"_Name": "Variance"
+		},
+		{
+			"_Type": "MyWorkOrderHeader",
+			"Key": false,
+			"_Name": "WorkOrderHeader"
+		},
+		{
+			"_Type": "MyWorkOrderOperation",
+			"Key": false,
+			"_Name": "WorkOrderOperation"
+		},
+		{
+			"_Type": "MyWorkOrderSubOperation",
+			"Key": false,
+			"_Name": "WorkOrderSubOperation"
+		}
+	],
+	"_Name": "Confirmation"
+}

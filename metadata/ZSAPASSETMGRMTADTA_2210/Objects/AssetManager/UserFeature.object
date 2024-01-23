@@ -1,0 +1,19 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"UserFeatures"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "UserPersona"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "UserFeature"
+		}
+	],
+	"_Name": "UserFeature"
+}

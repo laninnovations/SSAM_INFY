@@ -1,0 +1,41 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"ValuationTypes"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ValuationArea"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ValuationCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ValuationType"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(MaterialDocItem)",
+			"Key": false,
+			"_Name": "MaterialDocItem_Nav"
+		},
+		{
+			"_Type": "Collection(MaterialValuation)",
+			"Key": false,
+			"_Name": "MaterialValuation_Nav"
+		}
+	],
+	"_Name": "ValuationType"
+}

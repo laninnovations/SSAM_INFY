@@ -1,0 +1,194 @@
+{
+	"ProjectName": "ZSAPASSETMGRMTADTA_2210",
+	"ApplicationName": "ZSAPASSETMGRMTADTA_2210",
+	"IntegrationPoints": [
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Rules/GetCurrentLocation.js",
+			"Target": "/SAPAssetManager/Rules/LocationTracking/Services/GetCurrentLocation.js"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+			"Target": "/SAPAssetManager/Services/AssetManager.service"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Services/OnlineAssetManager.service",
+			"Target": "/SAPAssetManager/Services/OnlineAssetManager.service"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Pages/Confirmation/ConfirmationsCreateUpdate.page",
+			"Target": "/SAPAssetManager/Pages/Confirmations/ConfirmationsCreateUpdate.page"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Rules/TimeSheetCreateUpdatePersonnelNumber.js",
+			"Target": "/SAPAssetManager/Rules/TimeSheets/CreateUpdate/TimeSheetCreateUpdatePersonnelNumber.js"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Pages/LAM/LAMDetails.page",
+			"Target": "/SAPAssetManager/Pages/LAM/LAMDetails.page"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Actions/LAMDetailNavPage.action",
+			"Target": "/SAPAssetManager/Actions/LAM/LAMDetailsNav.action"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Rules/ApplicationOnWillUpdate.js",
+			"Target": "/SAPAssetManager/Rules/ApplicationEvents/ApplicationOnWillUpdate.js"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Rules/AllSyncronizationGroups.js",
+			"Target": "/SAPAssetManager/Rules/OData/DefiningRequests/AllSyncronizationGroups.js"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Pages/UserSupport.ios.page",
+			"Target": "/SAPAssetManager/Pages/User/UserSupport.ios.page"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Pages/UserSupport.android.page",
+			"Target": "/SAPAssetManager/Pages/User/UserSupport.android.page"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Rules/CreateUpdateConfirmation.js",
+			"Target": "/SAPAssetManager/Rules/Confirmations/CreateUpdate/OnCommit/CreateUpdateConfirmation.js"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Actions/ConfirmationCreate.action",
+			"Target": "/SAPAssetManager/Actions/Confirmations/ConfirmationCreate.action"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Rules/GetDuration.js",
+			"Target": "/SAPAssetManager/Rules/Confirmations/CreateUpdate/OnCommit/GetDuration.js"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Actions/EquipmentCreateUpdateNav.action",
+			"Target": "/SAPAssetManager/Actions/Equipment/CreateUpdate/EquipmentCreateUpdateNav.action"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Actions/DocumentAddEditNav.action",
+			"Target": "/SAPAssetManager/Actions/Equipment/DocumentAddEditNav.action"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Pages/WorkOrders/WorkOrderCreateUpdate.page",
+			"Target": "/SAPAssetManager/Pages/WorkOrders/WorkOrderCreateUpdate.page"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Rules/WorkOrders/WorkOrderLibrary.js",
+			"Target": "/SAPAssetManager/Rules/WorkOrders/WorkOrderLibrary.js"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Actions/WorkOrders/CreateUpdate/WorkOrderCreate.action",
+			"Target": "/SAPAssetManager/Actions/WorkOrders/CreateUpdate/WorkOrderCreate.action"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Rules/NotificationCreateUpdateOnCommit.js",
+			"Target": "/SAPAssetManager/Rules/Notifications/CreateUpdate/NotificationCreateUpdateOnCommit.js"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Actions/Notifications/CreateUpdate/NotificationCreate.action",
+			"Target": "/SAPAssetManager/Actions/Notifications/CreateUpdate/NotificationCreate.action"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Actions/Notifications/NotificationDetailsPopover.action",
+			"Target": "/SAPAssetManager/Actions/Notifications/NotificationDetailsPopover.action"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Rules/Confirmations/CreateUpdate/OnOperationChanged.js",
+			"Target": "/SAPAssetManager/Rules/Confirmations/CreateUpdate/OnOperationChanged.js"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Rules/Confirmations/CreateUpdate/OnOperationChangeListPickerUpdate.js",
+			"Target": "/SAPAssetManager/Rules/Confirmations/CreateUpdate/OnOperationChangeListPickerUpdate.js"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Pages/EquipmentDetails.page",
+			"Target": "/SAPAssetManager/Pages/Equipment/EquipmentDetails.page"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/i18n/i18n.properties",
+			"Target": "/SAPAssetManager/i18n/i18n.properties"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/i18n/i18n_en.properties",
+			"Target": "/SAPAssetManager/i18n/i18n_en.properties"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Actions/Confirmations/CheckRequiredFieldOnConfirmations.action",
+			"Target": "/SAPAssetManager/Actions/Confirmations/CheckRequiredFieldOnConfirmations.action"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Rules/LAM/CreateUpdate/ValidationRules/LengthValidation.js",
+			"Target": "/SAPAssetManager/Rules/LAM/CreateUpdate/ValidationRules/LengthValidation.js"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Rules/Equipment/OnEquipmentFilterSuccess.js",
+			"Target": "/SAPAssetManager/Rules/Equipment/OnEquipmentFilterSuccess.js"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Rules/ConfirmationsCount.js",
+			"Target": "/SAPAssetManager/Rules/Confirmations/ConfirmationsCount.js"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Rules/ErrorArchive/ErrorArchiveMessage.js",
+			"Target": "/SAPAssetManager/Rules/ErrorArchive/ErrorArchiveMessage.js"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Rules/ErrorArchive/ErrorArchiveDetailsMessage.js",
+			"Target": "/SAPAssetManager/Rules/ErrorArchive/ErrorArchiveDetailsMessage.js"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Actions/WorkOrders/WorkOrderDetailsAddPopover.action",
+			"Target": "/SAPAssetManager/Actions/WorkOrders/WorkOrderDetailsAddPopover.action"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Rules/Notifications/NotificationFLOCFilter.js",
+			"Target": "/SAPAssetManager/Rules/Notifications/NotificationFLOCFilter.js"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Pages/WorkOrders/WorkOrderOperationDetails.page",
+			"Target": "/SAPAssetManager/Pages/WorkOrders/Operations/WorkOrderOperationDetails.page"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Pages/WorkOrders/WorkOrderOperationCreateUpdate.page",
+			"Target": "/SAPAssetManager/Pages/WorkOrders/Operations/WorkOrderOperationCreateUpdate.page"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Pages/Parts/PartsListView.page",
+			"Target": "/SAPAssetManager/Pages/Parts/PartsListView.page"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Actions/Parts/WorkOrderOperationDetailsPopover.action",
+			"Target": "/SAPAssetManager/Actions/WorkOrders/Operations/WorkOrderOperationDetailsPopover.action"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Pages/NotificationCreateUpdate.page",
+			"Target": "/SAPAssetManager/Pages/Notifications/NotificationCreateUpdate.page"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Rules/Notifications/RequiredFields.js",
+			"Target": "/SAPAssetManager/Rules/Notifications/CreateUpdate/RequiredFields.js"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Rules/Notes/NoteLibrary.js",
+			"Target": "/SAPAssetManager/Rules/Notes/NoteLibrary.js"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Rules/Confirmations/CreateUpdate/ConfirmationCreateUpdateAction.js",
+			"Target": "/SAPAssetManager/Rules/Confirmations/CreateUpdate/OnCommit/ConfirmationCreateUpdateAction.js"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Rules/WorkOrders/Operations/CreateUpdate/WorkOrderOperationBatchCreate.js",
+			"Target": "/SAPAssetManager/Rules/WorkOrders/Operations/CreateUpdate/WorkOrderOperationBatchCreate.js"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Rules/WorkOrders/CreateUpdate/WorkOrderCreateUpdateRequiredFields.js",
+			"Target": "/SAPAssetManager/Rules/WorkOrders/CreateUpdate/WorkOrderCreateUpdateRequiredFields.js"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Rules/MobileStatus/CompleteMobileStatusAction.js",
+			"Target": "/SAPAssetManager/Rules/MobileStatus/CompleteMobileStatusAction.js"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Rules/WorkOrders/CreateUpdate/WorkOrderCreateUpdateEditable.js",
+			"Target": "/SAPAssetManager/Rules/WorkOrders/CreateUpdate/WorkOrderCreateUpdateEditable.js"
+		}
+	]
+}

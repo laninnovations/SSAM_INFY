@@ -1,0 +1,1100 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuickActionBarFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "QuickActionBarDelegate",
+        "printedName": "QuickActionBarDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onCreate",
+            "printedName": "onCreate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QuickActionBarFramework@objc(pl)QuickActionBarDelegate(im)onCreate",
+            "mangledName": "$s23QuickActionBarFramework0abC8DelegateP8onCreateyyF",
+            "moduleName": "QuickActionBarFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : QuickActionBarFramework.QuickActionBarDelegate>",
+            "sugared_genericSig": "<Self where Self : QuickActionBarFramework.QuickActionBarDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onChipSelected",
+            "printedName": "onChipSelected(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QuickActionBarFramework@objc(pl)QuickActionBarDelegate(im)onChipSelected:",
+            "mangledName": "$s23QuickActionBarFramework0abC8DelegateP14onChipSelectedyySSF",
+            "moduleName": "QuickActionBarFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : QuickActionBarFramework.QuickActionBarDelegate>",
+            "sugared_genericSig": "<Self where Self : QuickActionBarFramework.QuickActionBarDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "localizedValue",
+            "printedName": "localizedValue(_:params:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QuickActionBarFramework@objc(pl)QuickActionBarDelegate(im)localizedValue:params:",
+            "mangledName": "$s23QuickActionBarFramework0abC8DelegateP14localizedValue_6paramsSSSgSS_SStF",
+            "moduleName": "QuickActionBarFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : QuickActionBarFramework.QuickActionBarDelegate>",
+            "sugared_genericSig": "<Self where Self : QuickActionBarFramework.QuickActionBarDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@QuickActionBarFramework@objc(pl)QuickActionBarDelegate",
+        "mangledName": "$s23QuickActionBarFramework0abC8DelegateP",
+        "moduleName": "QuickActionBarFramework",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "Custom",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuickActionBarFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SAPFiori",
+        "printedName": "SAPFiori",
+        "declKind": "Import",
+        "moduleName": "QuickActionBarFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "QuickActionBarFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuickActionBarFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ExtensionUtils",
+        "printedName": "ExtensionUtils",
+        "declKind": "Import",
+        "moduleName": "QuickActionBarFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "QuickActionBarFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "QuickActionBarFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "QuickActionBarBridge",
+        "printedName": "QuickActionBarBridge",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "QuickActionBarFramework.QuickActionBarDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QuickActionBarDelegate",
+                    "printedName": "QuickActionBarFramework.QuickActionBarDelegate",
+                    "usr": "c:@M@QuickActionBarFramework@objc(pl)QuickActionBarDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QuickActionBarFramework@objc(cs)QuickActionBarBridge(py)delegate",
+            "mangledName": "$s23QuickActionBarFramework0abC6BridgeC8delegateAA0abC8Delegate_pSgvp",
+            "moduleName": "QuickActionBarFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "QuickActionBarFramework.QuickActionBarDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QuickActionBarDelegate",
+                        "printedName": "QuickActionBarFramework.QuickActionBarDelegate",
+                        "usr": "c:@M@QuickActionBarFramework@objc(pl)QuickActionBarDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QuickActionBarFramework@objc(cs)QuickActionBarBridge(im)delegate",
+                "mangledName": "$s23QuickActionBarFramework0abC6BridgeC8delegateAA0abC8Delegate_pSgvg",
+                "moduleName": "QuickActionBarFramework",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "QuickActionBarFramework.QuickActionBarDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QuickActionBarDelegate",
+                        "printedName": "QuickActionBarFramework.QuickActionBarDelegate",
+                        "usr": "c:@M@QuickActionBarFramework@objc(pl)QuickActionBarDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QuickActionBarFramework@objc(cs)QuickActionBarBridge(im)setDelegate:",
+                "mangledName": "$s23QuickActionBarFramework0abC6BridgeC8delegateAA0abC8Delegate_pSgvs",
+                "moduleName": "QuickActionBarFramework",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23QuickActionBarFramework0abC6BridgeC8delegateAA0abC8Delegate_pSgvM",
+                "mangledName": "$s23QuickActionBarFramework0abC6BridgeC8delegateAA0abC8Delegate_pSgvM",
+                "moduleName": "QuickActionBarFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "viewController",
+            "printedName": "viewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QuickActionBarFramework@objc(cs)QuickActionBarBridge(py)viewController",
+            "mangledName": "$s23QuickActionBarFramework0abC6BridgeC14viewControllerSo06UIViewG0Cvp",
+            "moduleName": "QuickActionBarFramework",
+            "declAttributes": [
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QuickActionBarFramework@objc(cs)QuickActionBarBridge(im)viewController",
+                "mangledName": "$s23QuickActionBarFramework0abC6BridgeC14viewControllerSo06UIViewG0Cvg",
+                "moduleName": "QuickActionBarFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QuickActionBarFramework@objc(cs)QuickActionBarBridge(im)setViewController:",
+                "mangledName": "$s23QuickActionBarFramework0abC6BridgeC14viewControllerSo06UIViewG0Cvs",
+                "moduleName": "QuickActionBarFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23QuickActionBarFramework0abC6BridgeC14viewControllerSo06UIViewG0CvM",
+                "mangledName": "$s23QuickActionBarFramework0abC6BridgeC14viewControllerSo06UIViewG0CvM",
+                "moduleName": "QuickActionBarFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(params:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "QuickActionBarBridge",
+                "printedName": "QuickActionBarFramework.QuickActionBarBridge",
+                "usr": "c:@M@QuickActionBarFramework@objc(cs)QuickActionBarBridge"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@QuickActionBarFramework@objc(cs)QuickActionBarBridge(im)initWithParams:",
+            "mangledName": "$s23QuickActionBarFramework0abC6BridgeC6paramsACSDySSypG_tcfc",
+            "moduleName": "QuickActionBarFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "updateAllChips",
+            "printedName": "updateAllChips(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QuickActionBarFramework@objc(cs)QuickActionBarBridge(im)updateAllChips:",
+            "mangledName": "$s23QuickActionBarFramework0abC6BridgeC14updateAllChipsyySDySSypGF",
+            "moduleName": "QuickActionBarFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "QuickActionBarBridge",
+                "printedName": "QuickActionBarFramework.QuickActionBarBridge",
+                "usr": "c:@M@QuickActionBarFramework@objc(cs)QuickActionBarBridge"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@QuickActionBarFramework@objc(cs)QuickActionBarBridge(im)init",
+            "mangledName": "$s23QuickActionBarFramework0abC6BridgeCACycfc",
+            "moduleName": "QuickActionBarFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@QuickActionBarFramework@objc(cs)QuickActionBarBridge",
+        "mangledName": "$s23QuickActionBarFramework0abC6BridgeC",
+        "moduleName": "QuickActionBarFramework",
+        "declAttributes": [
+          "AccessControl",
+          "Custom",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuickActionBarFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "QuickActionBarFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "ExtensionUtils",
+        "printedName": "ExtensionUtils",
+        "declKind": "Import",
+        "moduleName": "QuickActionBarFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuickActionBarFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuickActionBarFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SAPFiori",
+        "printedName": "SAPFiori",
+        "declKind": "Import",
+        "moduleName": "QuickActionBarFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "QuickActionBarFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "ExtensionUtils",
+        "printedName": "ExtensionUtils",
+        "declKind": "Import",
+        "moduleName": "QuickActionBarFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "QuickActionBarFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "QuickActionBarFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SAPFiori",
+        "printedName": "SAPFiori",
+        "declKind": "Import",
+        "moduleName": "QuickActionBarFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "QuickActionBarFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "QuickActionBarFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ExtensionUtils",
+        "printedName": "ExtensionUtils",
+        "declKind": "Import",
+        "moduleName": "QuickActionBarFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuickActionBarFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "SAPFiori",
+        "printedName": "SAPFiori",
+        "declKind": "Import",
+        "moduleName": "QuickActionBarFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "QuickActionBarFramework"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Models\/ChipData.swift",
+      "kind": "StringLiteral",
+      "offset": 334,
+      "length": 7,
+      "value": "\"Chips\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Models\/ChipData.swift",
+      "kind": "StringLiteral",
+      "offset": 334,
+      "length": 7,
+      "value": "\"Chips\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Views\/QuickActionBarViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 490,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Views\/QuickActionBarViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 589,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Views\/QuickActionBarViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 687,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Views\/QuickActionBarViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 692,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Views\/QuickActionBarViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 738,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Views\/QuickActionBarViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 778,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Views\/QuickActionBarViewController.swift",
+      "kind": "Array",
+      "offset": 1404,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Views\/QuickActionBarViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2093,
+      "length": 97,
+      "value": "\"Failed to convert base64encoded string to an image. Skipping '\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Views\/QuickActionBarViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2187,
+      "length": 4,
+      "value": "\"'.\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Views\/QuickActionBarViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2472,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Views\/QuickActionBarViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2622,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Views\/QuickActionBarViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2893,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Views\/QuickActionBarViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3064,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Views\/QuickActionBarViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4224,
+      "length": 43,
+      "value": "\"Failed to dequeue a cell of type ChipCell\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Views\/QuickActionBarViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4664,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Views\/QuickActionBarViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4679,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Views\/QuickActionBarViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4717,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Views\/QuickActionBarViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4722,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/API\/QuickActionBarBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 920,
+      "length": 34,
+      "value": "\"UpdateAllChips command received.\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/API\/QuickActionBarBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 194,
+      "length": 20,
+      "value": "\"QuickActionBarFramework.QuickActionBarBridge\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Models\/Chip.swift",
+      "kind": "StringLiteral",
+      "offset": 1152,
+      "length": 7,
+      "value": "\"Label\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Models\/Chip.swift",
+      "kind": "StringLiteral",
+      "offset": 1189,
+      "length": 15,
+      "value": "\"IsIconVisible\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Models\/Chip.swift",
+      "kind": "StringLiteral",
+      "offset": 1225,
+      "length": 6,
+      "value": "\"Icon\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Models\/Chip.swift",
+      "kind": "StringLiteral",
+      "offset": 1263,
+      "length": 17,
+      "value": "\"IsButtonVisible\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Models\/Chip.swift",
+      "kind": "StringLiteral",
+      "offset": 1312,
+      "length": 17,
+      "value": "\"IsButtonEnabled\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Models\/Chip.swift",
+      "kind": "StringLiteral",
+      "offset": 1352,
+      "length": 8,
+      "value": "\"Action\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Models\/Chip.swift",
+      "kind": "StringLiteral",
+      "offset": 1152,
+      "length": 7,
+      "value": "\"Label\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Models\/Chip.swift",
+      "kind": "StringLiteral",
+      "offset": 1189,
+      "length": 15,
+      "value": "\"IsIconVisible\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Models\/Chip.swift",
+      "kind": "StringLiteral",
+      "offset": 1225,
+      "length": 6,
+      "value": "\"Icon\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Models\/Chip.swift",
+      "kind": "StringLiteral",
+      "offset": 1263,
+      "length": 17,
+      "value": "\"IsButtonVisible\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Models\/Chip.swift",
+      "kind": "StringLiteral",
+      "offset": 1312,
+      "length": 17,
+      "value": "\"IsButtonEnabled\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Models\/Chip.swift",
+      "kind": "StringLiteral",
+      "offset": 1352,
+      "length": 8,
+      "value": "\"Action\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Models\/Chip.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1693,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Models\/Chip.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1878,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Models\/Chip.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1985,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/API\/QuickActionBarCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 367,
+      "length": 31,
+      "value": "\"Coordinator received payload.\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/API\/QuickActionBarCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 516,
+      "length": 30,
+      "value": "\"Error while parsing payload.\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Extension\/Locale.swift",
+      "kind": "BooleanLiteral",
+      "offset": 278,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Extension\/UIImage.swift",
+      "kind": "FloatLiteral",
+      "offset": 230,
+      "length": 4,
+      "value": "15.0"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Extension\/UIImage.swift",
+      "kind": "FloatLiteral",
+      "offset": 272,
+      "length": 4,
+      "value": "24.0"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Common\/ImageConverter.swift",
+      "kind": "StringLiteral",
+      "offset": 344,
+      "length": 10,
+      "value": "\";base64,\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Common\/New Group\/LocalizationService.swift",
+      "kind": "Array",
+      "offset": 298,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Common\/New Group\/LocalizationService.swift",
+      "kind": "StringLiteral",
+      "offset": 373,
+      "length": 50,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Common\/New Group\/LocalizationService.swift",
+      "kind": "StringLiteral",
+      "offset": 389,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Common\/New Group\/LocalizationService.swift",
+      "kind": "StringLiteral",
+      "offset": 417,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Common\/New Group\/LocalizationService.swift",
+      "kind": "StringLiteral",
+      "offset": 422,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Views\/ChipCellView.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
+      "length": 10,
+      "value": "\"ChipCell\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-quickactionbar-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/QuickActionBarFramework\/Views\/ChipCellView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2707,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

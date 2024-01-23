@@ -1,0 +1,17 @@
+{
+	"_Type": "Action.Type.ODataService.CreateMedia",
+	"ActionResult": {
+	"_Name": "GenerateEmail"
+	},
+	"Target": {
+		"Service": "/ZSAPASSETMGRMTADTA_2210/Services/OnlineAssetManager.service",
+		"EntitySet": "Zattachmentses"
+	},
+	"Media": "#Page:EmailClient/#Control:FormCellAttachmentEmail/#Value",
+	"Properties": {
+		"ZUserName": "RV819581"
+	},
+	"Headers": {
+		"SLUG": "test.png"
+	}
+}

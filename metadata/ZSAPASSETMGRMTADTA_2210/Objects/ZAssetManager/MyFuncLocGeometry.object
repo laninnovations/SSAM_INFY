@@ -1,0 +1,66 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"MyFuncLocGeometries"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FuncLocIdIntern"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SpacialGUId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SpacialId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectGroup1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FuncLocId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "LogicalSystem"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MyFunctionalLocation",
+			"Key": false,
+			"_Name": "FuncLoc_Nav"
+		},
+		{
+			"_Type": "Geometry",
+			"Key": false,
+			"_Name": "Geometry"
+		}
+	],
+	"_Name": "MyFuncLocGeometry"
+}

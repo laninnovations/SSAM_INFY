@@ -1,0 +1,51 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"MyWorkOrderDocuments"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "RelationshipID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DocumentID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrderId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OperationNo"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Document",
+			"Key": false,
+			"_Name": "Document"
+		},
+		{
+			"_Type": "MyWorkOrderHeader",
+			"Key": false,
+			"_Name": "WOHeader"
+		},
+		{
+			"_Type": "MyWorkOrderOperation",
+			"Key": false,
+			"_Name": "WOOperation_Nav"
+		}
+	],
+	"_Name": "MyWorkOrderDocument"
+}

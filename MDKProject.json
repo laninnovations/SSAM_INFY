@@ -1,0 +1,11 @@
+{
+  "AppName": "CMW",
+  "AppDisplayName": "CMW",
+  "AppVersion": "2310.0.1",
+  "BundleID": "com.sap.mobile.apps.assetmanager.release",
+  "Externals": ["@nativescript/geolocation", "extension-LocationService", "extension-GenericWebView", "uuid", "@nstudio/nativescript-dynatrace", "@nativescript/core/accessibility", "xml-js", "stream", "buffer", "emitter"],
+  "NSPlugins": ["@nativescript/geolocation", "@nstudio/nativescript-dynatrace@1.0.1"],
+  "NPMPlugins": ["uuid", "nativescript-dev-xcode", "@nativescript/hook", "xml-js", "stream", "buffer", "emitter"],
+  "UrlScheme": "samclient",
+  "BaseProject": "SAPASSETMGRMTADTA_2210"
+}

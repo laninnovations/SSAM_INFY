@@ -1,0 +1,31 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"VarianceReasons"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ReasonText"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "VarianceReason"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(Confirmation)",
+			"Key": false,
+			"_Name": "Confirmations"
+		}
+	],
+	"_Name": "VarianceReason"
+}

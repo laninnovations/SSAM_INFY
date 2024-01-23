@@ -1,0 +1,85 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "PartsListSectionedTable",
+			"Sections": [
+				{
+					"Header": {
+						"_Name": "SectionHeader0",
+						"UseTopPadding": false
+					},
+					"_Type": "Section.Type.ObjectTable",
+					"Target": {
+						"EntitySet": "MyWorkOrderComponents",
+						"Service": "/SAPAssetManager/Services/AssetManager.service",
+						"QueryOptions": "/SAPAssetManager/Rules/Parts/PartsListQueryOptions.js"
+					},
+					"_Name": "PartsList",
+					"EmptySection": {
+						"Caption": "$(L,no_parts_available)",
+						"FooterVisible": false
+					},
+					"ObjectCell": {
+						"Title": "/SAPAssetManager/Rules/Parts/PartFieldFormat.js",
+						"Subhead": "/SAPAssetManager/Rules/Parts/PartFieldFormat.js",
+						"Footnote": "{{#Property:OperationDesc}} ({{#Property:OperationNo}})",
+						"Description": "/SAPAssetManager/Rules/Parts/PartFieldFormat.js",
+						"SubstatusText": "/SAPAssetManager/Rules/Parts/PartFieldFormat.js",
+						"PreserveIconStackSpacing": true,
+						"AccessoryType": "disclosureIndicator",
+						"Icons": "/SAPAssetManager/Rules/Parts/PartsItemIconImages.js",
+						"Tags": [
+						],
+						"OnPress": "/SAPAssetManager/Actions/Parts/PartDetailsNav.action",
+						"ContextMenu": {
+							"Items": [
+							],
+							"PerformFirstActionWithFullSwipe": true
+						}
+					},
+					"Search": {
+						"Enabled": "/SAPAssetManager/Rules/Parts/PartsSearchEnabled.js",
+						"Placeholder": "$(L,search)",
+						"BarcodeScanner": "/SAPAssetManager/Rules/Parts/PartsSearchBarcodeScannerEnabled.js",
+						"Delay": 500,
+						"MinimumCharacterThreshold": 3
+					}
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"DataSubscriptions": [
+		"MyWorkOrderComponents",
+		"MaterialDocuments",
+		"MaterialDocItems"
+	],
+	"_Name": "PartsListViewPage",
+	"Caption": "$(L,parts)",
+	"PrefersLargeCaption": true,
+	"OnLoaded": "/SAPAssetManager/Rules/Parts/PartsListViewOnLoad.js",
+	"OnReturning": "/SAPAssetManager/Rules/Parts/PartsListOnReturning.js",
+	"ActionBar": {
+		"Items": [
+			{
+				"_Name": "ActionBarItem0",
+				"SystemItem": "Add",
+				"Position": "right",
+				"IsIconCircular": false,
+				"Visible": false,
+				"OnPress": "/SAPAssetManager/Rules/Parts/CreateUpdate/PartCreateNav.js",
+				"Text": ""
+			},
+			{
+				"_Name": "ActionBarItem1",
+				"Position": "right",
+				"IsIconCircular": false,
+				"Visible": "/SAPAssetManager/Rules/Parts/ScanAllButtonVisibility.js",
+				"OnPress": "/SAPAssetManager/Actions/Extensions/BarcodeScannerNav.action",
+				"Text": "$(L,scan_all)"
+			}
+		],
+		"_Name": "ActionBar1"
+	}
+}

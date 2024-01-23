@@ -1,0 +1,146 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"CatsTimesheets"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Workcenter"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "EndTime"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "StartTime"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "StartTimestamp"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ActivityType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AttendAbsenceType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ControllerArea"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "Date"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DocumentNumber"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "Hours"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "LastChangeDate"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "LastChangeTime"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LongTextFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PersonnelNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SenderCostCenter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortText"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Status"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Counter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Operation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SubOperation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RecOrder"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Employee",
+			"Key": false,
+			"_Name": "Employee"
+		},
+		{
+			"_Type": "MyWorkOrderHeader",
+			"Key": false,
+			"_Name": "MyWOHeader"
+		},
+		{
+			"_Type": "MyWorkOrderOperation",
+			"Key": false,
+			"_Name": "MyWOOperation"
+		},
+		{
+			"_Type": "MyWorkOrderSubOperation",
+			"Key": false,
+			"_Name": "MyWOSubOperation"
+		},
+		{
+			"_Type": "Collection(CatsTimesheetText)",
+			"Key": false,
+			"_Name": "Text"
+		}
+	],
+	"_Name": "CatsTimesheet"
+}

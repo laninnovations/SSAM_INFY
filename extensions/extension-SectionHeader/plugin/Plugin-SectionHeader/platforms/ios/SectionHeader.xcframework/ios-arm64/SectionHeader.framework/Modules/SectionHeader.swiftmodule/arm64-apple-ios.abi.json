@@ -1,0 +1,1636 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SectionHeader",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SectionHeader",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SectionHeader",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SectionHeader",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SectionHeader",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SectionHeader",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SectionHeader",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SectionHeader",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SectionHeader",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SAPFiori",
+        "printedName": "SAPFiori",
+        "declKind": "Import",
+        "moduleName": "SectionHeader",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ExtensionUtils",
+        "printedName": "ExtensionUtils",
+        "declKind": "Import",
+        "moduleName": "SectionHeader",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SectionHeader",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SectionHeader",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SectionHeader",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SectionHeader"
+      },
+      {
+        "kind": "Import",
+        "name": "SAPFiori",
+        "printedName": "SAPFiori",
+        "declKind": "Import",
+        "moduleName": "SectionHeader",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SectionHeader",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SectionHeaderDelegate",
+        "printedName": "SectionHeaderDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onCreate",
+            "printedName": "onCreate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SectionHeader@objc(pl)SectionHeaderDelegate(im)onCreate",
+            "mangledName": "$s13SectionHeader0aB8DelegateP8onCreateyyF",
+            "moduleName": "SectionHeader",
+            "genericSig": "<τ_0_0 where τ_0_0 : SectionHeader.SectionHeaderDelegate>",
+            "sugared_genericSig": "<Self where Self : SectionHeader.SectionHeaderDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPress",
+            "printedName": "onPress(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SectionHeader@objc(pl)SectionHeaderDelegate(im)onPress:",
+            "mangledName": "$s13SectionHeader0aB8DelegateP7onPressyySSF",
+            "moduleName": "SectionHeader",
+            "genericSig": "<τ_0_0 where τ_0_0 : SectionHeader.SectionHeaderDelegate>",
+            "sugared_genericSig": "<Self where Self : SectionHeader.SectionHeaderDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "localizedValue",
+            "printedName": "localizedValue(_:params:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SectionHeader@objc(pl)SectionHeaderDelegate(im)localizedValue:params:",
+            "mangledName": "$s13SectionHeader0aB8DelegateP14localizedValue_6paramsSSSgSS_SStF",
+            "moduleName": "SectionHeader",
+            "genericSig": "<τ_0_0 where τ_0_0 : SectionHeader.SectionHeaderDelegate>",
+            "sugared_genericSig": "<Self where Self : SectionHeader.SectionHeaderDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@SectionHeader@objc(pl)SectionHeaderDelegate",
+        "mangledName": "$s13SectionHeader0aB8DelegateP",
+        "moduleName": "SectionHeader",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "Custom",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SectionHeader",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ExtensionUtils",
+        "printedName": "ExtensionUtils",
+        "declKind": "Import",
+        "moduleName": "SectionHeader",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SectionHeader"
+      },
+      {
+        "kind": "Import",
+        "name": "ExtensionUtils",
+        "printedName": "ExtensionUtils",
+        "declKind": "Import",
+        "moduleName": "SectionHeader",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SectionHeader"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SectionHeader"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SectionHeaderBridge",
+        "printedName": "SectionHeaderBridge",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SectionHeader.SectionHeaderDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SectionHeaderDelegate",
+                    "printedName": "SectionHeader.SectionHeaderDelegate",
+                    "usr": "c:@M@SectionHeader@objc(pl)SectionHeaderDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SectionHeader@objc(cs)SectionHeaderBridge(py)delegate",
+            "mangledName": "$s13SectionHeader0aB6BridgeC8delegateAA0aB8Delegate_pSgvp",
+            "moduleName": "SectionHeader",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SectionHeader.SectionHeaderDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SectionHeaderDelegate",
+                        "printedName": "SectionHeader.SectionHeaderDelegate",
+                        "usr": "c:@M@SectionHeader@objc(pl)SectionHeaderDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SectionHeader@objc(cs)SectionHeaderBridge(im)delegate",
+                "mangledName": "$s13SectionHeader0aB6BridgeC8delegateAA0aB8Delegate_pSgvg",
+                "moduleName": "SectionHeader",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SectionHeader.SectionHeaderDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SectionHeaderDelegate",
+                        "printedName": "SectionHeader.SectionHeaderDelegate",
+                        "usr": "c:@M@SectionHeader@objc(pl)SectionHeaderDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SectionHeader@objc(cs)SectionHeaderBridge(im)setDelegate:",
+                "mangledName": "$s13SectionHeader0aB6BridgeC8delegateAA0aB8Delegate_pSgvs",
+                "moduleName": "SectionHeader",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SectionHeader0aB6BridgeC8delegateAA0aB8Delegate_pSgvM",
+                "mangledName": "$s13SectionHeader0aB6BridgeC8delegateAA0aB8Delegate_pSgvM",
+                "moduleName": "SectionHeader",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "viewController",
+            "printedName": "viewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SectionHeader@objc(cs)SectionHeaderBridge(py)viewController",
+            "mangledName": "$s13SectionHeader0aB6BridgeC14viewControllerSo06UIViewE0Cvp",
+            "moduleName": "SectionHeader",
+            "declAttributes": [
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SectionHeader@objc(cs)SectionHeaderBridge(im)viewController",
+                "mangledName": "$s13SectionHeader0aB6BridgeC14viewControllerSo06UIViewE0Cvg",
+                "moduleName": "SectionHeader",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SectionHeader@objc(cs)SectionHeaderBridge(im)setViewController:",
+                "mangledName": "$s13SectionHeader0aB6BridgeC14viewControllerSo06UIViewE0Cvs",
+                "moduleName": "SectionHeader",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SectionHeader0aB6BridgeC14viewControllerSo06UIViewE0CvM",
+                "mangledName": "$s13SectionHeader0aB6BridgeC14viewControllerSo06UIViewE0CvM",
+                "moduleName": "SectionHeader",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(params:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SectionHeaderBridge",
+                "printedName": "SectionHeader.SectionHeaderBridge",
+                "usr": "c:@M@SectionHeader@objc(cs)SectionHeaderBridge"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SectionHeader@objc(cs)SectionHeaderBridge(im)initWithParams:",
+            "mangledName": "$s13SectionHeader0aB6BridgeC6paramsACSDySSypG_tcfc",
+            "moduleName": "SectionHeader",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setSectionHeader",
+            "printedName": "setSectionHeader(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SectionHeader@objc(cs)SectionHeaderBridge(im)setSectionHeader:",
+            "mangledName": "$s13SectionHeader0aB6BridgeC03setaB0yySDySSypGF",
+            "moduleName": "SectionHeader",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setStatusText",
+            "printedName": "setStatusText(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SectionHeader@objc(cs)SectionHeaderBridge(im)setStatusText:",
+            "mangledName": "$s13SectionHeader0aB6BridgeC13setStatusTextyySSF",
+            "moduleName": "SectionHeader",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLink",
+            "printedName": "setLink(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SectionHeader@objc(cs)SectionHeaderBridge(im)setLink:",
+            "mangledName": "$s13SectionHeader0aB6BridgeC7setLinkyySDySSypGF",
+            "moduleName": "SectionHeader",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SectionHeaderBridge",
+                "printedName": "SectionHeader.SectionHeaderBridge",
+                "usr": "c:@M@SectionHeader@objc(cs)SectionHeaderBridge"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SectionHeader@objc(cs)SectionHeaderBridge(im)init",
+            "mangledName": "$s13SectionHeader0aB6BridgeCACycfc",
+            "moduleName": "SectionHeader",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SectionHeader@objc(cs)SectionHeaderBridge",
+        "mangledName": "$s13SectionHeader0aB6BridgeC",
+        "moduleName": "SectionHeader",
+        "declAttributes": [
+          "AccessControl",
+          "Custom",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/Labels\/HeadlineLabel.swift",
+      "kind": "StringLiteral",
+      "offset": 213,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/Labels\/HeadlineLabel.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 9,
+      "value": "\"72-Bold\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/Labels\/HeadlineLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 264,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/Labels\/HeadlineLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 405,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/Labels\/FootnoteLabel.swift",
+      "kind": "StringLiteral",
+      "offset": 213,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/Labels\/FootnoteLabel.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 10,
+      "value": "\"72-Light\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/Labels\/FootnoteLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 265,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/Labels\/FootnoteLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 409,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/Labels\/LinkLabel.swift",
+      "kind": "StringLiteral",
+      "offset": 248,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/Labels\/LinkLabel.swift",
+      "kind": "StringLiteral",
+      "offset": 282,
+      "length": 10,
+      "value": "\"72-Light\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/Labels\/LinkLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 300,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/Labels\/LinkLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 440,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/SectionHeaderPhone.swift",
+      "kind": "IntegerLiteral",
+      "offset": 319,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/SectionHeaderPhone.swift",
+      "kind": "IntegerLiteral",
+      "offset": 373,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/SectionHeaderPhone.swift",
+      "kind": "IntegerLiteral",
+      "offset": 777,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/SectionHeaderPhone.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1059,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/SectionHeaderPhone.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1064,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/SectionHeaderPhone.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1351,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/SectionHeaderPhone.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1444,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/SectionHeaderPhone.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1735,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/SectionHeaderPhone.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1816,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/Labels\/BodyLabel.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/Labels\/BodyLabel.swift",
+      "kind": "StringLiteral",
+      "offset": 239,
+      "length": 10,
+      "value": "\"72-Light\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/Labels\/BodyLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 257,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/Labels\/BodyLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 399,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/ActionButtonsStack.swift",
+      "kind": "Array",
+      "offset": 283,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/ActionButtonsStack.swift",
+      "kind": "BooleanLiteral",
+      "offset": 465,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/ActionButtonsStack.swift",
+      "kind": "BooleanLiteral",
+      "offset": 482,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/ActionButtonsStack.swift",
+      "kind": "IntegerLiteral",
+      "offset": 647,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/ActionButtonsStack.swift",
+      "kind": "IntegerLiteral",
+      "offset": 746,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/ActionButtonsStack.swift",
+      "kind": "IntegerLiteral",
+      "offset": 863,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/ActionButtonsStack.swift",
+      "kind": "IntegerLiteral",
+      "offset": 899,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/ActionButtonsStack.swift",
+      "kind": "IntegerLiteral",
+      "offset": 903,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/FioriActionButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 499,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/FioriActionButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 791,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/FioriActionButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 841,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/Labels\/StatusLabel.swift",
+      "kind": "StringLiteral",
+      "offset": 209,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/Labels\/StatusLabel.swift",
+      "kind": "StringLiteral",
+      "offset": 243,
+      "length": 10,
+      "value": "\"72-Light\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/Labels\/StatusLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 261,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/Labels\/StatusLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 405,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/SectionHeaderPad.swift",
+      "kind": "IntegerLiteral",
+      "offset": 353,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/SectionHeaderPad.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1120,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/SectionHeaderPad.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1352,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/SectionHeaderPad.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1407,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/SectionHeaderPad.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1549,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Views\/SectionHeaderHostingController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 908,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/Model\/SectionHeaderData.swift",
+      "kind": "StringLiteral",
+      "offset": 385,
+      "length": 14,
+      "value": "\"HeadlineText\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/Model\/SectionHeaderData.swift",
+      "kind": "StringLiteral",
+      "offset": 424,
+      "length": 10,
+      "value": "\"BodyText\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/Model\/SectionHeaderData.swift",
+      "kind": "StringLiteral",
+      "offset": 459,
+      "length": 10,
+      "value": "\"Footnote\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/Model\/SectionHeaderData.swift",
+      "kind": "StringLiteral",
+      "offset": 490,
+      "length": 6,
+      "value": "\"Link\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/Model\/SectionHeaderData.swift",
+      "kind": "StringLiteral",
+      "offset": 523,
+      "length": 12,
+      "value": "\"StatusText\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/Model\/SectionHeaderData.swift",
+      "kind": "StringLiteral",
+      "offset": 559,
+      "length": 9,
+      "value": "\"Buttons\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/Model\/SectionHeaderData.swift",
+      "kind": "StringLiteral",
+      "offset": 385,
+      "length": 14,
+      "value": "\"HeadlineText\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/Model\/SectionHeaderData.swift",
+      "kind": "StringLiteral",
+      "offset": 424,
+      "length": 10,
+      "value": "\"BodyText\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/Model\/SectionHeaderData.swift",
+      "kind": "StringLiteral",
+      "offset": 459,
+      "length": 10,
+      "value": "\"Footnote\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/Model\/SectionHeaderData.swift",
+      "kind": "StringLiteral",
+      "offset": 490,
+      "length": 6,
+      "value": "\"Link\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/Model\/SectionHeaderData.swift",
+      "kind": "StringLiteral",
+      "offset": 523,
+      "length": 12,
+      "value": "\"StatusText\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/Model\/SectionHeaderData.swift",
+      "kind": "StringLiteral",
+      "offset": 559,
+      "length": 9,
+      "value": "\"Buttons\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/Model\/SectionHeaderData.swift",
+      "kind": "StringLiteral",
+      "offset": 1406,
+      "length": 7,
+      "value": "\"Value\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/Model\/SectionHeaderData.swift",
+      "kind": "StringLiteral",
+      "offset": 1436,
+      "length": 8,
+      "value": "\"Action\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/Model\/SectionHeaderData.swift",
+      "kind": "StringLiteral",
+      "offset": 1406,
+      "length": 7,
+      "value": "\"Value\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/Model\/SectionHeaderData.swift",
+      "kind": "StringLiteral",
+      "offset": 1436,
+      "length": 8,
+      "value": "\"Action\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/Model\/SectionHeaderData.swift",
+      "kind": "StringLiteral",
+      "offset": 1638,
+      "length": 7,
+      "value": "\"Value\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/Model\/SectionHeaderData.swift",
+      "kind": "StringLiteral",
+      "offset": 1668,
+      "length": 8,
+      "value": "\"Action\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/Model\/SectionHeaderData.swift",
+      "kind": "StringLiteral",
+      "offset": 1698,
+      "length": 7,
+      "value": "\"Style\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/Model\/SectionHeaderData.swift",
+      "kind": "StringLiteral",
+      "offset": 1638,
+      "length": 7,
+      "value": "\"Value\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/Model\/SectionHeaderData.swift",
+      "kind": "StringLiteral",
+      "offset": 1668,
+      "length": 8,
+      "value": "\"Action\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/Model\/SectionHeaderData.swift",
+      "kind": "StringLiteral",
+      "offset": 1698,
+      "length": 7,
+      "value": "\"Style\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/Model\/SectionHeaderData.swift",
+      "kind": "StringLiteral",
+      "offset": 1770,
+      "length": 9,
+      "value": "\"Primary\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/Model\/SectionHeaderData.swift",
+      "kind": "StringLiteral",
+      "offset": 1801,
+      "length": 11,
+      "value": "\"Secondary\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/Model\/SectionHeaderData.swift",
+      "kind": "StringLiteral",
+      "offset": 1833,
+      "length": 10,
+      "value": "\"Tertiary\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/Model\/SectionHeaderData.swift",
+      "kind": "StringLiteral",
+      "offset": 1770,
+      "length": 9,
+      "value": "\"Primary\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/Model\/SectionHeaderData.swift",
+      "kind": "StringLiteral",
+      "offset": 1801,
+      "length": 11,
+      "value": "\"Secondary\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/Model\/SectionHeaderData.swift",
+      "kind": "StringLiteral",
+      "offset": 1833,
+      "length": 10,
+      "value": "\"Tertiary\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 183,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 441,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 496,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 624,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 663,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 722,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "FloatLiteral",
+      "offset": 781,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 895,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "FloatLiteral",
+      "offset": 899,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "FloatLiteral",
+      "offset": 906,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1248,
+      "length": 2,
+      "value": "74"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1292,
+      "length": 2,
+      "value": "76"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1335,
+      "length": 2,
+      "value": "81"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1383,
+      "length": 2,
+      "value": "88"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1436,
+      "length": 2,
+      "value": "93"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1494,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1552,
+      "length": 3,
+      "value": "117"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1609,
+      "length": 3,
+      "value": "134"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1671,
+      "length": 3,
+      "value": "152"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1738,
+      "length": 3,
+      "value": "170"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1810,
+      "length": 3,
+      "value": "189"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1850,
+      "length": 2,
+      "value": "81"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2018,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2177,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2240,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2308,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2382,
+      "length": 2,
+      "value": "29"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2455,
+      "length": 2,
+      "value": "59"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2527,
+      "length": 2,
+      "value": "91"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2604,
+      "length": 3,
+      "value": "128"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2687,
+      "length": 3,
+      "value": "155"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2775,
+      "length": 3,
+      "value": "197"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2965,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2987,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3019,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3041,
+      "length": 3,
+      "value": "152"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/Utils\/ViewConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3096,
+      "length": 3,
+      "value": "104"
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/SectionHeaderCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 672,
+      "length": 54,
+      "value": "\"[SetSectionHeader] SectionHeader successfully parsed\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/SectionHeaderCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 1045,
+      "length": 36,
+      "value": "\"[SetLink] Link successfully parsed\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/SectionHeaderBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 953,
+      "length": 35,
+      "value": "\"[SetSectionHeader] call received.\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/SectionHeaderBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 1124,
+      "length": 32,
+      "value": "\"[SetStatusText] call received.\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/SectionHeaderBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 1292,
+      "length": 26,
+      "value": "\"[SetLink] call received.\""
+    },
+    {
+      "filePath": "\/Users\/home\/pamber\/data\/jenkins\/prod-build18010\/w\/mobile-eam-and-field-service\/mobile-eam-and-field-service-extension-sectionheader-OD-darwin_aarch64_dev-darwin_aarch64_dev\/gen\/tmp\/src\/xcode\/SectionHeader\/SectionHeader\/API\/SectionHeaderBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 19,
+      "value": "\"SectionHeader.SectionHeaderBridge\""
+    }
+  ]
+}

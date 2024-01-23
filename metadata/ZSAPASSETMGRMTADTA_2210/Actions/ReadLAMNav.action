@@ -1,0 +1,12 @@
+{
+	"_Type": "Action.Type.ODataService.Read",
+	"ActionResult": {
+		"_Name": "ReadLAMNav"
+	},
+	"OnSuccess": "/ZSAPASSETMGRMTADTA_2210/Rules/ReadLAMNav.js",
+	"Target": {
+		"Service": "/ZSAPASSETMGRMTADTA_2210/Services/OnlineAssetManager.service",
+		"EntitySet": "ZLamGeos",
+		"QueryOptions": "$filter=zObjectType eq 'OR' and zTableKey eq '2000194722'"
+	}
+}

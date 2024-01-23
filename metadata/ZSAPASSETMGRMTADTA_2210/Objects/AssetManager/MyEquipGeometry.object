@@ -1,0 +1,61 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"MyEquipGeometries"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SpacialId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SpacialGUId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectGroup1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EquipId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "LogicalSystem"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MyEquipment",
+			"Key": false,
+			"_Name": "Equip_Nav"
+		},
+		{
+			"_Type": "Geometry",
+			"Key": false,
+			"_Name": "Geometry"
+		}
+	],
+	"_Name": "MyEquipGeometry"
+}

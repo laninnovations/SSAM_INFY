@@ -1,0 +1,131 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"OrderTypes"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NotifType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DocumentType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StorageCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EAMOverallStatusProfile"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AutChecklistGen"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShopPaper"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AutObjectListGen"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EAMNotifType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PlantDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectListAssignment"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "InspectionType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "QMNotifType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UDSelectedSet"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OneQNotifPerLotFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrderTypeDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ControlKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ValauationArea"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ServiceType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PriorityType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MaintActType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PlanningPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "OrderType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UDCodeVersion"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "OrderTypePartner",
+			"Key": false,
+			"_Name": "OrderTypePartner_Nav"
+		}
+	],
+	"_Name": "OrderType"
+}

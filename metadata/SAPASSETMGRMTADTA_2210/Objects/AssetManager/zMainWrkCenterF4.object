@@ -1,0 +1,34 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"zMainWrkCenterF4Set"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zMaintPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "zMainWorkCtr"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zDescWrkCen"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zObjectID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zObTyWrkCen"
+		}
+	],
+	"_Name": "zMainWrkCenterF4"
+}

@@ -1,0 +1,64 @@
+{
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"Collection": [
+		"UserSyncGroupDetails"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.Int32",
+			"Key": false,
+			"_Name": "SyncPriority"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Addressable"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Creatable"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Deletable"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Pageable"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Searchable"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Subscribable"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Updatable"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "EntitySetName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SyncGroupId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "UserGUID"
+		}
+	],
+	"_Name": "UserSyncGroupDetail"
+}

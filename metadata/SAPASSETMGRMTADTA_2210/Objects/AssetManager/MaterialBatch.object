@@ -1,0 +1,56 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"MaterialBatches"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ValuationType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BatchType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Batch"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MaterialNum"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MaterialPlant",
+			"Key": false,
+			"_Name": "MaterialPlant_Nav"
+		},
+		{
+			"_Type": "Material",
+			"Key": false,
+			"_Name": "Material_Nav"
+		},
+		{
+			"_Type": "Collection(MyEquipSerialNumber)",
+			"Key": false,
+			"_Name": "MyEquipSerialNum_Nav"
+		},
+		{
+			"_Type": "Collection(MyWorkOrderComponent)",
+			"Key": false,
+			"_Name": "MyWOComponent_Nav"
+		}
+	],
+	"_Name": "MaterialBatch"
+}

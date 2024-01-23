@@ -1,0 +1,41 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"WorkOrderHistoryTexts"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextString"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "OrderId"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "WorkOrderHistory",
+			"Key": false,
+			"_Name": "WOHistory"
+		}
+	],
+	"_Name": "WorkOrderHistoryText"
+}

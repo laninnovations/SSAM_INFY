@@ -1,0 +1,74 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"PurchaseRequisitionSrvAccctAsgns"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SeqNoAA"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SeqNoAccAss"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "HighestPackageNo"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "Enteredvalue"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "InvoiceQuantity"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FinalAccAsgn"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "FinalAccAsgnQuantity"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FinalAccAsgnReason"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Line"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "Quantity"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "NetValue"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "ActualQuantity"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PackageNo"
+		}
+	],
+	"_Name": "PurchaseRequisitionSrvAccctAsgn"
+}

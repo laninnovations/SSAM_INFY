@@ -1,0 +1,101 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"WorkOrderTransfers"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "HeaderNotes"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TransferReason"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "IsSupervisor"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PlannerGroupTo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PlannerGroupFrom"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WorkCenterTo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WorkCenterFrom"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UserTo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UserFrom"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EmployeeTo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EmployeeFrom"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "EffectiveTimestamp"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "OrderId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "OperationNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SubOperationNo"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MyWorkOrderHeader",
+			"Key": false,
+			"_Name": "WOHeader"
+		},
+		{
+			"_Type": "MyWorkOrderOperation",
+			"Key": false,
+			"_Name": "WOOperation"
+		},
+		{
+			"_Type": "MyWorkOrderSubOperation",
+			"Key": false,
+			"_Name": "WOSubOperation"
+		}
+	],
+	"_Name": "WorkOrderTransfer"
+}

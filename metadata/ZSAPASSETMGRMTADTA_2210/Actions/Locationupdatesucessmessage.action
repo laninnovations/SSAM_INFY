@@ -1,0 +1,9 @@
+{
+	"_Type": "Action.Type.Message",
+	"Message": "Location updated successfully",
+	"Title": "Work Order Change Location update",
+	"OKCaption": "OK",
+	"ActionResult": {
+		"_Name": "Locationupdatesucessmessage"
+	}
+}

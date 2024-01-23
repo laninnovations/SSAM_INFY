@@ -1,0 +1,51 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"InspectionMethodDocuments"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DocumentID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "RelationshipID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Method"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Version"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Document",
+			"Key": false,
+			"_Name": "Document_Nav"
+		},
+		{
+			"_Type": "InspectionMethod",
+			"Key": false,
+			"_Name": "InspectionMethod_Nav"
+		}
+	],
+	"_Name": "InspectionMethodDocument"
+}

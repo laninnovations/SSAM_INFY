@@ -1,0 +1,66 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"PurchaseRequisitionSrvLimitHdrs"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SourcePackageNo"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "OverallLimit"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NoLimit"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "ExpectedValue"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "ActualValue"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ServiceType"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "Limit"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PackageNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Currency"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(PurchaseRequisitionItem)",
+			"Key": false,
+			"_Name": "PurchaseRequisitionItem_Nav"
+		},
+		{
+			"_Type": "Collection(PurchaseRequisitionSrvLimitItem)",
+			"Key": false,
+			"_Name": "PurchaseRequisitionSrvLimitItem_Nav"
+		}
+	],
+	"_Name": "PurchaseRequisitionSrvLimitHdr"
+}

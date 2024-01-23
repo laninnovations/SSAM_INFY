@@ -1,0 +1,34 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"UserGeneralInfos"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SAPUserName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CPMSRegistrationID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CPMSUserName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MobileApp"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "UserGuid"
+		}
+	],
+	"_Name": "UserGeneralInfo"
+}

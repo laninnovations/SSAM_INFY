@@ -1,0 +1,49 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"PurchaseRequisitionSrvLimitItems"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SubPackageNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "InternalLineNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PurchasingDocItem"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "OverallLimit"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "ActualValue"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PurchasingDoc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortText"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PackageNo"
+		}
+	],
+	"_Name": "PurchaseRequisitionSrvLimitItem"
+}

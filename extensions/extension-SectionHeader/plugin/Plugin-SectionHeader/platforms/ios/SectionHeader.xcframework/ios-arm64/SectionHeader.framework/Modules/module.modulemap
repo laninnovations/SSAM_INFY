@@ -1,0 +1,4 @@
+framework module SectionHeader {
+  header "SectionHeader-Swift.h"
+  requires objc
+}

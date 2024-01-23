@@ -1,0 +1,121 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"PurchaseRequisitionAcctAsgns"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "GLAccount"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CostCenter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SDDocument"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Asset"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AssetSubnumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WBSElement"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Network"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Partner"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BusinessProcess"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Order"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Distribution"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "COArea"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Sernoaccass"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PurchaseReqNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BusinessArea"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Item"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ScheduleLine"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "NetValue"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ActivityType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PurchaseReqItemNo"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "Quantity"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "PurchaseRequisitionItem",
+			"Key": false,
+			"_Name": "PurchaseRequisitionItem_Nav"
+		}
+	],
+	"_Name": "PurchaseRequisitionAcctAsgn"
+}

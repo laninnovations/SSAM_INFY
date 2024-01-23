@@ -1,0 +1,4 @@
+framework module DocumentEditor {
+  header "DocumentEditor-Swift.h"
+  requires objc
+}

@@ -1,0 +1,26 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"CatsTimesheetOverviewRows"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.DateTime",
+			"Key": true,
+			"_Name": "Date"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "Hours"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(CatsTimesheet)",
+			"Key": false,
+			"_Name": "TimesheetEntry"
+		}
+	],
+	"_Name": "CatsTimesheetOverviewRow"
+}

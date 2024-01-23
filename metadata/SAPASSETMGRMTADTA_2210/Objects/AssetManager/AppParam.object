@@ -1,0 +1,49 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"AppParameters"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "RecordNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ParameterName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ParamGroup"
+		},
+		{
+			"_Type": "Edm.Boolean",
+			"Key": false,
+			"_Name": "FlagNoChange"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ParamType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ParamScope"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ParamComment"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ParamValue"
+		}
+	],
+	"_Name": "AppParam"
+}

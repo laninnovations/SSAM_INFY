@@ -1,0 +1,11 @@
+{
+	"_Type": "Action.Type.ODataService.Read",
+	"ActionResult": {
+		"_Name": "LAMFieldsAction"
+	},
+	"Target": {
+		"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+		"EntitySet": "ZGeoInfoSet",
+		"QueryOptions": ""
+	}
+}

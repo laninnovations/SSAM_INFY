@@ -1,0 +1,24 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"MovementReasons"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MovementReason"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MovementType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MovementReasonText"
+		}
+	],
+	"_Name": "MovementReason"
+}

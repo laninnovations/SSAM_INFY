@@ -1,0 +1,62 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable",
+			"Sections": [
+				{
+					"Layout": {
+						"LayoutType": "Vertical",
+						"HorizontalAlignment": "Leading"
+					},
+					"_Type": "Section.Type.ButtonTable",
+					"_Name": "SectionButtonTable1",
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Buttons": [
+						{
+							"_Name": "SectionButton1",
+							"Title": "Mail IT Support",
+							"TextAlignment": "Left",
+							"Alignment": "Left",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"Image": "sap-icon://email",
+							"ImagePosition": "Trailing",
+							"FullWidth": true,
+							"Visible": true,
+							"OnPress": "/ZSAPASSETMGRMTADTA_2210/Rules/GetDeviceStatus.js"
+						}
+					]
+				},
+				{
+					"_Type": "Section.Type.SimplePropertyCollection",
+					"_Name": "SectionSimplePropertyCollection0",
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"SimplePropertyCells": [
+						{
+							"SimplePropertyCell": {
+								"_Name": "SectionSimplePropertyCell0",
+								"KeyName": "$(L,activity_log)",
+								"AccessoryType": "disclosureIndicator",
+								"OnPress": "/SAPAssetManager/Actions/User/UserActivityLog.action"
+							}
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 1,
+						"MinimumInteritemSpacing": "$(PLT,66,0)"
+					}
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "UserSupport",
+	"Caption": "$(L,support)",
+	"PrefersLargeCaption": true
+}

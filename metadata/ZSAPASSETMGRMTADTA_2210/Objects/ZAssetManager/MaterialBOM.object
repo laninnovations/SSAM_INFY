@@ -1,0 +1,46 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"MaterialBOMs"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "BOMCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "BOMUsage"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MaterialNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "BOMId"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "BOMHeader",
+			"Key": false,
+			"_Name": "BOMHeader_Nav"
+		},
+		{
+			"_Type": "Material",
+			"Key": false,
+			"_Name": "Material_Nav"
+		}
+	],
+	"_Name": "MaterialBOM"
+}

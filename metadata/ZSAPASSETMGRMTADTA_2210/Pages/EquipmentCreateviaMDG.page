@@ -1,0 +1,393 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "FormCellContainer",
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Value": "ZEQMST01",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "MDGChangerequesttype",
+							"IsEditable": false,
+							"IsVisible": true,
+							"Caption": "MDG CR Type",
+							"PlaceHolder": "PlaceHolder",
+							"Enabled": false
+						},
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "MDGChangerequestDesc",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "MDG CR Description",
+							"PlaceHolder": "MDG Change Request Description",
+							"Enabled": true
+						},
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "EquipmentText",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Equipment Description",
+							"PlaceHolder": "Equipment Text Description",
+							"Enabled": true
+						},
+						{
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "Category",
+							"IsEditable": true,
+							"IsVisible": true,
+							"AllowMultipleSelection": false,
+							"AllowEmptySelection": false,
+							"Caption": "Category",
+							"DataPaging": {
+								"ShowLoadingIndicator": false,
+								"PageSize": 50
+							},
+							"PickerPrompt": "Please select one single item",
+							"IsSelectedSectionEnabled": false,
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": false,
+							"AllowDefaultValueIfOneItem": true,
+							"Search": {
+								"Enabled": true
+							},
+							"PickerItems": [
+								{
+									"DisplayValue": "Electrical (Non-Rotating)",
+									"ReturnValue": "E"
+								},
+								{
+									"DisplayValue": "Instrumentation",
+									"ReturnValue": "I"
+								},
+								{
+									"DisplayValue": "Machines",
+									"ReturnValue": "M"
+								}
+							]
+						},
+						{
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "ObjectType",
+							"IsEditable": true,
+							"IsVisible": true,
+							"AllowMultipleSelection": false,
+							"AllowEmptySelection": false,
+							"Caption": "Object Type",
+							"DataPaging": {
+								"ShowLoadingIndicator": false,
+								"PageSize": 50
+							},
+							"PickerPrompt": "Please select one single item",
+							"IsSelectedSectionEnabled": false,
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"AllowDefaultValueIfOneItem": true,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"Delay": 500,
+								"MinimumCharacterThreshold": 1
+							},
+							"PickerItems": {
+								"Target": {
+									"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+									"EntitySet": "EquipObjectTypes"
+								},
+								"DisplayValue": "{{#Property:ObjectType}} - {{#Property:ObjectTypeDesc}}",
+								"ReturnValue": "{ObjectType}"
+							}
+						},
+						{
+							"PlaceHolder": "Enter Maintenance Plant",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "MaintenacePlantLstPkr",
+							"IsEditable": true,
+							"IsVisible": true,
+							"AllowMultipleSelection": false,
+							"AllowEmptySelection": false,
+							"Caption": "$(L, maintenance_plant)",
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"AllowDefaultValueIfOneItem": true,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"Delay": 500,
+								"MinimumCharacterThreshold": 3
+							},
+							"PickerItems": "/ZSAPASSETMGRMTADTA_2210/Rules/Equipment/EquipmentMDGControlsPickerItems.js"
+						},
+						{
+							"PlaceHolder": "Location",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "Location",
+							"IsEditable": true,
+							"IsVisible": true,
+							"AllowMultipleSelection": false,
+							"AllowEmptySelection": false,
+							"Caption": "Location",
+							"PickerPrompt": "Please select one single item",
+							"IsSelectedSectionEnabled": false,
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"AllowDefaultValueIfOneItem": true,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"Delay": 500
+							},
+							"PickerItems": {
+								"Target": {
+									"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+									"EntitySet": "Locations"
+								},
+								"DisplayValue": "{{#Property:Location}} - {{#Property:LocationName}}",
+								"ReturnValue": "{Location}"
+							}
+						},
+						{
+							"PlaceHolder": "PlaceHolder",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "ABCIndicator",
+							"IsEditable": true,
+							"IsVisible": true,
+							"AllowMultipleSelection": false,
+							"AllowEmptySelection": false,
+							"Caption": "ABC Indicator",
+							"DataPaging": {
+								"ShowLoadingIndicator": false,
+								"LoadingIndicatorText": "",
+								"PageSize": 50
+							},
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"AllowDefaultValueIfOneItem": true,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"Delay": 500,
+								"MinimumCharacterThreshold": 1
+							},
+							"PickerItems": [
+								{
+									"DisplayValue": "A - Critical",
+									"ReturnValue": "A"
+								},
+								{
+									"DisplayValue": "B - Important",
+									"ReturnValue": "B"
+								},
+								{
+									"DisplayValue": "C - Normal",
+									"ReturnValue": "C"
+								}
+							]
+						},
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "SortField",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Sort Field",
+							"PlaceHolder": "PlaceHolder",
+							"Enabled": true
+						},
+						{
+							"PlaceHolder": "PlaceHolder",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "PlanningPlant",
+							"IsEditable": true,
+							"IsVisible": true,
+							"AllowMultipleSelection": false,
+							"AllowEmptySelection": false,
+							"Caption": "Planning Plant",
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"AllowDefaultValueIfOneItem": true,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"Delay": 500,
+								"MinimumCharacterThreshold": 3
+							},
+							"PickerItems": "/ZSAPASSETMGRMTADTA_2210/Rules/Equipment/EquipmentMDGControlsPickerItems.js"
+						},
+						{
+							"PlaceHolder": "PlaceHolder",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "PlannerGroup",
+							"IsEditable": true,
+							"IsVisible": true,
+							"AllowMultipleSelection": false,
+							"AllowEmptySelection": false,
+							"Caption": "Planner Group",
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"AllowDefaultValueIfOneItem": true,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"BarcodeScanner": true,
+								"Delay": 500,
+								"MinimumCharacterThreshold": 3
+							},
+							"PickerItems": {
+								"Target": {
+									"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+									"EntitySet": "PlannerGroups"
+								},
+								"DisplayValue": "{{#Property:PlannerGroup}} - {{#Property:PlannerGroupName}}",
+								"ReturnValue": "{PlannerGroup}"
+							}
+						},
+						{
+							"PlaceHolder": "PlaceHolder",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "MainWorkCenterLstPkr",
+							"IsEditable": true,
+							"IsVisible": true,
+							"AllowMultipleSelection": false,
+							"AllowEmptySelection": false,
+							"Caption": "Main Work Centre",
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"AllowDefaultValueIfOneItem": true,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"BarcodeScanner": true,
+								"Delay": 500,
+								"MinimumCharacterThreshold": 3
+							},
+							"PickerItems": {
+								"DisplayValue": "{{#Property:ExternalWorkCenterId}} - {{#Property:WorkCenterDescr}}",
+								"ReturnValue": "{ExternalWorkCenterId}",
+								"Target": {
+									"EntitySet": "WorkCenters",
+									"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service"
+								}
+							}
+						},
+						{
+							"PlaceHolder": "Enter Catalog Profile",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "CatalogProfile",
+							"IsEditable": true,
+							"IsVisible": true,
+							"AllowMultipleSelection": false,
+							"AllowEmptySelection": false,
+							"Caption": "Catalog Profile",
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"AllowDefaultValueIfOneItem": true,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"BarcodeScanner": true,
+								"Delay": 500,
+								"MinimumCharacterThreshold": 3
+							},
+							"PickerItems": "/ZSAPASSETMGRMTADTA_2210/Rules/Equipment/EquipmentMDGControlsPickerItems.js"
+						},
+						{
+							"PlaceHolder": "Cost Center",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "CostCenter",
+							"IsEditable": true,
+							"IsVisible": true,
+							"AllowMultipleSelection": false,
+							"AllowEmptySelection": false,
+							"Caption": "Cost Center",
+							"PickerPrompt": "Please select one single item",
+							"IsSelectedSectionEnabled": false,
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"AllowDefaultValueIfOneItem": true,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"Delay": 500
+							},
+							"PickerItems": "/ZSAPASSETMGRMTADTA_2210/Rules/Equipment/EquipmentMDGControlsPickerItems.js"
+						},
+						{
+							"PlaceHolder": "PlaceHolder",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "Functionallocation",
+							"IsEditable": true,
+							"IsVisible": true,
+							"AllowMultipleSelection": false,
+							"Caption": "Functional Location",
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"AllowDefaultValueIfOneItem": true,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"BarcodeScanner": true,
+								"Delay": 500,
+								"MinimumCharacterThreshold": 3
+							},
+							"PickerItems": {
+								"DisplayValue": "{{#Property:FuncLocId}} - {{#Property:FuncLocDesc}}",
+								"ReturnValue": "{FuncLocId}",
+								"Target": {
+									"EntitySet": "MyFunctionalLocations",
+									"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service"
+								}
+							}
+						},
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "EnggTagNumber",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Engg. Tag Number",
+							"PlaceHolder": "PlaceHolder",
+							"Enabled": true
+						}
+					],
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"_Type": "Section.Type.FormCell",
+					"_Name": "SectionFormCell0"
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "MDGCRCreationEquipment",
+	"Caption": "Equipment Create",
+	"PrefersLargeCaption": true,
+	"ActionBar": {
+		"Items": [
+			{
+				"Caption": "Item",
+				"_Name": "ActionBarItem1",
+				"SystemItem": "Cancel",
+				"Position": "Left",
+				"IsIconCircular": false,
+				"Visible": true,
+				"OnPress": "/ZSAPASSETMGRMTADTA_2210/Actions/ClosePage.action",
+				"Text": ""
+			},
+			{
+				"Caption": "Item",
+				"_Name": "ActionBarItem0",
+				"SystemItem": "Save",
+				"Position": "Right",
+				"IsIconCircular": false,
+				"Visible": true,
+				"OnPress": "/ZSAPASSETMGRMTADTA_2210/Actions/EquipmentMDGCreateUpdateRequired.action",
+				"Text": ""
+			}
+		],
+		"_Name": "ActionBar1"
+	}
+}

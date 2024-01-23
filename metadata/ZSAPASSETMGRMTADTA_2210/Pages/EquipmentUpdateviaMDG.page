@@ -1,0 +1,118 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "MDG Equipment Update",
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Value": "ZEQMST02",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "MDGChangerequesttype",
+							"IsEditable": false,
+							"IsVisible": true,
+							"Caption": "MDG CR Type",
+							"PlaceHolder": "PlaceHolder",
+							"Enabled": false
+						},
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "MDGChangerequestDesc",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "MDG CR Description",
+							"PlaceHolder": "MDG Change Request Description",
+							"Enabled": true
+						},
+						{
+							"Value": "{EquipId}",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "Equipment",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Equipment Number",
+							"PlaceHolder": "Equipment Number",
+							"Enabled": false
+						},
+						{
+							"Value": "{Manufacturer}",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "ManufacturerOfAsset",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Manufacturer of Asset",
+							"PlaceHolder": "Manufacturer of Asset",
+							"Enabled": true
+						},
+						{
+							"Value": "{ManufSerialNo}",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "ManufacturerSerialNo",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Manufacturer Serial No",
+							"PlaceHolder": "Manufacturer Serial No",
+							"Enabled": true
+						},
+						{
+							"Value": "{ModelNum}",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "ManufacturerModelNo",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Manufacturer Model No",
+							"PlaceHolder": "Manufacturer Model No",
+							"Enabled": true
+						},
+						{
+							"Value": "{ManufPartNo}",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "ManufacturerPartNo",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Manufacturer Part No",
+							"PlaceHolder": "Manufacturer Part No",
+							"Enabled": true
+						}
+					],
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"_Type": "Section.Type.FormCell",
+					"_Name": "SectionFormCell0"
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "EquipmentUpdateviaMDG",
+	"Caption": "Equipment Edit",
+	"PrefersLargeCaption": true,
+	"ActionBar": {
+		"Items": [
+			{
+				"Text": "",
+				"_Name": "ActionBarItem1",
+				"Caption": "Item",
+				"SystemItem": "Cancel",
+				"Position": "Left",
+				"IsIconCircular": false,
+				"Visible": true,
+				"OnPress": "/ZSAPASSETMGRMTADTA_2210/Actions/ClosePage.action"
+			},
+			{
+				"Text": "",
+				"_Name": "ActionBarItem0",
+				"Caption": "Item",
+				"SystemItem": "Save",
+				"Position": "Right",
+				"IsIconCircular": false,
+				"Visible": true,
+				"OnPress": "/ZSAPASSETMGRMTADTA_2210/Actions/MDGEquipmentUpdate.action"
+			}
+		],
+		"_Name": "ActionBar1"
+	}
+}

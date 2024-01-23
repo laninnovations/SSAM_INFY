@@ -1,0 +1,71 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"UserTimeEntries"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PreferenceGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PreferenceName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PreferenceValue"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UserId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "RecordId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "UserGUID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrderId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OperationNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SubOperationNo"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MyWorkOrderHeader",
+			"Key": false,
+			"_Name": "WOHeader_Nav"
+		},
+		{
+			"_Type": "MyWorkOrderOperation",
+			"Key": false,
+			"_Name": "WOOperation_Nav"
+		},
+		{
+			"_Type": "MyWorkOrderSubOperation",
+			"Key": false,
+			"_Name": "WOSubOperation_Nav"
+		}
+	],
+	"_Name": "UserTimeEntry"
+}

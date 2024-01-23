@@ -1,0 +1,61 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"MyNotifGeometries"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SpacialGUId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SpacialId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectGroup1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NotificationNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "LogicalSystem"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Geometry",
+			"Key": false,
+			"_Name": "Geometry"
+		},
+		{
+			"_Type": "MyNotificationHeader",
+			"Key": false,
+			"_Name": "NotifHeader"
+		}
+	],
+	"_Name": "MyNotifGeometry"
+}

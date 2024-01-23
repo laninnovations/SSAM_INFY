@@ -1,0 +1,24 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"LongTextTemplates"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextString"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Object"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "TemplateName"
+		}
+	],
+	"_Name": "LongTextTemplate"
+}

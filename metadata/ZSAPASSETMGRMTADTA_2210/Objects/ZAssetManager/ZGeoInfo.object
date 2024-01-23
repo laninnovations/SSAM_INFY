@@ -1,0 +1,69 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"ZGeoInfoSet"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "zObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "zTableKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zHeight"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zLatitude"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zLongitude"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zDataSource"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zPrecision"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zHeight1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zLatitude1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zLongitude1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zTimeStamp"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zTimeZone"
+		}
+	],
+	"_Name": "ZGeoInfo"
+}

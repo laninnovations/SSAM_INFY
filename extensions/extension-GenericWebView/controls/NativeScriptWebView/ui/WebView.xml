@@ -1,0 +1,6 @@
+<GridLayout rows="{{ enableToolbar? '*, 44' : '*, 0' }}">
+	<GridLayout id="gridLayoutContent" row="0" class="{{ enablePadding? 'webviewPadding' : '' }}">
+		<WebView id="webView" src="{{ src }}"/>
+	</GridLayout>
+	<GridLayout id="WebViewToolbar" row="1"/>
+</GridLayout>

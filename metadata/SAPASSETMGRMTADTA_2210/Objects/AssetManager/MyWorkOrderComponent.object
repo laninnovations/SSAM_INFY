@@ -1,0 +1,161 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"MyWorkOrderComponents"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SerialNoProfile"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextTypeDesc"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "WithdrawnQuantity"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "WithdrawnQuantityOrig"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Batch"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "CommittedQuantity"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ComponentDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ItemCategoryDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OperationDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StorageLocation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ItemNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ItemCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RecordType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RequirementNumber"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "RequirementQuantity"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "OrderId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "OperationNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MaterialNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RequirementUOM"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "QuantityUnE"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UnitOfEntry"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BackFlushIndicator"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(MyWorkOrderComponentLongText)",
+			"Key": false,
+			"_Name": "ComponentLongText"
+		},
+		{
+			"_Type": "ItemCategory",
+			"Key": false,
+			"_Name": "ItemCategory_Nav"
+		},
+		{
+			"_Type": "Material",
+			"Key": false,
+			"_Name": "Material"
+		},
+		{
+			"_Type": "MaterialBatch",
+			"Key": false,
+			"_Name": "MaterialBatch_Nav"
+		},
+		{
+			"_Type": "Collection(MyWorkOrderComponentMatDoc)",
+			"Key": false,
+			"_Name": "MaterialDoc"
+		},
+		{
+			"_Type": "MyWorkOrderHeader",
+			"Key": false,
+			"_Name": "WOHeader"
+		},
+		{
+			"_Type": "MyWorkOrderOperation",
+			"Key": false,
+			"_Name": "WOOperation"
+		}
+	],
+	"_Name": "MyWorkOrderComponent"
+}

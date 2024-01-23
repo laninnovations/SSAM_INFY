@@ -1,0 +1,66 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"InspectionMethods"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StatusDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LongTextFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Status"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SortField"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Method"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Version"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(InspectionCharacteristic)",
+			"Key": false,
+			"_Name": "InspectionChars_Nav"
+		},
+		{
+			"_Type": "Collection(InspectionMethodDocument)",
+			"Key": false,
+			"_Name": "MethodDoc_Nav"
+		},
+		{
+			"_Type": "InspectionMethodLongText",
+			"Key": false,
+			"_Name": "MethodLongText_Nav"
+		}
+	],
+	"_Name": "InspectionMethod"
+}

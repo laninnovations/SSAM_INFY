@@ -1,0 +1,21 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"SearchTypes"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Name"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "SearchCondition",
+			"Key": false,
+			"_Name": "SearchCondition_Nav"
+		}
+	],
+	"_Name": "SearchType"
+}

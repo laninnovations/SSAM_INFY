@@ -1,0 +1,156 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"BOMItems"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Counter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Quantity"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ItemGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RequiredComponent"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ValidTo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ChildBoMUsage"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ChildItemNode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ChildBoMCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DocDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BOMPath"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ItemText1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ItemCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ItemText2"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PMAssembly"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MaterialDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ValidFrom"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "InheritedItemNode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Sort"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ItemNode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "BOMCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MaterialNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ItemId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Component"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ChildBoMId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UoM"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "BOMId"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "BOMHeader",
+			"Key": false,
+			"_Name": "BOMHeader_Nav"
+		},
+		{
+			"_Type": "ItemCategory",
+			"Key": false,
+			"_Name": "ItemCategory_Nav"
+		}
+	],
+	"_Name": "BOMItem"
+}

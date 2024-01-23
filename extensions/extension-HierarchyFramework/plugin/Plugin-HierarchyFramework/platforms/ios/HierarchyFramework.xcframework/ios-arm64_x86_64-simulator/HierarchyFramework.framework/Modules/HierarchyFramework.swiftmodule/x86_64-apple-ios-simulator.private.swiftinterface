@@ -1,0 +1,64 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target x86_64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name HierarchyFramework
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import SAPFiori
+import SAPMDC
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class HierarchyListPickerViewController : SAPFiori.FUIHierarchyViewController, SAPMDC.ExtensionFormCell {
+  @_Concurrency.MainActor(unsafe) public func updateReturnValues(using newValues: [Swift.Int])
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+extension HierarchyFramework.HierarchyListPickerViewController {
+  @_Concurrency.MainActor(unsafe) public func registerTo(_ tableView: UIKit.UITableView)
+  @_Concurrency.MainActor(unsafe) public func dequeueReusableCell(for tableView: UIKit.UITableView, atIndexPath indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+}
+@_hasMissingDesignatedInitializers public class HCVDelegate : SAPFiori.FUIHierarchyViewDelegate {
+  weak public var hvc: HierarchyFramework.HierarchyViewController?
+  @objc public func hierarchyView(_ hierarchyView: SAPFiori.FUIHierarchyView, didSelectItemWith uuid: Swift.String)
+  @objc public func hierarchyView(_ hierarchyView: SAPFiori.FUIHierarchyView, hierarchyButtonTappedForItemWith uuid: Swift.String)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class HierarchyViewController : SAPFiori.FUIHierarchyViewController {
+  @_Concurrency.MainActor(unsafe) public var selectedItem: Swift.String?
+  @_Concurrency.MainActor(unsafe) public var reload: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var isPicker: Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) override public func rootUUID(in hierarchyView: SAPFiori.FUIHierarchyView) -> Swift.String?
+  @_Concurrency.MainActor(unsafe) override public func hierarchyView(_ hierarchyView: SAPFiori.FUIHierarchyView, numberOfChildrenForItemWith uuid: Swift.String) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) override public func hierarchyView(_ hierarchyView: SAPFiori.FUIHierarchyView, uuidForChildItemAt index: Swift.Int, with parentUUID: Swift.String) -> Swift.String
+  @_Concurrency.MainActor(unsafe) override public func hierarchyView(_ hierarchyView: SAPFiori.FUIHierarchyView, parentForItemWith uuid: Swift.String) -> Swift.String?
+  @_Concurrency.MainActor(unsafe) override public func hierarchyView(_ hierarchyView: SAPFiori.FUIHierarchyView, cellForItemWith uuid: Swift.String) -> SAPFiori.FUIHierarchyCollectionItem
+  @_Concurrency.MainActor(unsafe) override public func hierarchyView(_ hierarchyView: SAPFiori.FUIHierarchyView, titleForItemWith uuid: Swift.String) -> Swift.String?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+extension HierarchyFramework.HierarchyViewController {
+  @_Concurrency.MainActor(unsafe) public func hierarchyView(_ hierarchyView: SAPFiori.FUIHierarchyView, didSelectItemWith uuid: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func hierarchyButtonTap(_ hierarchyView: SAPFiori.FUIHierarchyView, hierarchyButtonTappedForItemWith uuid: Swift.String)
+}
+@objc public protocol HierarchyDelegate : ObjectiveC.NSObjectProtocol {
+  @objc optional func getObjects(_ params: Swift.String, type: Swift.String)
+  @objc optional func loadMoreItems(_ queryParams: Swift.String, pagingParams: Swift.String)
+  @objc optional func searchUpdated(_ queryParams: Swift.String, searchParams: Swift.String)
+  @objc optional func updateReturnValues(_ ids: Swift.String)
+  @objc optional func setReturnValues(_ ids: Swift.String)
+  @objc optional func getLocalizedValue(_ key: Swift.String, params: Swift.String) -> Swift.String
+  @objc optional func runAction(_ jsonString: Swift.String, type: Swift.String)
+}
+@objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor public class HierarchyBridge : ObjectiveC.NSObject {
+  @objc @_Concurrency.MainActor public func createWithParamsAndDelegate(_ params: [Swift.String : Any], _ delegate: any HierarchyFramework.HierarchyDelegate) -> UIKit.UIViewController
+  @objc @_Concurrency.MainActor public func callback(_ params: [Swift.String : Any], _ type: Foundation.NSString)
+  @_Concurrency.MainActor @objc override dynamic public init()
+  @objc deinit
+}
+extension HierarchyFramework.HierarchyBridge : Swift.Sendable {}

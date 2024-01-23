@@ -1,0 +1,136 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"InspectionPoints"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Inspector"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ValuationStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ValCode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ValCodeGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ValCatalog"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ValSelectedSet"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FuncLocIntern"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ConfirmNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ConfirmCounter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "InspectionLot"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "InspectionNode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SampleNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrderId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EquipNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OperationNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FuncLocId"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MyEquipment",
+			"Key": false,
+			"_Name": "Equip_Nav"
+		},
+		{
+			"_Type": "MyFunctionalLocation",
+			"Key": false,
+			"_Name": "FuncLoc_Nav"
+		},
+		{
+			"_Type": "InspectionCode",
+			"Key": false,
+			"_Name": "InspCode_Nav"
+		},
+		{
+			"_Type": "InspectionCatalogValuation",
+			"Key": false,
+			"_Name": "InspValuation_Nav"
+		},
+		{
+			"_Type": "Collection(InspectionCharacteristic)",
+			"Key": false,
+			"_Name": "InspectionChar_Nav"
+		},
+		{
+			"_Type": "InspectionLot",
+			"Key": false,
+			"_Name": "InspectionLot_Nav"
+		},
+		{
+			"_Type": "Collection(MyNotificationItem)",
+			"Key": false,
+			"_Name": "NotifItems_Nav"
+		},
+		{
+			"_Type": "MyWorkOrderOperation",
+			"Key": false,
+			"_Name": "WOOperation_Nav"
+		}
+	],
+	"_Name": "InspectionPoint"
+}

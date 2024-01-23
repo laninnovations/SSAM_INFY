@@ -1,0 +1,21 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"PurchaseRequisitionHeaders"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PurchaseReqNo"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(PurchaseRequisitionItem)",
+			"Key": false,
+			"_Name": "PurchaseRequisitionItem_Nav"
+		}
+	],
+	"_Name": "PurchaseRequisitionHeader"
+}

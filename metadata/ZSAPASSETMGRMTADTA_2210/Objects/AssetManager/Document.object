@@ -1,0 +1,111 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"Documents"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectLink"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StorageCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WSApplication"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "URL"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FileType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FileSize"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FileName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MimeType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "DocumentID"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(MyEquipDocument)",
+			"Key": false,
+			"_Name": "EquipDocuments"
+		},
+		{
+			"_Type": "FileExtension",
+			"Key": false,
+			"_Name": "FileExtension_Nav"
+		},
+		{
+			"_Type": "Collection(MyFuncLocDocument)",
+			"Key": false,
+			"_Name": "FuncLocDocuments"
+		},
+		{
+			"_Type": "Collection(InspectionMethodDocument)",
+			"Key": false,
+			"_Name": "InspMethodDocs_Nav"
+		},
+		{
+			"_Type": "Collection(MyNotifDocument)",
+			"Key": false,
+			"_Name": "NotifDocuments"
+		},
+		{
+			"_Type": "Collection(MyWorkOrderTool)",
+			"Key": false,
+			"_Name": "PRTDocuments"
+		},
+		{
+			"_Type": "Collection(ReportTemplate)",
+			"Key": false,
+			"_Name": "ReportTemplate_Nav"
+		},
+		{
+			"_Type": "Collection(MyWorkOrderDocument)",
+			"Key": false,
+			"_Name": "WODocuments"
+		}
+	],
+	"_Name": "Document"
+}

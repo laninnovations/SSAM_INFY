@@ -1,0 +1,9 @@
+{
+    "mdk.referenceApplications": [
+        {
+            "name": "SAPAssetManager",
+            "path": "/Users/sabarish/Desktop/Infosys_Aramco/SAM2210_IOS_23.8.3/SAM.mdkproject/metadata/SAPASSETMGRMTADTA_2210/Application.app",
+            "comp": "ZSAPASSETMGRMTADTA_2210"
+        }
+    ]
+}

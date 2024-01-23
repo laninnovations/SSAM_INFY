@@ -1,0 +1,176 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"PMMobileStatusHistories"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.Int32",
+			"Key": false,
+			"_Name": "BeginTimeCounter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CarriedOutBy"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "CarriedOutDate"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "CarriedOutTime"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CreateUserGUID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CreateUserId"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "EffectiveTimestamp"
+		},
+		{
+			"_Type": "Edm.Int32",
+			"Key": false,
+			"_Name": "EndTimeCounter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ItemNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MobileStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StatusAttribute1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StatusAttribute2"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NotifNum"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "NotificationRefDate"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "NotificationRefTime"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OperationNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WOHeader"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrderId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EAMOverallStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EAMOverallStatusProfile"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ReasonCode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "RecordNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SortField"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Status"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SubOperationNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TaskNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UpdateUserGUID"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MyWorkOrderHeader",
+			"Key": false,
+			"_Name": "MyWorkOrderHeader_Nav"
+		},
+		{
+			"_Type": "MyWorkOrderOperation",
+			"Key": false,
+			"_Name": "MyWorkOrderOperation_Nav"
+		},
+		{
+			"_Type": "MyWorkOrderSubOperation",
+			"Key": false,
+			"_Name": "MyWorkOrderSubOperation_Nav"
+		},
+		{
+			"_Type": "PMMobileStatus",
+			"Key": false,
+			"_Name": "PMMobileStatus_Nav"
+		}
+	],
+	"_Name": "PMMobileStatusHistory"
+}

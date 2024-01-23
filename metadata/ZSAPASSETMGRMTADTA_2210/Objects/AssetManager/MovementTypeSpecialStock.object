@@ -1,0 +1,44 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"MovementTypeSpecialStocks"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Language"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MovementType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SpecialStock"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MovementInd"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ReceiptInd"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Consumption"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MovementTypeText"
+		}
+	],
+	"_Name": "MovementTypeSpecialStock"
+}

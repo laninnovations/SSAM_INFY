@@ -1,0 +1,34 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"LAMOffsetTypes"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DocumentationObject"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DefaultOffset"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "OffsetTypeCode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UOM"
+		}
+	],
+	"_Name": "LAMOffsetType"
+}

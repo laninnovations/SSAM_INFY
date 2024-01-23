@@ -1,0 +1,176 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"PurchaseRequisitionItems"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DesiredVendor"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FixedVendor"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Material"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BaseUOM"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AccAsgnCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DocType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ItemQuantity"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PackNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PurchaseGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PurchaseOrg"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "RequisitionDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PurchaseReqNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PurchaseReqItemNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Batch"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "DeliveryDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ItemCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MaterialGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StorageLocation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DocCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ValuationType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ValuationPrice"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ValuationPriceUnit"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Currency"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PurchaseOrderNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PurchaseOrderItemNo"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(PurchaseRequisitionAcctAsgn)",
+			"Key": false,
+			"_Name": "PurchaseRequisitionAcctAsgn_Nav"
+		},
+		{
+			"_Type": "PurchaseRequisitionAddress",
+			"Key": false,
+			"_Name": "PurchaseRequisitionAddress_Nav"
+		},
+		{
+			"_Type": "Collection(PurchaseRequisitionDocType)",
+			"Key": false,
+			"_Name": "PurchaseRequisitionDocType_Nav"
+		},
+		{
+			"_Type": "PurchaseRequisitionHeader",
+			"Key": false,
+			"_Name": "PurchaseRequisitionHeader_Nav"
+		},
+		{
+			"_Type": "Collection(PurchaseRequisitionLongText)",
+			"Key": false,
+			"_Name": "PurchaseRequisitionLongText_Nav"
+		},
+		{
+			"_Type": "PurchaseRequisitionServMgmntHdr",
+			"Key": false,
+			"_Name": "PurchaseRequisitionServMgmntHdr_Nav"
+		},
+		{
+			"_Type": "PurchaseRequisitionSrvLimitHdr",
+			"Key": false,
+			"_Name": "PurchaseRequisitionSrvLimitHdr_Nav"
+		}
+	],
+	"_Name": "PurchaseRequisitionItem"
+}

@@ -1,0 +1,29 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"zPlanPlantSet"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "zPlanningPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zName1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zPlannerGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zPMPlGrpname"
+		}
+	],
+	"_Name": "zPlanPlant"
+}

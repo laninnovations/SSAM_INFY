@@ -1,0 +1,46 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"MyNotifHeaderLongTexts"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NewTextString"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextString"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextObjType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "NotificationNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextId"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MyNotificationHeader",
+			"Key": false,
+			"_Name": "Notification"
+		}
+	],
+	"_Name": "MyNotifHeaderLongText"
+}

@@ -1,0 +1,174 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/OnlineAssetManager.service",
+	"Collection": [
+		"InventoryObjects"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrderId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WBS"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Network"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CostCenter"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "CountDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StorageLocation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SupplyPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShipPoint"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LoadPoint"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ItemCount"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MovementType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectId"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "CrtDate"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "CrtDateFrom"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "CrtDateTo"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "DelvDate"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "DelvDateFrom"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "DelvDateTo"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "LoadDate"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "LoadDateFrom"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "LoadDateTo"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ObjectDate"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "PickDate"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "PickDateFrom"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "PickDateTo"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "RequirementDate"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "RequirementDateFrom"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "RequirementDateTo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "IMObject"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Vendor"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "GenericObjectId"
+		}
+	],
+	"_Name": "InventoryObject"
+}

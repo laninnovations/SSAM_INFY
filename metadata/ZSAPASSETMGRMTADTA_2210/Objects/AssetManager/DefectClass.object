@@ -1,0 +1,46 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"DefectClasses"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "QualityScore"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "DefectClass"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(InspectionCode)",
+			"Key": false,
+			"_Name": "InspCode_Nav"
+		},
+		{
+			"_Type": "Collection(InspectionCharacteristic)",
+			"Key": false,
+			"_Name": "InspectionChars_Nav"
+		},
+		{
+			"_Type": "Collection(MyNotificationItem)",
+			"Key": false,
+			"_Name": "NotifItems_Nav"
+		},
+		{
+			"_Type": "Collection(PMCatalogCode)",
+			"Key": false,
+			"_Name": "PMCatalogCode_Nav"
+		}
+	],
+	"_Name": "DefectClass"
+}

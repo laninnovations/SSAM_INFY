@@ -1,0 +1,91 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"Plants"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "InspPointValSelectedSet"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "InspPointValPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "InspPointValCodeGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "InspPointValCode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PlanningPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Division"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DistributionChannel"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SalesOrganization"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CompanyCode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ValuationArea"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PlantDescription"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Division",
+			"Key": false,
+			"_Name": "Division_Nav"
+		},
+		{
+			"_Type": "Collection(ReceivingPoint)",
+			"Key": false,
+			"_Name": "ReceivingPoint_Nav"
+		},
+		{
+			"_Type": "Collection(StorageLocation)",
+			"Key": false,
+			"_Name": "StorageLocations_Nav"
+		},
+		{
+			"_Type": "Collection(UserTrunkAssignment)",
+			"Key": false,
+			"_Name": "UserTrunkAssignment_Nav"
+		}
+	],
+	"_Name": "Plant"
+}

@@ -1,0 +1,41 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"ReceivingPoints"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "StorageLoc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ReceivingPoint"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SequenceNum"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Plant",
+			"Key": false,
+			"_Name": "Plant_Nav"
+		},
+		{
+			"_Type": "ShippingPoint",
+			"Key": false,
+			"_Name": "ShippingPoint_Nav"
+		}
+	],
+	"_Name": "ReceivingPoint"
+}

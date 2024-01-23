@@ -1,0 +1,96 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"InspectionCodes"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.Int32",
+			"Key": false,
+			"_Name": "QualityScore"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SelectedSet"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Catalog"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "CodeGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Code"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CodeDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CodeGroupDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DefectClass"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ValuationStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Version"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "DefectClass",
+			"Key": false,
+			"_Name": "DefectClass_Nav"
+		},
+		{
+			"_Type": "Collection(InspectionCharacteristic)",
+			"Key": false,
+			"_Name": "InspCharacteristics_Nav"
+		},
+		{
+			"_Type": "Collection(InspectionHistory)",
+			"Key": false,
+			"_Name": "InspHistories_Nav"
+		},
+		{
+			"_Type": "Collection(InspectionPoint)",
+			"Key": false,
+			"_Name": "InspPoints_Nav"
+		},
+		{
+			"_Type": "InspectionCatalogValuation",
+			"Key": false,
+			"_Name": "InspValuation_Nav"
+		},
+		{
+			"_Type": "Collection(InspectionLot)",
+			"Key": false,
+			"_Name": "InspectionLots_Nav"
+		}
+	],
+	"_Name": "InspectionCode"
+}

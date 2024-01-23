@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(fontawesome-webfont.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal
+}
+
+.large-font * {
+    font-size: 1.2rem !important;
+    line-height: 1.6rem !important;
+}
+
+.large-font .orbeon .pagination ul>li span .btn-link:hover {
+    margin-bottom: 0.3rem;
+    vertical-align: top;
+}
+
+.large-font .fd-form-label,
+.large-font .orbeon .xbl-fr-grid .fr-grid .xforms-label {
+    word-break: break-word;
+}
+
+.large-font .orbeon .xbl-fr-wizard .fr-wizard-toc .nav li {
+    padding-bottom: 1rem;
+}
+
+.large-font .orbeon .xforms-hint-appearance-full .xforms-hint,
+.large-font .orbeon .xforms-hint-appearance-inline .xforms-hint {
+    word-break: break-word;
+}
+
+.large-font .fa {
+    display: inline;
+}
+
+.large-font .orbeon .pagination ul>li span .btn-link {
+    margin-bottom: 0.4rem;
+    vertical-align: top;
+}
+
+.large-font .orbeon label.radio input[type="radio"],
+.large-font .orbeon label.checkbox input[type="radio"],
+.large-font .orbeon label.radio input[type="checkbox"],
+.large-font .orbeon label.checkbox input[type="checkbox"] {
+    margin-right: 0.2rem;
+}
+
+.large-font .orbeon .xforms-select1-appearance-full.xforms-select1-appearance-xxforms-horizontal .xforms-selected label,
+.large-font .orbeon .xforms-select-appearance-full.xforms-select-appearance-xxforms-horizontal .xforms-selected label,
+.large-font .orbeon .xforms-select1-appearance-xxforms-horizontal .xforms-select1-appearance-full .xforms-selected label,
+.large-font .orbeon .xforms-select-appearance-xxforms-horizontal .xforms-select-appearance-full .xforms-selected label,
+.large-font .orbeon .xforms-select1-appearance-full.xforms-select1-appearance-xxforms-horizontal .xforms-deselected label,
+.large-font .orbeon .xforms-select-appearance-full.xforms-select-appearance-xxforms-horizontal .xforms-deselected label,
+.large-font .orbeon .xforms-select1-appearance-xxforms-horizontal .xforms-select1-appearance-full .xforms-deselected label,
+.large-font .orbeon .xforms-select-appearance-xxforms-horizontal .xforms-select-appearance-full .xforms-deselected label {
+    width: 100%;
+}
+
+@media (max-width: 979px) and (min-width: 576px) {
+
+    .large-font .orbeon .fr-pdf-button .btn,
+    .large-font .orbeon .fr-summary-button .btn {
+        padding-right: 18px !important;
+        padding-left: 6px !important;
+        font-size: 0 !important;
+    }
+
+    .large-font .orbeon .fr-wizard-next-button .btn,
+    .large-font .orbeon .fr-wizard-prev-button .btn {
+        padding-right: 15px !important;
+        padding-left: 7px !important;
+        font-size: 0 !important;
+    }
+}
+
+.orbeon .xbl-fr-alert-dialog .xxforms-dialog-head {
+    background: linear-gradient(#f1f6f7, #e4dee1);
+}
+
+.orbeon .xbl-fr-alert-dialog .xbl-fr-alert-dialog-buttons {
+    text-align: right;
+}
+
+.orbeon-loader.loader.is-active {
+    background-color: rgb(0 0 0 / 25%);
+}
+
+.loader-default:after {
+    content: "";
+    position: fixed;
+    width: 48px;
+    height: 48px;
+    border: 8px solid #555;
+    border-left-color: transparent;
+    border-radius: 50%;
+    top: calc(50% - 24px);
+    left: calc(50% - 24px);
+    animation: rotation 1s linear infinite;
+}
+
+.orbeon .xbl-fr-alert-dialog .xbl-fr-alert-dialog-message {
+    padding: 10px 10px 0 10px;
+}
+
+.orbeon .xbl-fr-alert-dialog.xbl-fr-alert-dialog-info .xbl-fr-alert-dialog-message:before {
+    content: "\f05a";
+    font-family: "FontAwesome";
+    float: left;
+    height: 60px;
+    width: 50px;
+    font-size: 44px;
+    padding-top: 10px;
+    color: #666;
+}
+
+.orbeon .xxforms-dialog-body .fa-exclamation-circle:before {
+    content: "\e202";
+    font-size: 50px;
+}
+
+.orbeon .fr-dialog .xxforms-dialog-head {
+    background: linear-gradient(#f1f6f7, #e4dee1);
+}
+
+/* Hide Summary and PDF buttons in Offline */
+.orbeon .fr-pdf-button .btn,
+.orbeon .fr-summary-button .btn {
+    display: none;
+}
+
+/* arrows down and right for open/closed sections */
+.orbeon .xbl-fr-section .fr-section-title .fr-section-label.fr-section-open {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHAgMAAAC5PL9AAAAACVBMVEX///9oaGhqamq6E4KXAAAAAXRSTlMAQObYZgAAABdJREFUCB1jAIJVKxgkAxi4GhiYGCAAACDLAkj7GASRAAAAAElFTkSuQmCC");
+}
+.orbeon .xbl-fr-section .fr-section-title .fr-section-label.fr-section-closed {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAN0lEQVQImW3KsQ0AMAgDwQ/jwjzM6zQpiJOXKNAZSWSmJOEXnKpKWDEfHwTWHDzY3euLEy50ANg3qyA4f9LQpAAAAABJRU5ErkJggg==");
+}

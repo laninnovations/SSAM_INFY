@@ -1,0 +1,29 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"UserPersonas"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FlagDefault"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "UserGUID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "UserPersona"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PersonaType"
+		}
+	],
+	"_Name": "UserPersona"
+}

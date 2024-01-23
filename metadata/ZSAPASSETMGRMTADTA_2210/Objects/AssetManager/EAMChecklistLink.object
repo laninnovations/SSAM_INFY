@@ -1,0 +1,91 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"EAMChecklistLinks"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ChecklistType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ChecklistStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Deactivated"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FunctionalLocation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ChecklistID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Equipment"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrderId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OperationNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "InspectionLot"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MyEquipment",
+			"Key": false,
+			"_Name": "Equipment_Nav"
+		},
+		{
+			"_Type": "MyFunctionalLocation",
+			"Key": false,
+			"_Name": "FuncLoc_Nav"
+		},
+		{
+			"_Type": "Collection(InspectionCharacteristic)",
+			"Key": false,
+			"_Name": "InspectionChar_Nav"
+		},
+		{
+			"_Type": "InspectionLot",
+			"Key": false,
+			"_Name": "InspectionLot_Nav"
+		},
+		{
+			"_Type": "Collection(MyNotificationHeader)",
+			"Key": false,
+			"_Name": "MyNotifHeader_Nav"
+		},
+		{
+			"_Type": "MyWorkOrderHeader",
+			"Key": false,
+			"_Name": "MyWOHeader_Nav"
+		},
+		{
+			"_Type": "MyWorkOrderOperation",
+			"Key": false,
+			"_Name": "MyWOOperation_Nav"
+		}
+	],
+	"_Name": "EAMChecklistLink"
+}

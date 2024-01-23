@@ -1,0 +1,81 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"NotificationTypes"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EAMOverallStatusProfile"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PriorityType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CatTypeDefects"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CatalogProfile"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NotifCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CatTypeCauses"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CatTypeTasks"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CatTypeActivities"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CatTypeObjectParts"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CatTypeCoding"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrderType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "NotifType"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(NotifPartnerDetProc)",
+			"Key": false,
+			"_Name": "PartnerDetProc_Nav"
+		}
+	],
+	"_Name": "NotificationType"
+}

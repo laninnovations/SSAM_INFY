@@ -1,0 +1,44 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"ZEmailAttachmentSet"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ZComponentname"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ZSizedim"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ZProperty"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ZXSTRINGBody"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ZTitle"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ZBody"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ZRECIPIENT"
+		}
+	],
+	"_Name": "ZEmailAttachment"
+}

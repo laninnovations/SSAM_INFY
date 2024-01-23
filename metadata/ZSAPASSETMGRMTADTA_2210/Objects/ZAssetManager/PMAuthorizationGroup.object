@@ -1,0 +1,19 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"PMAuthorizationGroups"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AuthGroupText"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "AuthorizationGroup"
+		}
+	],
+	"_Name": "PMAuthorizationGroup"
+}

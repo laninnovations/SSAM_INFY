@@ -1,0 +1,9 @@
+{
+	"_Type": "Action.Type.Message",
+	"Message": "Location Capture failed on Update!",
+	"Title": "Location Capture",
+	"OKCaption": "OK",
+	"ActionResult": {
+		"_Name": "Updatefailedonnotificationchangelocationcapture"
+	}
+}

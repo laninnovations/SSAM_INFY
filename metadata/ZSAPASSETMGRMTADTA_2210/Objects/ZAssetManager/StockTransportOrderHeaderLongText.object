@@ -1,0 +1,46 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"StockTransportOrderHeaderLongTexts"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextObjType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "TextId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "StockTransportOrderId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NewTextString"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextString"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "StockTransportOrderHeader",
+			"Key": false,
+			"_Name": "StockTransportOrderHeader_Nav"
+		}
+	],
+	"_Name": "StockTransportOrderHeaderLongText"
+}

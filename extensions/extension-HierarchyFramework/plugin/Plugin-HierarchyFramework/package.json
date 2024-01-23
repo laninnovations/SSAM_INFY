@@ -1,0 +1,17 @@
+{
+  "name": "extension-HierarchyFramework",
+  "version": "2310.0.0",
+  "description": "A Hierarchy Control framework plugin for MDK",
+  "main": "index.js",
+   "nativescript": {
+      "platforms": {
+         "ios": "2310.0.0",
+         "android": "2310.0.0"
+      }
+   },
+  "scripts": {
+    "test": "test"
+  },
+  "author": "SAP",
+  "license": "ISC"
+}

@@ -1,0 +1,26 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"PRTCategories"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PRTCategoryDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PRTCategory"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(MyWorkOrderTool)",
+			"Key": false,
+			"_Name": "MyWorkOrderTools_Nav"
+		}
+	],
+	"_Name": "PRTCategory"
+}

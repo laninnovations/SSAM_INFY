@@ -1,0 +1,64 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"ZUserLists"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ZUserName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ZObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ZObjectID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ZWorkCenter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ZPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ZDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ZName1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ZPersonnelNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ZFullName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ZCreatedBy"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ZCreatedOn"
+		}
+	],
+	"_Name": "ZUserList"
+}

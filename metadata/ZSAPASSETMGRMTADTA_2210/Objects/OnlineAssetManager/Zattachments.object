@@ -1,0 +1,41 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/OnlineAssetManager.service",
+	"Collection": [
+		"Zattachmentses"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Zfilename"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Zfileproperty"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zfilecontent"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Zsend_mail"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ZUserName"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "ZemailAttachment",
+			"Key": false,
+			"_Name": "ZemailAttachment_Nav"
+		}
+	],
+	"_Name": "Zattachments"
+}

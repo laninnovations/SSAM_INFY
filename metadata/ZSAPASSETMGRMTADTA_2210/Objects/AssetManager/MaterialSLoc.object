@@ -1,0 +1,66 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"MaterialSLocs"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "TransferSlocQuantity"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "UnrestrictedQuantity"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "OnOrderQuantity"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StorageLocationDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StorageBin"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BatchIndicator"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "StorageLocation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MaterialNum"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Material",
+			"Key": false,
+			"_Name": "Material"
+		},
+		{
+			"_Type": "MaterialPlant",
+			"Key": false,
+			"_Name": "MaterialPlant"
+		}
+	],
+	"_Name": "MaterialSLoc"
+}

@@ -1,0 +1,30 @@
+{
+	"_Type": "Action.Type.ODataService.CreateEntity",
+	"ActionResult": {
+		"_Name": "MDGFunctionalupdate"
+	},
+	"OnFailure": "/ZSAPASSETMGRMTADTA_2210/Actions/CreateFunctionalLOcationEntityFailureMessage.action",
+	"OnSuccess": "/ZSAPASSETMGRMTADTA_2210/Actions/MDG/ChangeFuncLocationSuccessMessage.action",
+	"RequiredFields": [
+        "MDGCRType",
+        "Description",
+        "FL",
+        "ManufacturerOfAsset",
+        "ManufacturerSerialNo",
+		"ManufacturerModelNo",
+        "ManufacturerPartNo"
+    ],
+	"Target": {
+		"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+		"EntitySet": "ZFuncLocationMDGSet"
+	},
+	"Properties": {
+		"Zcrequest": "#Page:MDGCRUpdation/#Control:MDGCRType/#Value",
+		"Zcrdesc": "#Page:MDGCRUpdation/#Control:Description/#Value",
+		"zFunctionalloc": "#Page:MDGCRUpdation/#Control:FL/#Value",
+		"zManufacturer": "#Page:MDGCRUpdation/#Control:ManufacturerOfAsset/#Value",
+		"zManufSerialNr": "#Page:MDGCRUpdation/#Control:ManufacturerSerialNo/#Value",
+		"zModelnumber": "#Page:MDGCRUpdation/#Control:ManufacturerModelNo/#Value",
+		"zManufPartNo": "#Page:MDGCRUpdation/#Control:ManufacturerPartNo/#Value"
+	}
+}

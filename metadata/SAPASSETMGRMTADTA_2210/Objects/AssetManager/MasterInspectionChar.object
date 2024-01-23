@@ -1,0 +1,166 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"MasterInspectionChars"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CharId"
+		},
+		{
+			"_Type": "Edm.Double",
+			"Key": false,
+			"_Name": "TargetValue"
+		},
+		{
+			"_Type": "Edm.Int16",
+			"Key": false,
+			"_Name": "DecimalPlaces"
+		},
+		{
+			"_Type": "Edm.Double",
+			"Key": false,
+			"_Name": "UpperLimit"
+		},
+		{
+			"_Type": "Edm.Double",
+			"Key": false,
+			"_Name": "LowerLimit"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UpperLimitFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LowerLimitFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CharCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CalculatedCharFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CharAttributeFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "QuantitativeFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DefectRecordingFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "InspectionScope"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LongTermInspFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ScrapShareFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SortField"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TargetValueFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DefectCodeGroupLowerLimit"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DefectCodeLowerLimit"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DefectCodeGroupUpperLimit"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SampleProcReqFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RecordingType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DefectCodeUpperLimit"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MasterInspCharPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UoM"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MasterInspChar"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MasterInspCharVersion"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(InspectionHistory)",
+			"Key": false,
+			"_Name": "InspHistory_Nav"
+		},
+		{
+			"_Type": "Collection(InspectionCharacteristic)",
+			"Key": false,
+			"_Name": "InspectionChar_Nav"
+		},
+		{
+			"_Type": "Collection(MasterInspCharLongText)",
+			"Key": false,
+			"_Name": "LongText_Nav"
+		}
+	],
+	"_Name": "MasterInspectionChar"
+}

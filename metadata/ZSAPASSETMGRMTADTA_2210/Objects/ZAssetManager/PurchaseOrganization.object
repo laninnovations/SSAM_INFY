@@ -1,0 +1,24 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"PurchaseOrganizations"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PurchasingOrgDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PurchasingOrg"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "CompanyCode"
+		}
+	],
+	"_Name": "PurchaseOrganization"
+}

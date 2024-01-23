@@ -1,0 +1,136 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"MyWorkOrderObjectLists"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectListNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectListCounter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FuncLocIdIntern"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LocAssignment"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectListUsage"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ProcessingInd"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SerialNumTable"
+		},
+		{
+			"_Type": "Edm.Int32",
+			"Key": false,
+			"_Name": "ObjectCounter"
+		},
+		{
+			"_Type": "Edm.Int64",
+			"Key": false,
+			"_Name": "ObjectNum"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "Date"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EquipId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "OrderId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MaterialNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "OperationNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Assembly"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NotifNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SerialNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SubOperationNo"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MyEquipment",
+			"Key": false,
+			"_Name": "Equipment_Nav"
+		},
+		{
+			"_Type": "MyFunctionalLocation",
+			"Key": false,
+			"_Name": "FuncLoc_Nav"
+		},
+		{
+			"_Type": "Material",
+			"Key": false,
+			"_Name": "Material_Nav"
+		},
+		{
+			"_Type": "MyNotificationHeader",
+			"Key": false,
+			"_Name": "NotifHeader_Nav"
+		},
+		{
+			"_Type": "MyWorkOrderHeader",
+			"Key": false,
+			"_Name": "WOHeader_Nav"
+		},
+		{
+			"_Type": "MyWorkOrderOperation",
+			"Key": false,
+			"_Name": "WOOperation_Nav"
+		},
+		{
+			"_Type": "MyWorkOrderSubOperation",
+			"Key": false,
+			"_Name": "WOSubOperation_Nav"
+		}
+	],
+	"_Name": "MyWorkOrderObjectList"
+}

@@ -1,0 +1,112 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.FormCellContainer",
+			"_Name": "FormCellContainer0",
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Value": "ZFUNCL02",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "MDGCRType",
+							"IsEditable": false,
+							"IsVisible": true,
+							"Caption": "MDG CR Type",
+							"Enabled": false
+						},
+						{
+							"MaxNumberOfLines": 3,
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "Description",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "MDG CR Description",
+							"PlaceHolder": "MDG CR Description",
+							"Enabled": true
+						},
+						{
+							"Value": "{FuncLocId}",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "FL",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Functional Location",
+							"PlaceHolder": "Functional Location",
+							"Enabled": false
+						},
+						{
+							"Value": "{Manufacturer}",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "ManufacturerOfAsset",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Manufacturer of Asset",
+							"PlaceHolder": "Manufacturer of Asset",
+							"Enabled": true
+						},
+						{
+							"Value": "{SerialNumber}",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "ManufacturerSerialNo",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Manufacturer Serial No",
+							"PlaceHolder": "Manufacturer Serial No",
+							"Enabled": true
+						},
+						{
+							"Value": "{ModelNumber}",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "ManufacturerModelNo",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Manufacturer Model No",
+							"PlaceHolder": "Manufacturer Model No",
+							"Enabled": true
+						},
+						{
+							"Value": "{PartNumber}",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "ManufacturerPartNo",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Manufacturer Part No",
+							"PlaceHolder": "Manufacturer Part No",
+							"Enabled": true
+						}
+					],
+					"Visible": true
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "MDGCRUpdation",
+	"Caption": "MDG CR Update - Functional Location",
+	"ActionBar": {
+		"Items": [
+			{
+				"Text": "",
+				"_Name": "ActionBarItem0",
+				"Caption": "Item",
+				"SystemItem": "Cancel",
+				"Position": "Left",
+				"IsIconCircular": false,
+				"Visible": true,
+				"OnPress": "/ZSAPASSETMGRMTADTA_2210/Actions/ClosePage.action"
+			},
+			{
+				"Text": "",
+				"_Name": "ActionBarItem1",
+				"Caption": "Item",
+				"SystemItem": "Save",
+				"Position": "Right",
+				"IsIconCircular": false,
+				"Visible": true,
+				"OnPress": "/ZSAPASSETMGRMTADTA_2210/Rules/UpdateFunctionalLocation.js"
+			}
+		],
+		"_Name": "ActionBar1"
+	}
+}

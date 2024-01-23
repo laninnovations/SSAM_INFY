@@ -1,0 +1,71 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"Priorities"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FinalDueDateDuration"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EndDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StartDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LanguageKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PriorityDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Priority"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PriorityType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FinalDueDateUoM"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(MyNotificationHeader)",
+			"Key": false,
+			"_Name": "NotificationHeaders"
+		},
+		{
+			"_Type": "Collection(NotificationHistory)",
+			"Key": false,
+			"_Name": "NotificationHistories_Nav"
+		},
+		{
+			"_Type": "Collection(MyWorkOrderHeader)",
+			"Key": false,
+			"_Name": "WorkOrderHeaders"
+		},
+		{
+			"_Type": "Collection(WorkOrderHistory)",
+			"Key": false,
+			"_Name": "WorkOrderHistories"
+		}
+	],
+	"_Name": "Priority"
+}

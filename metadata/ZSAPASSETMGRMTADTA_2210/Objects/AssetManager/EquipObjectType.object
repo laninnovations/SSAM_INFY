@@ -1,0 +1,26 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"EquipObjectTypes"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectTypeDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectType"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(MyEquipment)",
+			"Key": false,
+			"_Name": "MyEquipments_Nav"
+		}
+	],
+	"_Name": "EquipObjectType"
+}

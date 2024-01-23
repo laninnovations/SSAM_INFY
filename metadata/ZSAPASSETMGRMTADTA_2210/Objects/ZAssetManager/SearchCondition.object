@@ -1,0 +1,56 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"SearchConditions"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Name"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Sign"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "High"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Low"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Option"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Active"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "UserGuid"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "RecordNum"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "SearchType",
+			"Key": false,
+			"_Name": "SearchType_Nav"
+		}
+	],
+	"_Name": "SearchCondition"
+}

@@ -1,0 +1,86 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"MyFuncLocPartners"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PersonnelNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Counter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "FuncLocIdIntern"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AddressNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BPNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PartnerNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PersonNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PartnerFunction"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "AddressAtWork",
+			"Key": false,
+			"_Name": "AddressAtWork_Nav"
+		},
+		{
+			"_Type": "Address",
+			"Key": false,
+			"_Name": "Address_Nav"
+		},
+		{
+			"_Type": "Employee",
+			"Key": false,
+			"_Name": "Employee_Nav"
+		},
+		{
+			"_Type": "MyFunctionalLocation",
+			"Key": false,
+			"_Name": "FunctionalLocation"
+		},
+		{
+			"_Type": "PartnerFunction",
+			"Key": false,
+			"_Name": "PartnerFunction_Nav"
+		}
+	],
+	"_Name": "MyFuncLocPartner"
+}

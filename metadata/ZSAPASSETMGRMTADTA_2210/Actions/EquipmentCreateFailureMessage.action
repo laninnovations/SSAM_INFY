@@ -1,0 +1,9 @@
+{
+	"_Type": "Action.Type.Message",
+	"Message": "Equipment Creation failed",
+	"Title": "Create Equipment",
+	"OKCaption": "OK",
+	"ActionResult": {
+		"_Name": "EquipmentCreateFailureMessage"
+	}
+}

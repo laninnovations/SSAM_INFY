@@ -1,0 +1,516 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"MyEquipments"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ConstYear"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ConstMonth"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CopyDocuments"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CopyPartners"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CopyMeasuringPoints"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CopyInstallLocation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CopyNote"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UpdateEquip"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CopyClassification"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CopyClassificationValues"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CopyEquipId"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ValidDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BoMFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CRObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LAMObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LAMTableKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LongTextIndicator"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MaintPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PMObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CatalogProfile"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "DismantleTime"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "InstallTime"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PRTFlag"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "DismantleDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DismantleFuncLocIdIntern"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FuncLocIdIntern"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "InstallDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "InstallPosition"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BusinessArea"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ConfigFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ControllingArea"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EquipCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EquipDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EquipFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EquipType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FuncLocId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ISUFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "InventoryNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Location"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MaintWorkCenter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ManufCountry"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ManufPartNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ManufSerialNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Manufacturer"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ModelNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjAuthGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PlannerGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PlanningPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PlantSection"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Room"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SerialNoFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Size"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "StartDate"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "Weight"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WorkCenter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "EquipId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AddressNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CostCenter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DismantleEquip"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Language"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PrimaryLanguage"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SuperiorEquip"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "VendorNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TechnicalID"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Address",
+			"Key": false,
+			"_Name": "Address"
+		},
+		{
+			"_Type": "Collection(MyEquipClassCharValue)",
+			"Key": false,
+			"_Name": "ClassCharValues"
+		},
+		{
+			"_Type": "Collection(MyEquipClass)",
+			"Key": false,
+			"_Name": "Classes"
+		},
+		{
+			"_Type": "Collection(EAMChecklistLink)",
+			"Key": false,
+			"_Name": "EAMChecklist_Nav"
+		},
+		{
+			"_Type": "Collection(EquipmentBOM)",
+			"Key": false,
+			"_Name": "EquiBOMs_Nav"
+		},
+		{
+			"_Type": "Collection(MyEquipDocument)",
+			"Key": false,
+			"_Name": "EquipDocuments"
+		},
+		{
+			"_Type": "Collection(ObjectFormCategory)",
+			"Key": false,
+			"_Name": "EquipFormCategories_Nav"
+		},
+		{
+			"_Type": "Collection(MyEquipGeometry)",
+			"Key": false,
+			"_Name": "EquipGeometries"
+		},
+		{
+			"_Type": "EquipObjectType",
+			"Key": false,
+			"_Name": "EquipObjectType_Nav"
+		},
+		{
+			"_Type": "EquipmentCategory",
+			"Key": false,
+			"_Name": "EquipmentCategory_Nav"
+		},
+		{
+			"_Type": "Collection(MyEquipLongText)",
+			"Key": false,
+			"_Name": "EquipmentLongText_Nav"
+		},
+		{
+			"_Type": "MyFunctionalLocation",
+			"Key": false,
+			"_Name": "FunctionalLocation"
+		},
+		{
+			"_Type": "Collection(Geometry)",
+			"Key": false,
+			"_Name": "Geometry_Nav"
+		},
+		{
+			"_Type": "Collection(InspectionPoint)",
+			"Key": false,
+			"_Name": "InspectionPoints_Nav"
+		},
+		{
+			"_Type": "LAMObjectDatum",
+			"Key": false,
+			"_Name": "LAMObjectDatum_Nav"
+		},
+		{
+			"_Type": "Location",
+			"Key": false,
+			"_Name": "Location_Nav"
+		},
+		{
+			"_Type": "Collection(MeasuringPoint)",
+			"Key": false,
+			"_Name": "MeasuringPoints"
+		},
+		{
+			"_Type": "Collection(NotificationHistory)",
+			"Key": false,
+			"_Name": "NotifHistory_Nav"
+		},
+		{
+			"_Type": "Collection(MyNotificationHeader)",
+			"Key": false,
+			"_Name": "NotificationHeader"
+		},
+		{
+			"_Type": "Collection(MyNotificationItem)",
+			"Key": false,
+			"_Name": "NotificationItem"
+		},
+		{
+			"_Type": "MyEquipObjectStatus",
+			"Key": false,
+			"_Name": "ObjectStatus_Nav"
+		},
+		{
+			"_Type": "Collection(MyEquipPartner)",
+			"Key": false,
+			"_Name": "Partners"
+		},
+		{
+			"_Type": "Collection(WorkOrderHistory)",
+			"Key": false,
+			"_Name": "RelatedWOHistory"
+		},
+		{
+			"_Type": "Collection(MyRouteStop)",
+			"Key": false,
+			"_Name": "RouteStops"
+		},
+		{
+			"_Type": "Collection(MyTechObject)",
+			"Key": false,
+			"_Name": "RouteTechObjects"
+		},
+		{
+			"_Type": "MyEquipSerialNumber",
+			"Key": false,
+			"_Name": "SerialNumber"
+		},
+		{
+			"_Type": "Collection(MyEquipSystemStatus)",
+			"Key": false,
+			"_Name": "SystemStatuses_Nav"
+		},
+		{
+			"_Type": "Collection(MyEquipUserStatus)",
+			"Key": false,
+			"_Name": "UserStatuses_Nav"
+		},
+		{
+			"_Type": "Collection(MyWorkOrderObjectList)",
+			"Key": false,
+			"_Name": "WOObjectList_Nav"
+		},
+		{
+			"_Type": "Collection(MyEquipWarranty)",
+			"Key": false,
+			"_Name": "Warranties"
+		},
+		{
+			"_Type": "WorkCenter",
+			"Key": false,
+			"_Name": "WorkCenter_Main_Nav"
+		},
+		{
+			"_Type": "WorkCenter",
+			"Key": false,
+			"_Name": "WorkCenter_Nav"
+		},
+		{
+			"_Type": "Collection(MyWorkOrderHeader)",
+			"Key": false,
+			"_Name": "WorkOrderHeader"
+		},
+		{
+			"_Type": "Collection(MyWorkOrderOperation)",
+			"Key": false,
+			"_Name": "WorkOrderOperation"
+		},
+		{
+			"_Type": "Collection(MyWorkOrderSubOperation)",
+			"Key": false,
+			"_Name": "WorkOrderSubOperation"
+		},
+		{
+			"_Type": "Collection(MyWorkOrderTool)",
+			"Key": false,
+			"_Name": "WorkOrderTool"
+		}
+	],
+	"_Name": "MyEquipment"
+}

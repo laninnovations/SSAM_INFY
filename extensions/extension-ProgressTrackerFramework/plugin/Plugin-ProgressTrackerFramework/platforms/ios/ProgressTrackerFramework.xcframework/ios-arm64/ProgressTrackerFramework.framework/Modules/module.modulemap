@@ -1,0 +1,4 @@
+framework module ProgressTrackerFramework {
+  header "ProgressTrackerFramework-Swift.h"
+  requires objc
+}

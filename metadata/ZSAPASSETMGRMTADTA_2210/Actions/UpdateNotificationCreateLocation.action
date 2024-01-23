@@ -1,0 +1,24 @@
+{
+	"_Type": "Action.Type.ODataService.CreateEntity",
+	"ActionResult": {
+		"_Name": "UpdateNotificationCreateLocation"
+	},
+	"OnFailure": "/ZSAPASSETMGRMTADTA_2210/Actions/Updatefailedonnotificationchangelocationcapture.action",
+	"Target": {
+		"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+		"EntitySet": "ZIJC_LOCATIONS"
+	},
+	"Properties": {
+		"ZCostCenter": "/ZSAPASSETMGRMTADTA_2210/Rules/GetCostCenter.js",
+		"ZObjectType": "NT",
+		"ZObjectkey": "/ZSAPASSETMGRMTADTA_2210/Rules/GetLocalNotifNumber.js",
+		"ZTransactionMode": "CR",
+		"ZLongitudeDegree": "/ZSAPASSETMGRMTADTA_2210/Rules/GetLongitude.js",
+		"ZLatitudeDegree": "/ZSAPASSETMGRMTADTA_2210/Rules/GetLatitude.js",
+		"ZMaintPlant": "{MainWorkCenterPlant}",
+		"ZWorkCenter": "{MainWorkCenter}",
+		"ZPlanningPlant": "{PlanningPlant}",
+		"ZPlannerGroup": "/ZSAPASSETMGRMTADTA_2210/Rules/GetPlannerGroup.js",
+		"ZMobileObjectStatus": "LOCAL"
+	}
+}

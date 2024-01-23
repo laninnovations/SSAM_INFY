@@ -1,0 +1,44 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"ProductStatistics"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "STATSCATEGORY"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "STATSNAME"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "VALUEDAYTOTAL"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SYSTEMINSTANCE"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PRODUCTIONSYSTEM"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PRODUCTNAME"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "STATSDATE"
+		}
+	],
+	"_Name": "ProductStatistic"
+}

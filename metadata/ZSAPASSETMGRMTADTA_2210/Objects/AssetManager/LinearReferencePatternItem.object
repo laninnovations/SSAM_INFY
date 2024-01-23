@@ -1,0 +1,49 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"LinearReferencePatternItems"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MarkerType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TechnicalObject"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StartPoint"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Length"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "LRPId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Marker"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UOM"
+		}
+	],
+	"_Name": "LinearReferencePatternItem"
+}

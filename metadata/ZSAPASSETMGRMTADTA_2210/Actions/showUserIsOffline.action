@@ -1,0 +1,12 @@
+{
+	"_Type": "Action.Type.Message",
+	"ActionResult": {
+		"_Name": "showUserIsOffline"
+	},
+	"Message": "Please connect to a network to send email to support team for the issue.",
+	"Title": "Device Offline",
+	"OKCaption": "Ok",
+	"OnOK": "/ZSAPASSETMGRMTADTA_2210/Actions/ClosePage.action",
+	"CancelCaption": "Cancel",
+	"OnCancel": "/ZSAPASSETMGRMTADTA_2210/Actions/ClosePage.action"
+}

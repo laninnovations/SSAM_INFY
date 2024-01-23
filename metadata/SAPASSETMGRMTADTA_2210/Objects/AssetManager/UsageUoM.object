@@ -1,0 +1,39 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"UsageUoMs"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.Int32",
+			"Key": false,
+			"_Name": "Denominator"
+		},
+		{
+			"_Type": "Edm.Int32",
+			"Key": false,
+			"_Name": "Numerator"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ExternalUoM"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Dimension"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "UoM"
+		}
+	],
+	"_Name": "UsageUoM"
+}

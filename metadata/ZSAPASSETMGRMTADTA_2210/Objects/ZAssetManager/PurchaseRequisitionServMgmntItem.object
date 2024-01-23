@@ -1,0 +1,66 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"PurchaseRequisitionServMgmntItems"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "InternalLineNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ExternalLineNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ServiceAssgt"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SubPackageNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ServiceType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ExtServNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Activitynumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PackageNo"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "Quantity"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "NetValue"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "PurchaseRequisitionServMgmntHdr",
+			"Key": false,
+			"_Name": "PurchaseRequisitionServMgmntHdr_Nav"
+		}
+	],
+	"_Name": "PurchaseRequisitionServMgmntItem"
+}

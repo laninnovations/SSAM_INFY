@@ -1,0 +1,11 @@
+framework module QuickActionBarFramework {
+  umbrella header "QuickActionBarFramework.h"
+  export *
+
+  module * { export * }
+}
+
+module QuickActionBarFramework.Swift {
+  header "QuickActionBarFramework-Swift.h"
+  requires objc
+}

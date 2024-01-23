@@ -1,0 +1,31 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"FileExtensions"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Extension"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Type"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(Document)",
+			"Key": false,
+			"_Name": "Document_Nav"
+		}
+	],
+	"_Name": "FileExtension"
+}

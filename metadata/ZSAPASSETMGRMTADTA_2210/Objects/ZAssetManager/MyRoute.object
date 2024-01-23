@@ -1,0 +1,46 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"MyRoutes"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ReferenceType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Status"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ReferenceID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "RouteID"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(MyRouteStop)",
+			"Key": false,
+			"_Name": "Stops"
+		},
+		{
+			"_Type": "MyWorkOrderHeader",
+			"Key": false,
+			"_Name": "WorkOrder"
+		}
+	],
+	"_Name": "MyRoute"
+}

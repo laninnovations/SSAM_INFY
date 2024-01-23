@@ -1,0 +1,29 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"ProductionOrderSerials"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "OrderID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ItemNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SerialNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "UII"
+		}
+	],
+	"_Name": "ProductionOrderSerial"
+}

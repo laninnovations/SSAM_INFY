@@ -1,0 +1,26 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"InspectionResultValuations"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortText"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Valuation"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(InspectionCharacteristic)",
+			"Key": false,
+			"_Name": "InspectionChars_Nav"
+		}
+	],
+	"_Name": "InspectionResultValuation"
+}

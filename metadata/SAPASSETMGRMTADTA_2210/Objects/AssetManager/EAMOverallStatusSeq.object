@@ -1,0 +1,66 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"EAMOverallStatusSeqs"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "UserPersona"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EAMNextOverallStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EAMOverallStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CannotBeSkipped"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "IsMandatory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "EAMOverallStatusProfile"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "RoleType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "FromStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ToStatus"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "EAMOverallStatusConfig",
+			"Key": false,
+			"_Name": "NextOverallStatusCfg_Nav"
+		},
+		{
+			"_Type": "EAMOverallStatusConfig",
+			"Key": false,
+			"_Name": "OverallStatusCfg_Nav"
+		}
+	],
+	"_Name": "EAMOverallStatusSeq"
+}

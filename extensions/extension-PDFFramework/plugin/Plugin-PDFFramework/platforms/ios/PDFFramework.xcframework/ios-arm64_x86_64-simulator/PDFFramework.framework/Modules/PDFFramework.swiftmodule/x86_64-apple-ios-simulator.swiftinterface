@@ -1,0 +1,48 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target x86_64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PDFFramework
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import PDFFramework
+import PDFKit
+import Swift
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum CallBackType : Foundation.NSString {
+  case Create
+  case Save
+  case Share
+  case None
+  public init?(rawValue: Foundation.NSString)
+  public typealias RawValue = Foundation.NSString
+  public var rawValue: Foundation.NSString {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc(PDFManager) open class PDFManager : ObjectiveC.NSObject {
+  public var pdfController: PDFFramework.HTMLToPDFViewController?
+  @objc open func create(delegate: PDFFramework.PDFDelegate) -> UIKit.UIViewController?
+  @objc open func callback(dictionary: Foundation.NSDictionary, type: Foundation.NSString)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class HTMLToPDFViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public var webview: WebKit.WKWebView
+  @_Concurrency.MainActor(unsafe) public var pdfView: PDFKit.PDFView
+  @_Concurrency.MainActor(unsafe) public func generatePDF(businessObject: Swift.String, htmlTemplate: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public func savePDF(at path: Foundation.URL, with fileName: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func sharePDF()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension PDFFramework.HTMLToPDFViewController : WebKit.WKNavigationDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+}
+extension PDFFramework.CallBackType : Swift.Equatable {}
+extension PDFFramework.CallBackType : Swift.Hashable {}
+extension PDFFramework.CallBackType : Swift.RawRepresentable {}

@@ -1,0 +1,3351 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HierarchyFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HierarchyFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SAPFiori",
+        "printedName": "SAPFiori",
+        "declKind": "Import",
+        "moduleName": "HierarchyFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "SAPMDC",
+        "printedName": "SAPMDC",
+        "declKind": "Import",
+        "moduleName": "HierarchyFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HierarchyListPickerViewController",
+        "printedName": "HierarchyListPickerViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "updateReturnValues",
+            "printedName": "updateReturnValues(using:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18HierarchyFramework0A24ListPickerViewControllerC18updateReturnValues5usingySaySiG_tF",
+            "mangledName": "$s18HierarchyFramework0A24ListPickerViewControllerC18updateReturnValues5usingySaySiG_tF",
+            "moduleName": "HierarchyFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HierarchyListPickerViewController",
+                "printedName": "HierarchyFramework.HierarchyListPickerViewController",
+                "usr": "c:@M@HierarchyFramework@objc(cs)HierarchyListPickerViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HierarchyFramework@objc(cs)HierarchyListPickerViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s18HierarchyFramework0A24ListPickerViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "HierarchyFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "HierarchyFramework.HierarchyListPickerViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HierarchyListPickerViewController",
+                    "printedName": "HierarchyFramework.HierarchyListPickerViewController",
+                    "usr": "c:@M@HierarchyFramework@objc(cs)HierarchyListPickerViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HierarchyFramework@objc(cs)HierarchyListPickerViewController(im)initWithCoder:",
+            "mangledName": "$s18HierarchyFramework0A24ListPickerViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "HierarchyFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "registerTo",
+            "printedName": "registerTo(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18HierarchyFramework0A24ListPickerViewControllerC10registerToyySo07UITableE0CF",
+            "mangledName": "$s18HierarchyFramework0A24ListPickerViewControllerC10registerToyySo07UITableE0CF",
+            "moduleName": "HierarchyFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dequeueReusableCell",
+            "printedName": "dequeueReusableCell(for:atIndexPath:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UITableViewCell",
+                "printedName": "UIKit.UITableViewCell",
+                "usr": "c:objc(cs)UITableViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18HierarchyFramework0A24ListPickerViewControllerC19dequeueReusableCell3for11atIndexPathSo07UITableeI0CSo0nE0C_10Foundation0lM0VtF",
+            "mangledName": "$s18HierarchyFramework0A24ListPickerViewControllerC19dequeueReusableCell3for11atIndexPathSo07UITableeI0CSo0nE0C_10Foundation0lM0VtF",
+            "moduleName": "HierarchyFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@HierarchyFramework@objc(cs)HierarchyListPickerViewController",
+        "mangledName": "$s18HierarchyFramework0A24ListPickerViewControllerC",
+        "moduleName": "HierarchyFramework",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@SAPFiori@objc(cs)FUIHierarchyViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "SAPFiori.FUIHierarchyViewController",
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ExtensionFormCell",
+            "printedName": "ExtensionFormCell",
+            "usr": "s:6SAPMDC17ExtensionFormCellP",
+            "mangledName": "$s6SAPMDC17ExtensionFormCellP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "FUIHierarchyViewDataSource",
+            "printedName": "FUIHierarchyViewDataSource",
+            "usr": "s:8SAPFiori26FUIHierarchyViewDataSourceP",
+            "mangledName": "$s8SAPFiori26FUIHierarchyViewDataSourceP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "FUIHierarchyViewDelegate",
+            "printedName": "FUIHierarchyViewDelegate",
+            "usr": "c:@M@SAPFiori@objc(pl)FUIHierarchyViewDelegate",
+            "mangledName": "$s8SAPFiori24FUIHierarchyViewDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HierarchyFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HierarchyFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SAPFiori",
+        "printedName": "SAPFiori",
+        "declKind": "Import",
+        "moduleName": "HierarchyFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HierarchyFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HierarchyFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SAPFiori",
+        "printedName": "SAPFiori",
+        "declKind": "Import",
+        "moduleName": "HierarchyFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HCVDelegate",
+        "printedName": "HCVDelegate",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "hvc",
+            "printedName": "hvc",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "HierarchyFramework.HierarchyViewController?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18HierarchyFramework11HCVDelegateC3hvcAA0A14ViewControllerCSgvp",
+            "mangledName": "$s18HierarchyFramework11HCVDelegateC3hvcAA0A14ViewControllerCSgvp",
+            "moduleName": "HierarchyFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "HierarchyFramework.HierarchyViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HierarchyViewController",
+                        "printedName": "HierarchyFramework.HierarchyViewController",
+                        "usr": "c:@M@HierarchyFramework@objc(cs)HierarchyViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18HierarchyFramework11HCVDelegateC3hvcAA0A14ViewControllerCSgvg",
+                "mangledName": "$s18HierarchyFramework11HCVDelegateC3hvcAA0A14ViewControllerCSgvg",
+                "moduleName": "HierarchyFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "HierarchyFramework.HierarchyViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HierarchyViewController",
+                        "printedName": "HierarchyFramework.HierarchyViewController",
+                        "usr": "c:@M@HierarchyFramework@objc(cs)HierarchyViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18HierarchyFramework11HCVDelegateC3hvcAA0A14ViewControllerCSgvs",
+                "mangledName": "$s18HierarchyFramework11HCVDelegateC3hvcAA0A14ViewControllerCSgvs",
+                "moduleName": "HierarchyFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18HierarchyFramework11HCVDelegateC3hvcAA0A14ViewControllerCSgvM",
+                "mangledName": "$s18HierarchyFramework11HCVDelegateC3hvcAA0A14ViewControllerCSgvM",
+                "moduleName": "HierarchyFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hierarchyView",
+            "printedName": "hierarchyView(_:didSelectItemWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FUIHierarchyView",
+                "printedName": "SAPFiori.FUIHierarchyView",
+                "usr": "c:@M@SAPFiori@objc(cs)FUIHierarchyView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18HierarchyFramework11HCVDelegateC13hierarchyView_17didSelectItemWithy8SAPFiori012FUIHierarchyE0C_SStF",
+            "mangledName": "$s18HierarchyFramework11HCVDelegateC13hierarchyView_17didSelectItemWithy8SAPFiori012FUIHierarchyE0C_SStF",
+            "moduleName": "HierarchyFramework",
+            "objc_name": "hierarchyView:didSelectItemWith:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hierarchyView",
+            "printedName": "hierarchyView(_:hierarchyButtonTappedForItemWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FUIHierarchyView",
+                "printedName": "SAPFiori.FUIHierarchyView",
+                "usr": "c:@M@SAPFiori@objc(cs)FUIHierarchyView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18HierarchyFramework11HCVDelegateC13hierarchyView_0D23ButtonTappedForItemWithy8SAPFiori012FUIHierarchyE0C_SStF",
+            "mangledName": "$s18HierarchyFramework11HCVDelegateC13hierarchyView_0D23ButtonTappedForItemWithy8SAPFiori012FUIHierarchyE0C_SStF",
+            "moduleName": "HierarchyFramework",
+            "objc_name": "hierarchyView:hierarchyButtonTappedForItemWith:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18HierarchyFramework11HCVDelegateC",
+        "mangledName": "$s18HierarchyFramework11HCVDelegateC",
+        "moduleName": "HierarchyFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "FUIHierarchyViewDelegate",
+            "printedName": "FUIHierarchyViewDelegate",
+            "usr": "c:@M@SAPFiori@objc(pl)FUIHierarchyViewDelegate",
+            "mangledName": "$s8SAPFiori24FUIHierarchyViewDelegateP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HierarchyFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SAPFiori",
+        "printedName": "SAPFiori",
+        "declKind": "Import",
+        "moduleName": "HierarchyFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "SAPFiori",
+        "printedName": "SAPFiori",
+        "declKind": "Import",
+        "moduleName": "HierarchyFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HierarchyFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HierarchyViewController",
+        "printedName": "HierarchyViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "selectedItem",
+            "printedName": "selectedItem",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18HierarchyFramework0A14ViewControllerC12selectedItemSSSgvp",
+            "mangledName": "$s18HierarchyFramework0A14ViewControllerC12selectedItemSSSgvp",
+            "moduleName": "HierarchyFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18HierarchyFramework0A14ViewControllerC12selectedItemSSSgvg",
+                "mangledName": "$s18HierarchyFramework0A14ViewControllerC12selectedItemSSSgvg",
+                "moduleName": "HierarchyFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18HierarchyFramework0A14ViewControllerC12selectedItemSSSgvs",
+                "mangledName": "$s18HierarchyFramework0A14ViewControllerC12selectedItemSSSgvs",
+                "moduleName": "HierarchyFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18HierarchyFramework0A14ViewControllerC12selectedItemSSSgvM",
+                "mangledName": "$s18HierarchyFramework0A14ViewControllerC12selectedItemSSSgvM",
+                "moduleName": "HierarchyFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "reload",
+            "printedName": "reload",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18HierarchyFramework0A14ViewControllerC6reloadSbvp",
+            "mangledName": "$s18HierarchyFramework0A14ViewControllerC6reloadSbvp",
+            "moduleName": "HierarchyFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18HierarchyFramework0A14ViewControllerC6reloadSbvg",
+                "mangledName": "$s18HierarchyFramework0A14ViewControllerC6reloadSbvg",
+                "moduleName": "HierarchyFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18HierarchyFramework0A14ViewControllerC6reloadSbvs",
+                "mangledName": "$s18HierarchyFramework0A14ViewControllerC6reloadSbvs",
+                "moduleName": "HierarchyFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18HierarchyFramework0A14ViewControllerC6reloadSbvM",
+                "mangledName": "$s18HierarchyFramework0A14ViewControllerC6reloadSbvM",
+                "moduleName": "HierarchyFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isPicker",
+            "printedName": "isPicker",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18HierarchyFramework0A14ViewControllerC8isPickerSbvp",
+            "mangledName": "$s18HierarchyFramework0A14ViewControllerC8isPickerSbvp",
+            "moduleName": "HierarchyFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18HierarchyFramework0A14ViewControllerC8isPickerSbvg",
+                "mangledName": "$s18HierarchyFramework0A14ViewControllerC8isPickerSbvg",
+                "moduleName": "HierarchyFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18HierarchyFramework0A14ViewControllerC8isPickerSbvs",
+                "mangledName": "$s18HierarchyFramework0A14ViewControllerC8isPickerSbvs",
+                "moduleName": "HierarchyFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18HierarchyFramework0A14ViewControllerC8isPickerSbvM",
+                "mangledName": "$s18HierarchyFramework0A14ViewControllerC8isPickerSbvM",
+                "moduleName": "HierarchyFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HierarchyFramework@objc(cs)HierarchyViewController(im)viewDidLoad",
+            "mangledName": "$s18HierarchyFramework0A14ViewControllerC11viewDidLoadyyF",
+            "moduleName": "HierarchyFramework",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidAppear",
+            "printedName": "viewDidAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HierarchyFramework@objc(cs)HierarchyViewController(im)viewDidAppear:",
+            "mangledName": "$s18HierarchyFramework0A14ViewControllerC13viewDidAppearyySbF",
+            "moduleName": "HierarchyFramework",
+            "overriding": true,
+            "objc_name": "viewDidAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rootUUID",
+            "printedName": "rootUUID(in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FUIHierarchyView",
+                "printedName": "SAPFiori.FUIHierarchyView",
+                "usr": "c:@M@SAPFiori@objc(cs)FUIHierarchyView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18HierarchyFramework0A14ViewControllerC8rootUUID2inSSSg8SAPFiori012FUIHierarchyC0C_tF",
+            "mangledName": "$s18HierarchyFramework0A14ViewControllerC8rootUUID2inSSSg8SAPFiori012FUIHierarchyC0C_tF",
+            "moduleName": "HierarchyFramework",
+            "overriding": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hierarchyView",
+            "printedName": "hierarchyView(_:numberOfChildrenForItemWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FUIHierarchyView",
+                "printedName": "SAPFiori.FUIHierarchyView",
+                "usr": "c:@M@SAPFiori@objc(cs)FUIHierarchyView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18HierarchyFramework0A14ViewControllerC09hierarchyC0_27numberOfChildrenForItemWithSi8SAPFiori012FUIHierarchyC0C_SStF",
+            "mangledName": "$s18HierarchyFramework0A14ViewControllerC09hierarchyC0_27numberOfChildrenForItemWithSi8SAPFiori012FUIHierarchyC0C_SStF",
+            "moduleName": "HierarchyFramework",
+            "overriding": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hierarchyView",
+            "printedName": "hierarchyView(_:uuidForChildItemAt:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FUIHierarchyView",
+                "printedName": "SAPFiori.FUIHierarchyView",
+                "usr": "c:@M@SAPFiori@objc(cs)FUIHierarchyView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18HierarchyFramework0A14ViewControllerC09hierarchyC0_18uuidForChildItemAt4withSS8SAPFiori012FUIHierarchyC0C_SiSStF",
+            "mangledName": "$s18HierarchyFramework0A14ViewControllerC09hierarchyC0_18uuidForChildItemAt4withSS8SAPFiori012FUIHierarchyC0C_SiSStF",
+            "moduleName": "HierarchyFramework",
+            "overriding": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hierarchyView",
+            "printedName": "hierarchyView(_:parentForItemWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FUIHierarchyView",
+                "printedName": "SAPFiori.FUIHierarchyView",
+                "usr": "c:@M@SAPFiori@objc(cs)FUIHierarchyView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18HierarchyFramework0A14ViewControllerC09hierarchyC0_17parentForItemWithSSSg8SAPFiori012FUIHierarchyC0C_SStF",
+            "mangledName": "$s18HierarchyFramework0A14ViewControllerC09hierarchyC0_17parentForItemWithSSSg8SAPFiori012FUIHierarchyC0C_SStF",
+            "moduleName": "HierarchyFramework",
+            "overriding": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hierarchyView",
+            "printedName": "hierarchyView(_:cellForItemWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FUIHierarchyCollectionItem",
+                "printedName": "SAPFiori.FUIHierarchyCollectionItem",
+                "usr": "s:8SAPFiori26FUIHierarchyCollectionItemC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FUIHierarchyView",
+                "printedName": "SAPFiori.FUIHierarchyView",
+                "usr": "c:@M@SAPFiori@objc(cs)FUIHierarchyView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18HierarchyFramework0A14ViewControllerC09hierarchyC0_15cellForItemWith8SAPFiori022FUIHierarchyCollectionH0CAF0kC0C_SStF",
+            "mangledName": "$s18HierarchyFramework0A14ViewControllerC09hierarchyC0_15cellForItemWith8SAPFiori022FUIHierarchyCollectionH0CAF0kC0C_SStF",
+            "moduleName": "HierarchyFramework",
+            "overriding": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hierarchyView",
+            "printedName": "hierarchyView(_:titleForItemWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FUIHierarchyView",
+                "printedName": "SAPFiori.FUIHierarchyView",
+                "usr": "c:@M@SAPFiori@objc(cs)FUIHierarchyView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18HierarchyFramework0A14ViewControllerC09hierarchyC0_16titleForItemWithSSSg8SAPFiori012FUIHierarchyC0C_SStF",
+            "mangledName": "$s18HierarchyFramework0A14ViewControllerC09hierarchyC0_16titleForItemWithSSSg8SAPFiori012FUIHierarchyC0C_SStF",
+            "moduleName": "HierarchyFramework",
+            "overriding": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HierarchyViewController",
+                "printedName": "HierarchyFramework.HierarchyViewController",
+                "usr": "c:@M@HierarchyFramework@objc(cs)HierarchyViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HierarchyFramework@objc(cs)HierarchyViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s18HierarchyFramework0A14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "HierarchyFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "HierarchyFramework.HierarchyViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HierarchyViewController",
+                    "printedName": "HierarchyFramework.HierarchyViewController",
+                    "usr": "c:@M@HierarchyFramework@objc(cs)HierarchyViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HierarchyFramework@objc(cs)HierarchyViewController(im)initWithCoder:",
+            "mangledName": "$s18HierarchyFramework0A14ViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "HierarchyFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "hierarchyView",
+            "printedName": "hierarchyView(_:didSelectItemWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FUIHierarchyView",
+                "printedName": "SAPFiori.FUIHierarchyView",
+                "usr": "c:@M@SAPFiori@objc(cs)FUIHierarchyView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18HierarchyFramework0A14ViewControllerC09hierarchyC0_17didSelectItemWithy8SAPFiori012FUIHierarchyC0C_SStF",
+            "mangledName": "$s18HierarchyFramework0A14ViewControllerC09hierarchyC0_17didSelectItemWithy8SAPFiori012FUIHierarchyC0C_SStF",
+            "moduleName": "HierarchyFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hierarchyButtonTap",
+            "printedName": "hierarchyButtonTap(_:hierarchyButtonTappedForItemWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FUIHierarchyView",
+                "printedName": "SAPFiori.FUIHierarchyView",
+                "usr": "c:@M@SAPFiori@objc(cs)FUIHierarchyView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18HierarchyFramework0A14ViewControllerC18hierarchyButtonTap_0eF17TappedForItemWithy8SAPFiori012FUIHierarchyC0C_SStF",
+            "mangledName": "$s18HierarchyFramework0A14ViewControllerC18hierarchyButtonTap_0eF17TappedForItemWithy8SAPFiori012FUIHierarchyC0C_SStF",
+            "moduleName": "HierarchyFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@HierarchyFramework@objc(cs)HierarchyViewController",
+        "mangledName": "$s18HierarchyFramework0A14ViewControllerC",
+        "moduleName": "HierarchyFramework",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@SAPFiori@objc(cs)FUIHierarchyViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "SAPFiori.FUIHierarchyViewController",
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "FUIHierarchyViewDataSource",
+            "printedName": "FUIHierarchyViewDataSource",
+            "usr": "s:8SAPFiori26FUIHierarchyViewDataSourceP",
+            "mangledName": "$s8SAPFiori26FUIHierarchyViewDataSourceP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "FUIHierarchyViewDelegate",
+            "printedName": "FUIHierarchyViewDelegate",
+            "usr": "c:@M@SAPFiori@objc(pl)FUIHierarchyViewDelegate",
+            "mangledName": "$s8SAPFiori24FUIHierarchyViewDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HierarchyFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HierarchyFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HierarchyFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HierarchyFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HierarchyFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HierarchyDelegate",
+        "printedName": "HierarchyDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getObjects",
+            "printedName": "getObjects(_:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HierarchyFramework@objc(pl)HierarchyDelegate(im)getObjects:type:",
+            "mangledName": "$s18HierarchyFramework0A8DelegateP10getObjects_4typeySS_SStF",
+            "moduleName": "HierarchyFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : HierarchyFramework.HierarchyDelegate>",
+            "sugared_genericSig": "<Self where Self : HierarchyFramework.HierarchyDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadMoreItems",
+            "printedName": "loadMoreItems(_:pagingParams:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HierarchyFramework@objc(pl)HierarchyDelegate(im)loadMoreItems:pagingParams:",
+            "mangledName": "$s18HierarchyFramework0A8DelegateP13loadMoreItems_12pagingParamsySS_SStF",
+            "moduleName": "HierarchyFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : HierarchyFramework.HierarchyDelegate>",
+            "sugared_genericSig": "<Self where Self : HierarchyFramework.HierarchyDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "searchUpdated",
+            "printedName": "searchUpdated(_:searchParams:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HierarchyFramework@objc(pl)HierarchyDelegate(im)searchUpdated:searchParams:",
+            "mangledName": "$s18HierarchyFramework0A8DelegateP13searchUpdated_0D6ParamsySS_SStF",
+            "moduleName": "HierarchyFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : HierarchyFramework.HierarchyDelegate>",
+            "sugared_genericSig": "<Self where Self : HierarchyFramework.HierarchyDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateReturnValues",
+            "printedName": "updateReturnValues(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HierarchyFramework@objc(pl)HierarchyDelegate(im)updateReturnValues:",
+            "mangledName": "$s18HierarchyFramework0A8DelegateP18updateReturnValuesyySSF",
+            "moduleName": "HierarchyFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : HierarchyFramework.HierarchyDelegate>",
+            "sugared_genericSig": "<Self where Self : HierarchyFramework.HierarchyDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setReturnValues",
+            "printedName": "setReturnValues(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HierarchyFramework@objc(pl)HierarchyDelegate(im)setReturnValues:",
+            "mangledName": "$s18HierarchyFramework0A8DelegateP15setReturnValuesyySSF",
+            "moduleName": "HierarchyFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : HierarchyFramework.HierarchyDelegate>",
+            "sugared_genericSig": "<Self where Self : HierarchyFramework.HierarchyDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLocalizedValue",
+            "printedName": "getLocalizedValue(_:params:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HierarchyFramework@objc(pl)HierarchyDelegate(im)getLocalizedValue:params:",
+            "mangledName": "$s18HierarchyFramework0A8DelegateP17getLocalizedValue_6paramsS2S_SStF",
+            "moduleName": "HierarchyFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : HierarchyFramework.HierarchyDelegate>",
+            "sugared_genericSig": "<Self where Self : HierarchyFramework.HierarchyDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "runAction",
+            "printedName": "runAction(_:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HierarchyFramework@objc(pl)HierarchyDelegate(im)runAction:type:",
+            "mangledName": "$s18HierarchyFramework0A8DelegateP9runAction_4typeySS_SStF",
+            "moduleName": "HierarchyFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : HierarchyFramework.HierarchyDelegate>",
+            "sugared_genericSig": "<Self where Self : HierarchyFramework.HierarchyDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@HierarchyFramework@objc(pl)HierarchyDelegate",
+        "mangledName": "$s18HierarchyFramework0A8DelegateP",
+        "moduleName": "HierarchyFramework",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HierarchyFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HierarchyBridge",
+        "printedName": "HierarchyBridge",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "createWithParamsAndDelegate",
+            "printedName": "createWithParamsAndDelegate(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HierarchyDelegate",
+                "printedName": "HierarchyFramework.HierarchyDelegate",
+                "usr": "c:@M@HierarchyFramework@objc(pl)HierarchyDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HierarchyFramework@objc(cs)HierarchyBridge(im)createWithParamsAndDelegate::",
+            "mangledName": "$s18HierarchyFramework0A6BridgeC27createWithParamsAndDelegateySo16UIViewControllerCSDySSypG_AA0aH0_ptF",
+            "moduleName": "HierarchyFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "callback",
+            "printedName": "callback(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSString",
+                "printedName": "Foundation.NSString",
+                "usr": "c:objc(cs)NSString"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HierarchyFramework@objc(cs)HierarchyBridge(im)callback::",
+            "mangledName": "$s18HierarchyFramework0A6BridgeC8callbackyySDySSypG_So8NSStringCtF",
+            "moduleName": "HierarchyFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HierarchyBridge",
+                "printedName": "HierarchyFramework.HierarchyBridge",
+                "usr": "c:@M@HierarchyFramework@objc(cs)HierarchyBridge"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HierarchyFramework@objc(cs)HierarchyBridge(im)init",
+            "mangledName": "$s18HierarchyFramework0A6BridgeCACycfc",
+            "moduleName": "HierarchyFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@HierarchyFramework@objc(cs)HierarchyBridge",
+        "mangledName": "$s18HierarchyFramework0A6BridgeC",
+        "moduleName": "HierarchyFramework",
+        "declAttributes": [
+          "AccessControl",
+          "Custom",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HierarchyFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/MDKDataSource.swift",
+      "kind": "Dictionary",
+      "offset": 330,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/MDKDataSource.swift",
+      "kind": "Array",
+      "offset": 451,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/MDKDataSource.swift",
+      "kind": "Array",
+      "offset": 506,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/MDKDataSource.swift",
+      "kind": "Array",
+      "offset": 565,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/MDKDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1737,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/MDKDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2011,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/MDKDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2084,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/MDKDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2262,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/MDKDataSource.swift",
+      "kind": "Array",
+      "offset": 2923,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/MDKDataSource.swift",
+      "kind": "Array",
+      "offset": 3183,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/MDKDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3519,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/MDKDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 4740,
+      "length": 4,
+      "value": "\"ID\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/MDKDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 5393,
+      "length": 4,
+      "value": "\"ID\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/MDKDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 5422,
+      "length": 10,
+      "value": "\"Children\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/MDKDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 5783,
+      "length": 4,
+      "value": "\"ID\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/MDKDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 5812,
+      "length": 8,
+      "value": "\"Parent\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/MDKDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 6167,
+      "length": 4,
+      "value": "\"ID\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/MDKDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 6196,
+      "length": 8,
+      "value": "\"Target\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/MDKDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 6554,
+      "length": 4,
+      "value": "\"ID\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/MDKDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 6583,
+      "length": 17,
+      "value": "\"ChildCountQuery\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "Array",
+      "offset": 699,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "Array",
+      "offset": 735,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "Array",
+      "offset": 1974,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2172,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "Array",
+      "offset": 2671,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3419,
+      "length": 12,
+      "value": "\"rootObject\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3457,
+      "length": 10,
+      "value": "\"isPicker\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3469,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3705,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3833,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3953,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4109,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4172,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4663,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4752,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4860,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5026,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5162,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5304,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5407,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5826,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6279,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6840,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6927,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7815,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8019,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8352,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8415,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8517,
+      "length": 4,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8806,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9079,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9181,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9269,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9405,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9502,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9601,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9671,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/JsonParser.swift",
+      "kind": "StringLiteral",
+      "offset": 357,
+      "length": 31,
+      "value": "\"Invalid JSON Object provided.\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/JsonParser.swift",
+      "kind": "StringLiteral",
+      "offset": 446,
+      "length": 33,
+      "value": "\"Error during String conversion.\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1318,
+      "length": 10,
+      "value": "\"IsPicker\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1486,
+      "length": 6,
+      "value": "\"Root\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2669,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2888,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2984,
+      "length": 4,
+      "value": "\"ID\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3477,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4911,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5351,
+      "length": 12,
+      "value": "\"IsEditable\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5610,
+      "length": 15,
+      "value": "\"HierarchyList\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6290,
+      "length": 4,
+      "value": "\"ID\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6482,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6811,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6922,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7241,
+      "length": 4,
+      "value": "\"ID\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7546,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7673,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7731,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7810,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7864,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7986,
+      "length": 4,
+      "value": "\"ID\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8348,
+      "length": 9,
+      "value": "\"Objects\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8618,
+      "length": 12,
+      "value": "\"ChildCount\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8912,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8939,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9275,
+      "length": 10,
+      "value": "\"isPicker\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9321,
+      "length": 12,
+      "value": "\"rootObject\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9533,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9642,
+      "length": 6,
+      "value": "\"Root\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9833,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9889,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10544,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Bridge\/HierarchyManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10605,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/BusinessObjectsParser.swift",
+      "kind": "StringLiteral",
+      "offset": 1263,
+      "length": 6,
+      "value": "\"Root\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/BusinessObjectsParser.swift",
+      "kind": "StringLiteral",
+      "offset": 1760,
+      "length": 15,
+      "value": "\"EntitySetName\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/BusinessObjectsParser.swift",
+      "kind": "StringLiteral",
+      "offset": 1836,
+      "length": 12,
+      "value": "\"Properties\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/BusinessObjectsParser.swift",
+      "kind": "Dictionary",
+      "offset": 1871,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/BusinessObjectsParser.swift",
+      "kind": "StringLiteral",
+      "offset": 1915,
+      "length": 8,
+      "value": "\"Styles\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/BusinessObjectsParser.swift",
+      "kind": "Dictionary",
+      "offset": 1946,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/BusinessObjectsParser.swift",
+      "kind": "StringLiteral",
+      "offset": 1981,
+      "length": 8,
+      "value": "\"Target\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/BusinessObjectsParser.swift",
+      "kind": "Dictionary",
+      "offset": 2012,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/BusinessObjectsParser.swift",
+      "kind": "StringLiteral",
+      "offset": 2059,
+      "length": 10,
+      "value": "\"Children\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/BusinessObjectsParser.swift",
+      "kind": "Array",
+      "offset": 2094,
+      "length": 5,
+      "value": "[[]]"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/BusinessObjectsParser.swift",
+      "kind": "StringLiteral",
+      "offset": 2166,
+      "length": 8,
+      "value": "\"Parent\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/BusinessObjectsParser.swift",
+      "kind": "Array",
+      "offset": 2199,
+      "length": 5,
+      "value": "[[]]"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/BusinessObjectsParser.swift",
+      "kind": "StringLiteral",
+      "offset": 2271,
+      "length": 4,
+      "value": "\"ID\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/BusinessObjectsParser.swift",
+      "kind": "StringLiteral",
+      "offset": 2343,
+      "length": 7,
+      "value": "\"Title\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/BusinessObjectsParser.swift",
+      "kind": "StringLiteral",
+      "offset": 2420,
+      "length": 9,
+      "value": "\"Subhead\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/BusinessObjectsParser.swift",
+      "kind": "StringLiteral",
+      "offset": 2500,
+      "length": 10,
+      "value": "\"Footnote\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/BusinessObjectsParser.swift",
+      "kind": "StringLiteral",
+      "offset": 2583,
+      "length": 12,
+      "value": "\"StatusText\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/BusinessObjectsParser.swift",
+      "kind": "StringLiteral",
+      "offset": 2673,
+      "length": 17,
+      "value": "\"StatusTextStyle\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/BusinessObjectsParser.swift",
+      "kind": "StringLiteral",
+      "offset": 2756,
+      "length": 12,
+      "value": "\"ChildCount\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/BusinessObjectsParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2800,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/BusinessObjectsParser.swift",
+      "kind": "StringLiteral",
+      "offset": 2857,
+      "length": 17,
+      "value": "\"ChildCountQuery\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/BusinessObjectsParser.swift",
+      "kind": "StringLiteral",
+      "offset": 2948,
+      "length": 13,
+      "value": "\"ReturnValue\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/BusinessObjectsParser.swift",
+      "kind": "StringLiteral",
+      "offset": 3036,
+      "length": 14,
+      "value": "\"DisplayValue\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/BusinessObjectsParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3103,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/BusinessObjectsParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3164,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/BusinessObjectsParser.swift",
+      "kind": "StringLiteral",
+      "offset": 3216,
+      "length": 9,
+      "value": "\"OnPress\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Parser\/BusinessObjectsParser.swift",
+      "kind": "Dictionary",
+      "offset": 3248,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "Array",
+      "offset": 428,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 527,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 578,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 671,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "BooleanLiteral",
+      "offset": 711,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "BooleanLiteral",
+      "offset": 753,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 905,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 950,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2214,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2306,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2423,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 2933,
+      "length": 14,
+      "value": "\"searchString\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 2966,
+      "length": 12,
+      "value": "\"listPicker\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3191,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 3441,
+      "length": 14,
+      "value": "\"searchString\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 3524,
+      "length": 12,
+      "value": "\"listPicker\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "Array",
+      "offset": 3825,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3915,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 4978,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5001,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5116,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5168,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5200,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 5253,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5305,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5358,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5428,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "Array",
+      "offset": 5746,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 5952,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6409,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 6491,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6611,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 7269,
+      "length": 14,
+      "value": "\"searchString\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/ListPickerDataSource.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7309,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/HierarchyViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 397,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/HierarchyViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 435,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/HierarchyViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1045,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/HierarchyViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1410,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/HierarchyViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1669,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/HierarchyViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1711,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/HierarchyViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2824,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/HierarchyViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2845,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/HierarchyViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2938,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/HierarchyViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2991,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/HierarchyViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3043,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/HierarchyViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3113,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerSearchProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 343,
+      "length": 8,
+      "value": "\"Search\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerSearchProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 435,
+      "length": 9,
+      "value": "\"Enabled\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerSearchProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 517,
+      "length": 7,
+      "value": "\"Delay\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerSearchProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 607,
+      "length": 27,
+      "value": "\"MinimumCharacterThreshold\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerSearchProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 712,
+      "length": 13,
+      "value": "\"Placeholder\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerSearchProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 816,
+      "length": 16,
+      "value": "\"BarcodeScanner\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/BusinessObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 643,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/BusinessObject.swift",
+      "kind": "BooleanLiteral",
+      "offset": 780,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/Data\/BusinessObject.swift",
+      "kind": "Array",
+      "offset": 820,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/Paging.swift",
+      "kind": "IntegerLiteral",
+      "offset": 196,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/Paging.swift",
+      "kind": "IntegerLiteral",
+      "offset": 226,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/Paging.swift",
+      "kind": "StringLiteral",
+      "offset": 261,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/Paging.swift",
+      "kind": "IntegerLiteral",
+      "offset": 332,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/Paging.swift",
+      "kind": "StringLiteral",
+      "offset": 634,
+      "length": 13,
+      "value": "\"currentPage\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/Paging.swift",
+      "kind": "StringLiteral",
+      "offset": 679,
+      "length": 14,
+      "value": "\"itemsPerPage\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/Paging.swift",
+      "kind": "StringLiteral",
+      "offset": 940,
+      "length": 14,
+      "value": "\"searchString\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/Paging.swift",
+      "kind": "StringLiteral",
+      "offset": 989,
+      "length": 13,
+      "value": "\"currentPage\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/Paging.swift",
+      "kind": "StringLiteral",
+      "offset": 1040,
+      "length": 14,
+      "value": "\"itemsPerPage\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 330,
+      "length": 18,
+      "value": "\"PickerProperties\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 436,
+      "length": 24,
+      "value": "\"AllowMultipleSelection\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 541,
+      "length": 12,
+      "value": "\"ListFilter\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 631,
+      "length": 9,
+      "value": "\"Caption\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 736,
+      "length": 30,
+      "value": "\"IsPickerDismissedOnSelection\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 846,
+      "length": 14,
+      "value": "\"ItemsPerPage\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 944,
+      "length": 19,
+      "value": "\"CachedItemsToLoad\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 1051,
+      "length": 21,
+      "value": "\"AllowEmptySelection\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 1148,
+      "length": 12,
+      "value": "\"IsEditable\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/sam\/naas-mobile-extension-hierarchycontrol-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/HierarchyFramework\/HierarchyView\/List Picker\/HierarchyListPickerProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 1240,
+      "length": 12,
+      "value": "\"IsEditable\""
+    }
+  ]
+}

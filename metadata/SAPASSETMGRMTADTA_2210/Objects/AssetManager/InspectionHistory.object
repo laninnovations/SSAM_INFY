@@ -1,0 +1,131 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"InspectionHistories"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.Double",
+			"Key": false,
+			"_Name": "MeanValue"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "InspectionLot"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "InspectionNode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "InspectionChar"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SampleNum"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "StartDate"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "EndDate"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "LastChangedDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "InputValue"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Valuation"
+		},
+		{
+			"_Type": "Edm.Int16",
+			"Key": false,
+			"_Name": "NumOfDefects"
+		},
+		{
+			"_Type": "Edm.Int16",
+			"Key": false,
+			"_Name": "NumOfInspected"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DefectClass"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DefectCode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DefectCodeGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DefectCatalog"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Inspector"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DefectSelectedSet"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DefectPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MasterInspChar"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MasterInspVersion"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "InspectionCode",
+			"Key": false,
+			"_Name": "InspectionCode_Nav"
+		},
+		{
+			"_Type": "MasterInspectionChar",
+			"Key": false,
+			"_Name": "MasterInspChar_Nav"
+		}
+	],
+	"_Name": "InspectionHistory"
+}

@@ -1,0 +1,18 @@
+{
+	"_Type": "Action.Type.ODataService.UpdateEntity",
+	"ActionResult": {
+		"_Name": "UpdatePersonalNum"
+	},
+	"ShowActivityIndicator": true,
+	"ActivityIndicatorText": "Personnel num updatge",
+	"Target": {
+		"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+		"EntitySet": "Confirmations",
+		"ReadLink": "{@odata.readLink}"
+	},
+	"Properties": {
+		"PersonnelNumber": "/ZSAPASSETMGRMTADTA_2210/Rules/GetTechnicianName.js",
+		"OrderID": "#Page:ConfirmationsCreateUpdatePage/#Control:WorkOrderLstPkr/#SelectedValue",
+		"Operation": "#Page:ConfirmationsCreateUpdatePage/#Control:OperationPkr/#SelectedValue"
+	}
+}

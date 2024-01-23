@@ -1,0 +1,29 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"ClassTypes"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Texts"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Table"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ClassType"
+		}
+	],
+	"_Name": "ClassType"
+}

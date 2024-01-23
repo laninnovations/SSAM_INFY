@@ -1,0 +1,36 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"InspectionCatalogValuations"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortText"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Valuation"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(InspectionCode)",
+			"Key": false,
+			"_Name": "InspectionCodes_Nav"
+		},
+		{
+			"_Type": "Collection(InspectionLot)",
+			"Key": false,
+			"_Name": "InspectionLots_Nav"
+		},
+		{
+			"_Type": "Collection(InspectionPoint)",
+			"Key": false,
+			"_Name": "InspectionPoints_Nav"
+		}
+	],
+	"_Name": "InspectionCatalogValuation"
+}

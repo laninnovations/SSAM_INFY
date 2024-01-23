@@ -1,0 +1,34 @@
+{
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"Collection": [
+		"OauthTokens"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ParameterName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OauthToken"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ExpiresIn"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ParameterGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "RFCDestination"
+		}
+	],
+	"_Name": "OauthToken"
+}

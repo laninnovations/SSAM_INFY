@@ -1,0 +1,4 @@
+framework module EditableDataTable {
+  header "EditableDataTable-Swift.h"
+  requires objc
+}

@@ -1,0 +1,14 @@
+"NSLocationWhenInUseUsageDescription" = "Lokasi Anda saat ini akan ditampilkan di peta";
+
+"NSLocationAlwaysUsageDescription" = "Izinkan \"SAP Asset Manager\" untuk selalu mengakses lokasi Anda?";
+
+"NSCameraUsageDescription" = "Izinkan akses kamera untuk memindai kode batang dan mengambil gambar yang akan dilampirkan dalam aplikasi";
+
+"NSMicrophoneUsageDescription" = "Mohon izin untuk mengakses mikrofon";
+
+"NSFaceIDUsageDescription" = "Mengaktifkan fitur Face ID akan memberikan akses yang cepat dan aman ke SAP Asset Manager";
+
+"NSPhotoLibraryUsageDescription" = "Izinkan akses pustaka foto untuk melampirkan foto yang akan diunggah di aplikasi";
+
+"NSPhotoLibraryAddUsageDescription" = "Aplikasi kami memerlukan izin untuk mengambil foto";
+

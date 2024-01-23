@@ -1,0 +1,226 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"PMMobileStatuses"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StatusAttribute1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EAMOverallStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EAMOverallStatusProfile"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UpdateUserGUID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CreateUserGUID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Status"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ReasonCode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StatusAttribute2"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CreateUserId"
+		},
+		{
+			"_Type": "Edm.Int32",
+			"Key": false,
+			"_Name": "EndTimeCounter"
+		},
+		{
+			"_Type": "Edm.Int32",
+			"Key": false,
+			"_Name": "BeginTimeCounter"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "NotificationRefTime"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SortField"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ItemNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TaskNum"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "NotificationRefDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MobileStatus"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "CarriedOutTime"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CarriedOutBy"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UserStatusCode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UserStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SystemStatusCode"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "CarriedOutDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SystemStatus"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "EffectiveTimestamp"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrderId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NotifNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OperationNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SubOperationNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WOHeader"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StatusProfile"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RoleType"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MyNotificationHeader",
+			"Key": false,
+			"_Name": "NotifHeader_Nav"
+		},
+		{
+			"_Type": "MyNotificationItemTask",
+			"Key": false,
+			"_Name": "NotifItemTask_Nav"
+		},
+		{
+			"_Type": "MyNotificationTask",
+			"Key": false,
+			"_Name": "NotifTask_Nav"
+		},
+		{
+			"_Type": "EAMOverallStatusConfig",
+			"Key": false,
+			"_Name": "OverallStatusCfg_Nav"
+		},
+		{
+			"_Type": "Collection(PMMobileStatusHistory)",
+			"Key": false,
+			"_Name": "PMMobileStatusHistory_Nav"
+		},
+		{
+			"_Type": "MyWorkOrderHeader",
+			"Key": false,
+			"_Name": "WOHeader_Nav"
+		},
+		{
+			"_Type": "WorkOrderHistory",
+			"Key": false,
+			"_Name": "WOHistory_Nav"
+		},
+		{
+			"_Type": "MyWorkOrderOperation",
+			"Key": false,
+			"_Name": "WOOperation_Nav"
+		},
+		{
+			"_Type": "MyWorkOrderSubOperation",
+			"Key": false,
+			"_Name": "WOSubOperation_Nav"
+		}
+	],
+	"_Name": "PMMobileStatus"
+}

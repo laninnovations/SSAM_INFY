@@ -1,0 +1,356 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"InspectionCharacteristics"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SampleQty"
+		},
+		{
+			"_Type": "Edm.Double",
+			"Key": false,
+			"_Name": "TargetValue"
+		},
+		{
+			"_Type": "Edm.Double",
+			"Key": false,
+			"_Name": "UpperLimit"
+		},
+		{
+			"_Type": "Edm.Double",
+			"Key": false,
+			"_Name": "LowerLimit"
+		},
+		{
+			"_Type": "Edm.Int16",
+			"Key": false,
+			"_Name": "DecimalPlaces"
+		},
+		{
+			"_Type": "Edm.Int64",
+			"Key": false,
+			"_Name": "ValueAbove"
+		},
+		{
+			"_Type": "Edm.Int64",
+			"Key": false,
+			"_Name": "ValueBelow"
+		},
+		{
+			"_Type": "Edm.Int32",
+			"Key": false,
+			"_Name": "NoOfDefect"
+		},
+		{
+			"_Type": "Edm.Int32",
+			"Key": false,
+			"_Name": "NoOfInspected"
+		},
+		{
+			"_Type": "Edm.Double",
+			"Key": false,
+			"_Name": "ResultValue"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ChangedAt"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "CreatedAt"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ResultChangedAt"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "InspectionLot"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "InspectionNode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "InspectionChar"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SampleNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CharAttributeFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RecordingType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "QuantitativeFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DefectRecordingFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "InspectionScope"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LongTermInspFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ScrapShareFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Status"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ResultChangedBy"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "InspectionMethodPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OriginalInput"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DefectClass"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Valuation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Catalog"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CodeGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Code"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MasterInspCharPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SelectedSetFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SelectedSet"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SelectedSetPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CharCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CalculatedCharFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Formula1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Formula2"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CharId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ChangedBy"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CreatedBy"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LongTextFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TargetValueFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UpperLimitFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LowerLimitFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ResultValueFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OperationNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LongTextLang"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "InspectionMethod"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "InspectionMethodVersion"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SampleUOM"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MasterInspCharVersion"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CatalogVersion"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MasterInspChar"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UoM"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "DefectClass",
+			"Key": false,
+			"_Name": "DefectClass_Nav"
+		},
+		{
+			"_Type": "EAMChecklistLink",
+			"Key": false,
+			"_Name": "EAMChecklist_Nav"
+		},
+		{
+			"_Type": "InspectionCharStatus",
+			"Key": false,
+			"_Name": "InspCharStatus_Nav"
+		},
+		{
+			"_Type": "InspectionResultValuation",
+			"Key": false,
+			"_Name": "InspValuation_Nav"
+		},
+		{
+			"_Type": "InspectionCode",
+			"Key": false,
+			"_Name": "InspectionCode_Nav"
+		},
+		{
+			"_Type": "InspectionLot",
+			"Key": false,
+			"_Name": "InspectionLot_Nav"
+		},
+		{
+			"_Type": "InspectionMethod",
+			"Key": false,
+			"_Name": "InspectionMethod_Nav"
+		},
+		{
+			"_Type": "InspectionPoint",
+			"Key": false,
+			"_Name": "InspectionPoint_Nav"
+		},
+		{
+			"_Type": "MasterInspectionChar",
+			"Key": false,
+			"_Name": "MasterInspChar_Nav"
+		},
+		{
+			"_Type": "Collection(MyNotificationItem)",
+			"Key": false,
+			"_Name": "NotifItems_Nav"
+		}
+	],
+	"_Name": "InspectionCharacteristic"
+}

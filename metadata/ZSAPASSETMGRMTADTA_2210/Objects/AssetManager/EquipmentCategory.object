@@ -1,0 +1,31 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"EquipmentCategories"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "EquipCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EquipCategoryDesc"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(EquipTemplate)",
+			"Key": false,
+			"_Name": "EquipTemplate_Nav"
+		},
+		{
+			"_Type": "Collection(MyEquipment)",
+			"Key": false,
+			"_Name": "MyEquipments_Nav"
+		}
+	],
+	"_Name": "EquipmentCategory"
+}

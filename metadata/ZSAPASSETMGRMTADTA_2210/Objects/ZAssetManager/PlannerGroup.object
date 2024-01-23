@@ -1,0 +1,41 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"PlannerGroups"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PlannerGroupName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrderType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PlannerGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PlanningPlant"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(NotificationHistory)",
+			"Key": false,
+			"_Name": "NotificationHistory_Nav"
+		},
+		{
+			"_Type": "Collection(WorkOrderHistory)",
+			"Key": false,
+			"_Name": "WorkOrderHistory_Nav"
+		}
+	],
+	"_Name": "PlannerGroup"
+}

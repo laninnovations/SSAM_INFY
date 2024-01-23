@@ -1,0 +1,17 @@
+{
+  "name": "extension-GenericWebView",
+  "version": "2305.0.0",
+  "description": "A generic webview plugin for MDK",
+  "main": "index",
+   "nativescript": {
+      "platforms": {
+         "ios": "2305.0.0",
+         "android": "2305.0.0"
+      }
+   },
+  "scripts": {
+    "test": "test"
+  },
+  "author": "SAP",
+  "license": "ISC"
+}

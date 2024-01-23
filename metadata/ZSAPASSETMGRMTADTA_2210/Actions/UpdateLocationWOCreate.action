@@ -1,0 +1,30 @@
+{
+	"_Type": "Action.Type.ODataService.CreateEntity",
+	"ActionResult": {
+		"_Name": "UpdateLocationWOCreate"
+	},
+	"OnFailure": "/ZSAPASSETMGRMTADTA_2210/Actions/Locationupdatefailmessage.action",
+	"Target": {
+		"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+		"EntitySet": "ZIJC_LOCATIONS"
+	},
+	"RequiredFields": [
+        "MaintenancePlant",
+        "MainWorkCenter",
+		"PlanningPlant",
+        "PlannerGroup"
+    ],
+	"Properties": {
+		"ZCostCenter": "/ZSAPASSETMGRMTADTA_2210/Rules/GetCostCenter.js",
+		"ZObjectType": "WO",
+		"ZObjectkey": "/ZSAPASSETMGRMTADTA_2210/Rules/GetLocalOrderNumber.js",
+		"ZMaintPlant": "{MainWorkCenterPlant}",
+		"ZWorkCenter": "{MainWorkCenter}",
+		"ZPlanningPlant": "/SAPAssetManager/Rules/WorkOrders/CreateUpdate/WorkOrderCreateUpdatePlanningPlantValue.js",
+		"ZPlannerGroup": "/ZSAPASSETMGRMTADTA_2210/Rules/GetPlannerGroup.js",
+		"ZLongitudeDegree": "/ZSAPASSETMGRMTADTA_2210/Rules/GetLongitude.js",
+		"ZLatitudeDegree": "/ZSAPASSETMGRMTADTA_2210/Rules/GetLatitude.js",
+		"ZMobileObjectStatus": "CREATED",
+		"ZTransactionMode": "CR"
+	}
+}

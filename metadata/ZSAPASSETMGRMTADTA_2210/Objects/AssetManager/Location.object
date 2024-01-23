@@ -1,0 +1,41 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"Locations"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LocationName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Location"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Plant"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(MyEquipment)",
+			"Key": false,
+			"_Name": "MyEquipments_Nav"
+		},
+		{
+			"_Type": "Collection(MyFunctionalLocation)",
+			"Key": false,
+			"_Name": "MyFunctionalLocations_Nav"
+		},
+		{
+			"_Type": "Plant",
+			"Key": false,
+			"_Name": "Plant_Nav"
+		}
+	],
+	"_Name": "Location"
+}

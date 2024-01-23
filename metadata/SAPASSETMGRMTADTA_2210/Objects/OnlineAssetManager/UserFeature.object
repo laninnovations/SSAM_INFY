@@ -1,0 +1,19 @@
+{
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"Collection": [
+		"UserFeatures"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "UserPersona"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "UserFeature"
+		}
+	],
+	"_Name": "UserFeature"
+}

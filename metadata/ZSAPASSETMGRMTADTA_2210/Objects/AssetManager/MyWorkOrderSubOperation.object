@@ -1,0 +1,171 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"MyWorkOrderSubOperations"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ActivityType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PersonNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MainWorkCenterPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MainWorkCenter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OperationFunctionLocation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MaintenancePlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WorkCenterInternalId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OperationShortText"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ControlKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "OrderId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OperationEquipment"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "OperationNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NotifNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SubOperationNo"
+		},
+		{
+			"_Type": "Edm.Byte",
+			"Key": false,
+			"_Name": "NumberOfCapacities"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "Duration"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DurationUOM"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "Work"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WorkUnit"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(Confirmation)",
+			"Key": false,
+			"_Name": "Confirmations"
+		},
+		{
+			"_Type": "MyEquipment",
+			"Key": false,
+			"_Name": "EquipmentSubOperation"
+		},
+		{
+			"_Type": "MyFunctionalLocation",
+			"Key": false,
+			"_Name": "FunctionalLocationSubOperation"
+		},
+		{
+			"_Type": "MyNotificationHeader",
+			"Key": false,
+			"_Name": "NotifHeader_Nav"
+		},
+		{
+			"_Type": "PMMobileStatus",
+			"Key": false,
+			"_Name": "SubOpMobileStatus_Nav"
+		},
+		{
+			"_Type": "Collection(MyWorkOrderSubOpLongText)",
+			"Key": false,
+			"_Name": "SubOperationLongText"
+		},
+		{
+			"_Type": "Collection(UserTimeEntry)",
+			"Key": false,
+			"_Name": "UserTimeEntry_Nav"
+		},
+		{
+			"_Type": "Collection(MyWorkOrderObjectList)",
+			"Key": false,
+			"_Name": "WOObjectList_Nav"
+		},
+		{
+			"_Type": "Collection(CatsTimesheet)",
+			"Key": false,
+			"_Name": "WOSubOperationCatsTimesheet"
+		},
+		{
+			"_Type": "Collection(WorkOrderTransfer)",
+			"Key": false,
+			"_Name": "WOTransfer"
+		},
+		{
+			"_Type": "MyWorkOrderOperation",
+			"Key": false,
+			"_Name": "WorkOrderOperation"
+		}
+	],
+	"_Name": "MyWorkOrderSubOperation"
+}

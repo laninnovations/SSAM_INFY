@@ -1,0 +1,9 @@
+{
+	"_Type": "Action.Type.Message",
+	"Message": "Update Functional Location Failed",
+	"OKCaption": "OK",
+	"CancelCaption": "Update Functional Location",
+	"ActionResult": {
+		"_Name": "UpdateFunctionalLocationfailure"
+	}
+}

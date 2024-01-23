@@ -1,0 +1,29 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"FuncLocLabels"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "FuncLocLabel"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PrimaryLabel"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Unique"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FuncLocLabelDesc"
+		}
+	],
+	"_Name": "FuncLocLabel"
+}

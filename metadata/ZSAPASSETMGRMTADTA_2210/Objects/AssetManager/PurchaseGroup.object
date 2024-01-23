@@ -1,0 +1,19 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"PurchaseGroups"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PurchasingGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PurchasingGroupDesc"
+		}
+	],
+	"_Name": "PurchaseGroup"
+}

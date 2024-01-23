@@ -1,0 +1,36 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name EditableDataTable
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Combine
+import DeveloperToolsSupport
+import ExtensionUtils
+import Foundation
+import SAPFiori
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor public class EditableDataTableBridge : ObjectiveC.NSObject {
+  @objc @_Concurrency.MainActor public var delegate: (any EditableDataTable.EditableDataTableDelegate)? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor public var viewController: UIKit.UIViewController
+  @objc @_Concurrency.MainActor public init(params: [Swift.String : Any])
+  @objc @_Concurrency.MainActor public func callback(_ params: [Swift.String : Any], _ type: Foundation.NSString)
+  @objc deinit
+}
+@objc @_Concurrency.MainActor public protocol EditableDataTableDelegate : ObjectiveC.NSObjectProtocol {
+  @objc @_Concurrency.MainActor optional func onCreate()
+  @objc @_Concurrency.MainActor optional func paginateListPicker(_ target: Swift.String, pagingParams: Swift.String)
+  @objc @_Concurrency.MainActor optional func searchListPicker(_ target: Swift.String, searchParams: Swift.String)
+  @objc @_Concurrency.MainActor optional func onValueChange(_ params: Swift.String)
+  @objc @_Concurrency.MainActor optional func onPress(_ params: Swift.String)
+  @objc @_Concurrency.MainActor optional func onError(_ message: Swift.String, isDelay: Swift.Bool)
+  @objc @_Concurrency.MainActor optional func onCellFocusChange(_ hasFocus: Swift.Bool)
+  @objc @_Concurrency.MainActor optional func localizedValue(_ key: Swift.String, params: Swift.String) -> Swift.String?
+}
+extension EditableDataTable.EditableDataTableBridge : Swift.Sendable {}

@@ -1,0 +1,29 @@
+{
+	"Service": "OnlineAssetManager.service",
+	"Collection": [
+		"EventLog"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.Int64",
+			"Key": true,
+			"_Name": "Id"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Details"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EventType"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "Time"
+		}
+	],
+	"_Name": "EventLog"
+}

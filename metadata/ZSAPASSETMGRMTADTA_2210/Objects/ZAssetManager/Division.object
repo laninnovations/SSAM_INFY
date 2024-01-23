@@ -1,0 +1,26 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"Divisions"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Division"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(Plant)",
+			"Key": false,
+			"_Name": "Plants_NAV"
+		}
+	],
+	"_Name": "Division"
+}

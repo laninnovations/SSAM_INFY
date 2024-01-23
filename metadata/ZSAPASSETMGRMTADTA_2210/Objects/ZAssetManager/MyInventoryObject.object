@@ -1,0 +1,71 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"MyInventoryObjects"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectIdExtn"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectId"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ObjectDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "IMObject"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ItemCount"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MatDocYear"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "GenericObjectId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "OrderId"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MaterialDocument",
+			"Key": false,
+			"_Name": "MaterialDocument_Nav"
+		},
+		{
+			"_Type": "PurchaseRequisitionHeader",
+			"Key": false,
+			"_Name": "PurchaseRequisitionHeader_Nav"
+		},
+		{
+			"_Type": "StockTransportOrderHeader",
+			"Key": false,
+			"_Name": "StockTransportOrderHeader_Nav"
+		}
+	],
+	"_Name": "MyInventoryObject"
+}

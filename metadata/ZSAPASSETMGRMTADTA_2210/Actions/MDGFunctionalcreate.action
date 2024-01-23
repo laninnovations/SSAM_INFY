@@ -1,0 +1,54 @@
+{
+	"_Type": "Action.Type.ODataService.CreateEntity",
+	"ActionResult": {
+		"_Name": "MDGFunctionalcreate"
+	},
+	"OnFailure": "/ZSAPASSETMGRMTADTA_2210/Actions/CreateFunctionalLOcationEntityFailureMessage.action",
+	"OnSuccess": "/ZSAPASSETMGRMTADTA_2210/Actions/MDG/CreateFuncLocationSuccessMessage.action",
+	"RequiredFields": [
+        "MDGCRType",
+        "Description",
+        "FL",
+        "FLDesc",
+		"SI",
+        "FLCategory",
+		"OBType",
+		"SUD",
+		"MP",
+		"Location",
+		"ABC",
+		"CC",
+		"CatalogProfile",
+		"CostCentre",
+		"CostCenter",
+		"PlanningPlant",
+		"PlannerGroup",
+		"MainWorkCenter",
+		"CatalogProfile",
+		"iInstallallow"
+    ],
+	"Target": {
+		"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+		"EntitySet": "ZFuncLocationMDGSet"
+	},
+	"Properties": {
+		"Zcrequest": "#Page:MDGCRCreation/#Control:MDGCRType/#Value",
+		"Zcrdesc": "#Page:MDGCRCreation/#Control:Description/#Value",
+		"zFunctionalloc": "#Page:MDGCRCreation/#Control:FL/#Value",
+		"zfldesc": "#Page:MDGCRCreation/#Control:FLDesc/#Value",
+		"zStrIndicator": "#Page:MDGCRCreation/#Control:SI/#SelectedValue",
+		"zFunctLocCat": "#Page:MDGCRCreation/#Control:FLCategory/#SelectedValue",
+		"zObjectType": "#Page:MDGCRCreation/#Control:OBType/#SelectedValue",
+		"zValidFrom": "#Page:MDGCRCreation/#Control:SUD/#Value",
+		"zMaintPlant": "#Page:MDGCRCreation/#Control:MP/#SelectedValue",
+		"zLocation": "#Page:MDGCRCreation/#Control:Location/#SelectedValue",
+		"zABCIndic": "#Page:MDGCRCreation/#Control:ABC/#SelectedValue",
+		"zCompanyCode": "#Page:MDGCRCreation/#Control:CC/#Value",
+		"zCostCenter": "#Page:MDGCRCreation/#Control:CostCenter/#SelectedValue",
+		"zPlanningPlant": "#Page:MDGCRCreation/#Control:PlanningPlant/#SelectedValue",
+		"zPlannerGroup": "#Page:MDGCRCreation/#Control:PlannerGroup/#SelectedValue",
+		"zMainWorkCtr": "#Page:MDGCRCreation/#Control:MainWorkCenter/#SelectedValue",
+		"zCatalogProfile": "#Page:MDGCRCreation/#Control:CatalogProfile/#SelectedValue",
+		"zEquipInstall": "#Page:MDGCRCreation/#Control:iInstallallow/#SelectedValue"
+	}
+}

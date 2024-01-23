@@ -1,0 +1,12 @@
+{
+	"AppId": "com.sap.sam2210.oauth",
+	"ServiceUrl": "/destinations/mobileservices",
+	"DestinationName": "DEST_SAM2210_PPROP",
+	"LanguageURLParam": "sap-language",
+	"Headers": {
+		"SAP-PASSPORT": "/SAPAssetManager/Rules/Common/Passport/GetSAPPassportHeaderValue.js"
+	},
+	"OfflineEnabled": true,
+	"SourceType": "Mobile",
+	"RestService": false
+}

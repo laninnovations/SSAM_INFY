@@ -1,0 +1,133 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable",
+			"Sections": [
+				{
+					"KeyAndValues": [
+						{
+							"Value": "{LRPId}",
+							"_Name": "KeyValue0",
+							"KeyName": "$(L,lin_ref_pattern)"
+						},
+						{
+							"Value": "/SAPAssetManager/Rules/LAM/LAMLengthFormat.js",
+							"_Name": "KeyValue1",
+							"KeyName": "$(L,length)"
+						},
+						{
+							"Value": "/SAPAssetManager/Rules/LAM/LAMStartPointFormat.js",
+							"_Name": "KeyValue2",
+							"KeyName": "$(L,start_point)"
+						},
+						{
+							"Value": "/SAPAssetManager/Rules/LAM/LAMEndPointFormat.js",
+							"_Name": "KeyValue3",
+							"KeyName": "$(L,end_point)"
+						},
+						{
+							"Value": "{StartMarker}",
+							"_Name": "KeyValue4",
+							"KeyName": "$(L,start_marker)"
+						},
+						{
+							"Value": "{EndMarker}",
+							"_Name": "KeyValue5",
+							"KeyName": "$(L,end_marker)"
+						},
+						{
+							"Value": "/SAPAssetManager/Rules/LAM/LAMStartDistanceFormat.js",
+							"_Name": "KeyValue6",
+							"KeyName": "$(L,distance_from_start)"
+						},
+						{
+							"Value": "/SAPAssetManager/Rules/LAM/LAMEndDistanceFormat.js",
+							"_Name": "KeyValue7",
+							"KeyName": "$(L,distance_from_end)"
+						},
+						{
+							"Value": "/SAPAssetManager/Rules/LAM/LAMOffset1ValueFormat.js",
+							"_Name": "KeyValue8",
+							"KeyName": "/SAPAssetManager/Rules/LAM/LAMOffset1Label.js"
+						},
+						{
+							"Value": "/SAPAssetManager/Rules/LAM/LAMOffset2ValueFormat.js",
+							"_Name": "KeyValue9",
+							"KeyName": "/SAPAssetManager/Rules/LAM/LAMOffset2Label.js"
+						},
+						{
+							"Value": "{zHeight1}",
+							"_Name": "KeyValue10",
+							"KeyName": "Start Altitude",
+							"Visible": true
+						},
+						{
+							"Value": "{zHeight}",
+							"_Name": "KeyValue11",
+							"KeyName": "End Altitude",
+							"Visible": true
+						},
+						{
+							"Value": "{zLatitude1}",
+							"_Name": "KeyValue12",
+							"KeyName": "Start Latitude",
+							"Visible": true
+						},
+						{
+							"Value": "{zLatitude}",
+							"_Name": "KeyValue13",
+							"KeyName": "End Latitude",
+							"Visible": true
+						},
+						{
+							"Value": "{zLongitude1}",
+							"_Name": "KeyValue14",
+							"KeyName": "Start Longitude",
+							"Visible": true
+						},
+						{
+							"Value": "{zLongitude}",
+							"_Name": "KeyValue15",
+							"KeyName": "End Longitude",
+							"Visible": true
+						}
+					],
+					"MaxItemCount": 1,
+					"_Type": "Section.Type.KeyValue",
+					"_Name": "KeyValueTable",
+					"Header": {
+						"_Name": "SectionHeader0",
+						"UseTopPadding": true,
+						"Caption": "$(L,details)"
+					},
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Layout": {
+						"NumberOfColumns": 2
+					}
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "LAMDetailsPage",
+	"Caption": "$(L,linear_data)",
+	"PrefersLargeCaption": true,
+	"ActionBar": {
+		"Items": [
+			{
+				"Caption": "",
+				"_Name": "ActionBarItem0",
+				"SystemItem": "Edit",
+				"Position": "left",
+				"IsIconCircular": false,
+				"Visible": "/SAPAssetManager/Rules/LAM/CreateUpdate/LAMEditButtonIsVisible.js",
+				"OnPress": "/SAPAssetManager/Rules/LAM/CreateUpdate/LAMUpdateNav.js",
+				"Text": ""
+			}
+		],
+		"_Name": "ActionBar1"
+	}
+}

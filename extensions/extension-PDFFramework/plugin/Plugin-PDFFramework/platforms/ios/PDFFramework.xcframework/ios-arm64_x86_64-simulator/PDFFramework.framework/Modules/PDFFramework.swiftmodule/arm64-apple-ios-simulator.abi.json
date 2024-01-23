@@ -1,0 +1,1413 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PDFFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CallBackType",
+        "printedName": "CallBackType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Create",
+            "printedName": "Create",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PDFFramework.CallBackType.Type) -> PDFFramework.CallBackType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CallBackType",
+                    "printedName": "PDFFramework.CallBackType",
+                    "usr": "s:12PDFFramework12CallBackTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PDFFramework.CallBackType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CallBackType",
+                        "printedName": "PDFFramework.CallBackType",
+                        "usr": "s:12PDFFramework12CallBackTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PDFFramework12CallBackTypeO6CreateyA2CmF",
+            "mangledName": "$s12PDFFramework12CallBackTypeO6CreateyA2CmF",
+            "moduleName": "PDFFramework",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Save",
+            "printedName": "Save",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PDFFramework.CallBackType.Type) -> PDFFramework.CallBackType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CallBackType",
+                    "printedName": "PDFFramework.CallBackType",
+                    "usr": "s:12PDFFramework12CallBackTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PDFFramework.CallBackType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CallBackType",
+                        "printedName": "PDFFramework.CallBackType",
+                        "usr": "s:12PDFFramework12CallBackTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PDFFramework12CallBackTypeO4SaveyA2CmF",
+            "mangledName": "$s12PDFFramework12CallBackTypeO4SaveyA2CmF",
+            "moduleName": "PDFFramework",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Share",
+            "printedName": "Share",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PDFFramework.CallBackType.Type) -> PDFFramework.CallBackType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CallBackType",
+                    "printedName": "PDFFramework.CallBackType",
+                    "usr": "s:12PDFFramework12CallBackTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PDFFramework.CallBackType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CallBackType",
+                        "printedName": "PDFFramework.CallBackType",
+                        "usr": "s:12PDFFramework12CallBackTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PDFFramework12CallBackTypeO5ShareyA2CmF",
+            "mangledName": "$s12PDFFramework12CallBackTypeO5ShareyA2CmF",
+            "moduleName": "PDFFramework",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "None",
+            "printedName": "None",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PDFFramework.CallBackType.Type) -> PDFFramework.CallBackType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CallBackType",
+                    "printedName": "PDFFramework.CallBackType",
+                    "usr": "s:12PDFFramework12CallBackTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PDFFramework.CallBackType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CallBackType",
+                        "printedName": "PDFFramework.CallBackType",
+                        "usr": "s:12PDFFramework12CallBackTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PDFFramework12CallBackTypeO4NoneyA2CmF",
+            "mangledName": "$s12PDFFramework12CallBackTypeO4NoneyA2CmF",
+            "moduleName": "PDFFramework",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PDFFramework.CallBackType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CallBackType",
+                    "printedName": "PDFFramework.CallBackType",
+                    "usr": "s:12PDFFramework12CallBackTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSString",
+                "printedName": "Foundation.NSString",
+                "usr": "c:objc(cs)NSString"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12PDFFramework12CallBackTypeO8rawValueACSgSo8NSStringC_tcfc",
+            "mangledName": "$s12PDFFramework12CallBackTypeO8rawValueACSgSo8NSStringC_tcfc",
+            "moduleName": "PDFFramework",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSString",
+                "printedName": "Foundation.NSString",
+                "usr": "c:objc(cs)NSString"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12PDFFramework12CallBackTypeO8rawValueSo8NSStringCvp",
+            "mangledName": "$s12PDFFramework12CallBackTypeO8rawValueSo8NSStringCvp",
+            "moduleName": "PDFFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12PDFFramework12CallBackTypeO8rawValueSo8NSStringCvg",
+                "mangledName": "$s12PDFFramework12CallBackTypeO8rawValueSo8NSStringCvg",
+                "moduleName": "PDFFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12PDFFramework12CallBackTypeO",
+        "mangledName": "$s12PDFFramework12CallBackTypeO",
+        "moduleName": "PDFFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "NSString",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PDFManager",
+        "printedName": "PDFManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "pdfController",
+            "printedName": "pdfController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PDFFramework.HTMLToPDFViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTMLToPDFViewController",
+                    "printedName": "PDFFramework.HTMLToPDFViewController",
+                    "usr": "c:@M@PDFFramework@objc(cs)HTMLToPDFViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12PDFFramework10PDFManagerC13pdfControllerAA013HTMLToPDFViewD0CSgvp",
+            "mangledName": "$s12PDFFramework10PDFManagerC13pdfControllerAA013HTMLToPDFViewD0CSgvp",
+            "moduleName": "PDFFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PDFFramework.HTMLToPDFViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTMLToPDFViewController",
+                        "printedName": "PDFFramework.HTMLToPDFViewController",
+                        "usr": "c:@M@PDFFramework@objc(cs)HTMLToPDFViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12PDFFramework10PDFManagerC13pdfControllerAA013HTMLToPDFViewD0CSgvg",
+                "mangledName": "$s12PDFFramework10PDFManagerC13pdfControllerAA013HTMLToPDFViewD0CSgvg",
+                "moduleName": "PDFFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PDFFramework.HTMLToPDFViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTMLToPDFViewController",
+                        "printedName": "PDFFramework.HTMLToPDFViewController",
+                        "usr": "c:@M@PDFFramework@objc(cs)HTMLToPDFViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12PDFFramework10PDFManagerC13pdfControllerAA013HTMLToPDFViewD0CSgvs",
+                "mangledName": "$s12PDFFramework10PDFManagerC13pdfControllerAA013HTMLToPDFViewD0CSgvs",
+                "moduleName": "PDFFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12PDFFramework10PDFManagerC13pdfControllerAA013HTMLToPDFViewD0CSgvM",
+                "mangledName": "$s12PDFFramework10PDFManagerC13pdfControllerAA013HTMLToPDFViewD0CSgvM",
+                "moduleName": "PDFFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "create",
+            "printedName": "create(delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PDFDelegate",
+                "printedName": "PDFFramework.PDFDelegate",
+                "usr": "c:objc(cs)PDFDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PDFFramework@objc(cs)PDFManager(im)createWithDelegate:",
+            "mangledName": "$s12PDFFramework10PDFManagerC6create8delegateSo16UIViewControllerCSgSo11PDFDelegateC_tF",
+            "moduleName": "PDFFramework",
+            "isOpen": true,
+            "objc_name": "createWithDelegate:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "callback",
+            "printedName": "callback(dictionary:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSDictionary",
+                "printedName": "Foundation.NSDictionary",
+                "usr": "c:objc(cs)NSDictionary"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSString",
+                "printedName": "Foundation.NSString",
+                "usr": "c:objc(cs)NSString"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PDFFramework@objc(cs)PDFManager(im)callbackWithDictionary:type:",
+            "mangledName": "$s12PDFFramework10PDFManagerC8callback10dictionary4typeySo12NSDictionaryC_So8NSStringCtF",
+            "moduleName": "PDFFramework",
+            "isOpen": true,
+            "objc_name": "callbackWithDictionary:type:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PDFManager",
+                "printedName": "PDFFramework.PDFManager",
+                "usr": "c:@M@PDFFramework@objc(cs)PDFManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PDFFramework@objc(cs)PDFManager(im)init",
+            "mangledName": "$s12PDFFramework10PDFManagerCACycfc",
+            "moduleName": "PDFFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PDFFramework@objc(cs)PDFManager",
+        "mangledName": "$s12PDFFramework10PDFManagerC",
+        "moduleName": "PDFFramework",
+        "isOpen": true,
+        "objc_name": "PDFManager",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PDFFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PDFKit",
+        "printedName": "PDFKit",
+        "declKind": "Import",
+        "moduleName": "PDFFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "PDFFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HTMLToPDFViewController",
+        "printedName": "HTMLToPDFViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "webview",
+            "printedName": "webview",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12PDFFramework23HTMLToPDFViewControllerC7webviewSo9WKWebViewCvp",
+            "mangledName": "$s12PDFFramework23HTMLToPDFViewControllerC7webviewSo9WKWebViewCvp",
+            "moduleName": "PDFFramework",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12PDFFramework23HTMLToPDFViewControllerC7webviewSo9WKWebViewCvg",
+                "mangledName": "$s12PDFFramework23HTMLToPDFViewControllerC7webviewSo9WKWebViewCvg",
+                "moduleName": "PDFFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12PDFFramework23HTMLToPDFViewControllerC7webviewSo9WKWebViewCvs",
+                "mangledName": "$s12PDFFramework23HTMLToPDFViewControllerC7webviewSo9WKWebViewCvs",
+                "moduleName": "PDFFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12PDFFramework23HTMLToPDFViewControllerC7webviewSo9WKWebViewCvM",
+                "mangledName": "$s12PDFFramework23HTMLToPDFViewControllerC7webviewSo9WKWebViewCvM",
+                "moduleName": "PDFFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pdfView",
+            "printedName": "pdfView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PDFView",
+                "printedName": "PDFKit.PDFView",
+                "usr": "c:objc(cs)PDFView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12PDFFramework23HTMLToPDFViewControllerC7pdfViewSo0C0Cvp",
+            "mangledName": "$s12PDFFramework23HTMLToPDFViewControllerC7pdfViewSo0C0Cvp",
+            "moduleName": "PDFFramework",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PDFView",
+                    "printedName": "PDFKit.PDFView",
+                    "usr": "c:objc(cs)PDFView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12PDFFramework23HTMLToPDFViewControllerC7pdfViewSo0C0Cvg",
+                "mangledName": "$s12PDFFramework23HTMLToPDFViewControllerC7pdfViewSo0C0Cvg",
+                "moduleName": "PDFFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PDFView",
+                    "printedName": "PDFKit.PDFView",
+                    "usr": "c:objc(cs)PDFView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12PDFFramework23HTMLToPDFViewControllerC7pdfViewSo0C0Cvs",
+                "mangledName": "$s12PDFFramework23HTMLToPDFViewControllerC7pdfViewSo0C0Cvs",
+                "moduleName": "PDFFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12PDFFramework23HTMLToPDFViewControllerC7pdfViewSo0C0CvM",
+                "mangledName": "$s12PDFFramework23HTMLToPDFViewControllerC7pdfViewSo0C0CvM",
+                "moduleName": "PDFFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "generatePDF",
+            "printedName": "generatePDF(businessObject:htmlTemplate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PDFFramework23HTMLToPDFViewControllerC11generatePDF14businessObject12htmlTemplateySS_SStF",
+            "mangledName": "$s12PDFFramework23HTMLToPDFViewControllerC11generatePDF14businessObject12htmlTemplateySS_SStF",
+            "moduleName": "PDFFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillDisappear",
+            "printedName": "viewWillDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PDFFramework@objc(cs)HTMLToPDFViewController(im)viewWillDisappear:",
+            "mangledName": "$s12PDFFramework23HTMLToPDFViewControllerC17viewWillDisappearyySbF",
+            "moduleName": "PDFFramework",
+            "overriding": true,
+            "objc_name": "viewWillDisappear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "savePDF",
+            "printedName": "savePDF(at:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PDFFramework23HTMLToPDFViewControllerC7savePDF2at4withy10Foundation3URLV_SStF",
+            "mangledName": "$s12PDFFramework23HTMLToPDFViewControllerC7savePDF2at4withy10Foundation3URLV_SStF",
+            "moduleName": "PDFFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sharePDF",
+            "printedName": "sharePDF()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PDFFramework23HTMLToPDFViewControllerC8sharePDFyyF",
+            "mangledName": "$s12PDFFramework23HTMLToPDFViewControllerC8sharePDFyyF",
+            "moduleName": "PDFFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HTMLToPDFViewController",
+                "printedName": "PDFFramework.HTMLToPDFViewController",
+                "usr": "c:@M@PDFFramework@objc(cs)HTMLToPDFViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PDFFramework@objc(cs)HTMLToPDFViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s12PDFFramework23HTMLToPDFViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "PDFFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PDFFramework.HTMLToPDFViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTMLToPDFViewController",
+                    "printedName": "PDFFramework.HTMLToPDFViewController",
+                    "usr": "c:@M@PDFFramework@objc(cs)HTMLToPDFViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PDFFramework@objc(cs)HTMLToPDFViewController(im)initWithCoder:",
+            "mangledName": "$s12PDFFramework23HTMLToPDFViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "PDFFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFinish:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PDFFramework@objc(cs)HTMLToPDFViewController(im)webView:didFinishNavigation:",
+            "mangledName": "$s12PDFFramework23HTMLToPDFViewControllerC7webView_9didFinishySo05WKWebF0C_So12WKNavigationCSgtF",
+            "moduleName": "PDFFramework",
+            "objc_name": "webView:didFinishNavigation:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFail:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PDFFramework@objc(cs)HTMLToPDFViewController(im)webView:didFailNavigation:withError:",
+            "mangledName": "$s12PDFFramework23HTMLToPDFViewControllerC7webView_7didFail9withErrorySo05WKWebF0C_So12WKNavigationCSgs0J0_ptF",
+            "moduleName": "PDFFramework",
+            "objc_name": "webView:didFailNavigation:withError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PDFFramework@objc(cs)HTMLToPDFViewController",
+        "mangledName": "$s12PDFFramework23HTMLToPDFViewControllerC",
+        "moduleName": "PDFFramework",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/Bridge\/PDFManager.swift",
+      "kind": "StringLiteral",
+      "offset": 905,
+      "length": 10,
+      "value": "\"Template\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/Bridge\/PDFManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1146,
+      "length": 6,
+      "value": "\"Data\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/Bridge\/PDFManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1394,
+      "length": 6,
+      "value": "\"Path\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/Bridge\/PDFManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1572,
+      "length": 10,
+      "value": "\"FileName\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 444,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "StringLiteral",
+      "offset": 659,
+      "length": 28,
+      "value": "\"<script>var sap_SDD_model=\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "StringLiteral",
+      "offset": 703,
+      "length": 12,
+      "value": "\";<\/script>\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1403,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1491,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1497,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1507,
+      "length": 3,
+      "value": "8.5"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1511,
+      "length": 4,
+      "value": "72.0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1525,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1528,
+      "length": 4,
+      "value": "72.0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1616,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1622,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1632,
+      "length": 3,
+      "value": "8.5"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1636,
+      "length": 4,
+      "value": "72.0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1650,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1653,
+      "length": 4,
+      "value": "72.0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "StringLiteral",
+      "offset": 1750,
+      "length": 11,
+      "value": "\"paperRect\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "StringLiteral",
+      "offset": 1808,
+      "length": 15,
+      "value": "\"printableRect\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1985,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2315,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2446,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "StringLiteral",
+      "offset": 2476,
+      "length": 15,
+      "value": "\"ServiceReport\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "StringLiteral",
+      "offset": 2516,
+      "length": 5,
+      "value": "\"pdf\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "StringLiteral",
+      "offset": 2826,
+      "length": 5,
+      "value": "\"pdf\""
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "Array",
+      "offset": 3087,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3351,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3362,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3373,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/home\/ppurple\/data\/jenkins\/prod-build18010\/w\/naas-mobile\/naas-mobile-extension-pdf-SP-REL-darwin_aarch64_ent_indirectshipment-darwin_aarch64_ent\/gen\/tmp\/src\/xcode\/PDFFramework\/PDFGenerator\/HTMLToPDFView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3435,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

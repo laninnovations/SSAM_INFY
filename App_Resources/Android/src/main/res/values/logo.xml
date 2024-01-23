@@ -1,0 +1,9 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+  <style name="OnboardingLogo">
+          <!-- The value is always @drawable/<your_logo_name_without_ext> -->
+          <!-- Do not add the file extension e.g. .png -->
+          <item name="android:src">@drawable/aramcologo</item>
+          <item name="android:layout_width">wrap_content</item>
+          <item name="android:layout_height">24dp</item>
+  </style>
+</resources>

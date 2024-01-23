@@ -1,0 +1,56 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"MyFuncLocClasses"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FuncLocIdIntern"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ClassId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ClassType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjClassFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "InternCount"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "InternClassNum"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "ClassDefinition",
+			"Key": false,
+			"_Name": "ClassDefinition"
+		},
+		{
+			"_Type": "MyFunctionalLocation",
+			"Key": false,
+			"_Name": "FunctionalLocation"
+		}
+	],
+	"_Name": "MyFuncLocClass"
+}

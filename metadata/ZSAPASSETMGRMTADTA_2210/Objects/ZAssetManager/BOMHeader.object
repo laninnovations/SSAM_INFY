@@ -1,0 +1,86 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"BOMHeaders"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BOMDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ValidTo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Counter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BOMGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ValidFrom"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BaseQuantity"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BOMStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "BOMCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BaseUoM"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AlternativeBOM"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "BOMId"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(BOMItem)",
+			"Key": false,
+			"_Name": "BOMItems_Nav"
+		},
+		{
+			"_Type": "Collection(EquipmentBOM)",
+			"Key": false,
+			"_Name": "EquiBOMs_Nav"
+		},
+		{
+			"_Type": "Collection(FunctionalLocationBOM)",
+			"Key": false,
+			"_Name": "FLocBOMs_Nav"
+		},
+		{
+			"_Type": "Collection(MaterialBOM)",
+			"Key": false,
+			"_Name": "MaterialBOM_Nav"
+		}
+	],
+	"_Name": "BOMHeader"
+}

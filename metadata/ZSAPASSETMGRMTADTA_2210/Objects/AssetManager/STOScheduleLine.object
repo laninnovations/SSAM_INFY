@@ -1,0 +1,56 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"STOScheduleLines"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Batch"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "DeliveredQuantity"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "DeliveryDate"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "IssuedQuantity"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ScheduleLine"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ItemNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "StockTransportOrderId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ReservationNum"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "StockTransportOrderItem",
+			"Key": false,
+			"_Name": "StockTransportOrderItem_Nav"
+		}
+	],
+	"_Name": "STOScheduleLine"
+}

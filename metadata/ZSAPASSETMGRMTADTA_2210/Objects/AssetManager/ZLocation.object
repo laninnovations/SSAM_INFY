@@ -1,0 +1,94 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"ZIJC_LOCATIONS"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ZObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ZObjectkey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ZTransactionMode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ZUserName"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ZCreatedOn"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "ZTime"
+		},
+		{
+			"_Type": "Edm.Double",
+			"Key": false,
+			"_Name": "ZLongitudeDegree"
+		},
+		{
+			"_Type": "Edm.Double",
+			"Key": false,
+			"_Name": "ZLatitudeDegree"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ZFLAG"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ZOrgUnit"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ZDepartment"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ZCostCenter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ZMaintPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ZWorkCenter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ZPlanningPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ZPlannerGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ZMobileObjectStatus"
+		}
+	],
+	"_Name": "ZLocation"
+}

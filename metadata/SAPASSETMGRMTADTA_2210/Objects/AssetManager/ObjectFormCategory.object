@@ -1,0 +1,56 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"ObjectFormCategories"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EquipId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "FormCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UnPublishedAssessCount"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PublishedAssessCount"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FormCategoryDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FuncLocIdIntern"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MyEquipment",
+			"Key": false,
+			"_Name": "EquipmentFormCategory_Nav"
+		},
+		{
+			"_Type": "MyFunctionalLocation",
+			"Key": false,
+			"_Name": "FuncLocFormCategory_Nav"
+		}
+	],
+	"_Name": "ObjectFormCategory"
+}

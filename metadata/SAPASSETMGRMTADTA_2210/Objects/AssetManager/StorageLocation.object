@@ -1,0 +1,36 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"StorageLocations"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StorageLocationDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "StorageLocation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Plant"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Plant",
+			"Key": false,
+			"_Name": "Plant_Nav"
+		},
+		{
+			"_Type": "Collection(UserTrunkAssignment)",
+			"Key": false,
+			"_Name": "UserTrunkAssignment_Nav"
+		}
+	],
+	"_Name": "StorageLocation"
+}

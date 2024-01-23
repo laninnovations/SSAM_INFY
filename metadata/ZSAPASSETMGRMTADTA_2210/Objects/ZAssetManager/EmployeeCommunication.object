@@ -1,0 +1,36 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"EmployeeCommunications"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Value"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "CommunicationType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PersonnelNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SequenceNum"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Employee",
+			"Key": false,
+			"_Name": "Employee_Nav"
+		}
+	],
+	"_Name": "EmployeeCommunication"
+}

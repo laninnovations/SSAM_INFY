@@ -1,0 +1,34 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"ControlKeys"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ConfirmationIndicator"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "InspCharRequired"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ControlKeyDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Application"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ControlKey"
+		}
+	],
+	"_Name": "ControlKey"
+}

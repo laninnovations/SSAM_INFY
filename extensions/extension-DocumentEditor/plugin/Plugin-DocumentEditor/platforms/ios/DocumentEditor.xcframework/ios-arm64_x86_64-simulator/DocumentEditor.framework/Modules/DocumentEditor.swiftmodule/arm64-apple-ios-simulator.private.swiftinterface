@@ -1,0 +1,63 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DocumentEditor
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import CoreGraphics
+import DeveloperToolsSupport
+import Foundation
+import OSLog
+import PDFKit
+import Swift
+import SwiftUI
+import UIKit
+import UIKit.UIViewController
+import UniformTypeIdentifiers
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import _System_Foundation
+@objc @objcMembers @_Concurrency.MainActor public class DocumentEditorBridge : ObjectiveC.NSObject {
+  @objc @_Concurrency.MainActor public var delegate: (any DocumentEditor.DocumentEditorDelegate)? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor public var viewController: UIKit.UIViewController {
+    @objc get
+  }
+  @objc @_Concurrency.MainActor convenience public init(params: [Swift.String : Any])
+  @_Concurrency.MainActor public init(params: [Swift.String : Any], customEditors: [any DocumentEditor.DocumentEditorFactory])
+  @objc @_Concurrency.MainActor public func callback(_ params: [Swift.String : Any], _ type: Swift.String)
+  @objc deinit
+}
+public struct Document {
+  public let name: Swift.String
+  public let url: Foundation.URL
+  public let isDeletable: Swift.Bool
+}
+@objc @_Concurrency.MainActor public protocol DocumentEditorDelegate : ObjectiveC.NSObjectProtocol {
+  @objc @_Concurrency.MainActor optional func onCreate()
+  @objc @_Concurrency.MainActor optional func onSave()
+  @objc @_Concurrency.MainActor optional func onDelete()
+  @objc @_Concurrency.MainActor optional func localizedValue(_ key: Swift.String, params: Swift.String) -> Swift.String?
+}
+@_Concurrency.MainActor public protocol DocumentEditorFactory {
+  @_Concurrency.MainActor func canOpenFile(type: UniformTypeIdentifiers.UTType) -> Swift.Bool
+  @_Concurrency.MainActor func makeEditor(documentEditorPresentation: any DocumentEditor.DocumentEditorPresentation) -> (documentEditor: any DocumentEditor.DocumentEditorActions, viewController: UIKit.UIViewController)
+}
+@_Concurrency.MainActor public protocol DocumentEditorPresentation : AnyObject {
+  @_Concurrency.MainActor func onCreate()
+  @_Concurrency.MainActor func onSave()
+  @_Concurrency.MainActor func onDelete()
+  @_Concurrency.MainActor func localizedValue(_ key: Swift.String, params: [Swift.String]) -> Swift.String?
+}
+@_Concurrency.MainActor public protocol DocumentEditorActions {
+  @_Concurrency.MainActor func loadDocument(_ document: DocumentEditor.Document)
+  @_Concurrency.MainActor func enterCropMode()
+  @_Concurrency.MainActor func exitCropMode()
+  @_Concurrency.MainActor func enterEditMode()
+  @_Concurrency.MainActor func exitEditMode()
+  @_Concurrency.MainActor func clearAnnotations()
+  @_Concurrency.MainActor func saveDocument(_ document: DocumentEditor.Document)
+}
+extension DocumentEditor.DocumentEditorBridge : Swift.Sendable {}

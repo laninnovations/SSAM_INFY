@@ -1,0 +1,41 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"ConfirmationOverviewRows"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "ActualDuration"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "ActualWork"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": true,
+			"_Name": "PostingDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ActualDurationUOM"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ActualWorkUOM"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(Confirmation)",
+			"Key": false,
+			"_Name": "Confirmations"
+		}
+	],
+	"_Name": "ConfirmationOverviewRow"
+}

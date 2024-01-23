@@ -1,0 +1,5 @@
+{
+    "RequiredFields": ["FormCellNote0"],
+    "_Type": "Action.Type.CheckRequiredFields",
+    "OnSuccess": "/ZSAPASSETMGRMTADTA_2210/Rules/SetStagingForEmailUpdate.js"
+}

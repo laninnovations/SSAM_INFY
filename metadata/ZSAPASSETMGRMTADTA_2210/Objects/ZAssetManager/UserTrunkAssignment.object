@@ -1,0 +1,56 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"UserTrunkAssignments"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Active"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AttributeName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StorageLocation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UserName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "RecordNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "UserGuid"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Plant",
+			"Key": false,
+			"_Name": "Plant_Nav"
+		},
+		{
+			"_Type": "StorageLocation",
+			"Key": false,
+			"_Name": "StorageLocation_Nav"
+		}
+	],
+	"_Name": "UserTrunkAssignment"
+}

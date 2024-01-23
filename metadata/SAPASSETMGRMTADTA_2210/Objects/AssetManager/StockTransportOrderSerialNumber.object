@@ -1,0 +1,31 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"StockTransportOrderSerialNumbers"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ItemNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "StockTransportOrderId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SerialNumber"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "StockTransportOrderItem",
+			"Key": false,
+			"_Name": "STOItem_Nav"
+		}
+	],
+	"_Name": "StockTransportOrderSerialNumber"
+}

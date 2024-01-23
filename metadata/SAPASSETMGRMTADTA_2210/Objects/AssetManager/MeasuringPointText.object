@@ -1,0 +1,41 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"MeasuringPointTexts"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextString"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextObjType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Point"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MeasuringPoint",
+			"Key": false,
+			"_Name": "MeasuringPoint"
+		}
+	],
+	"_Name": "MeasuringPointText"
+}

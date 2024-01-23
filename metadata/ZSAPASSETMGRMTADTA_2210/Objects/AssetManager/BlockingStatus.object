@@ -1,0 +1,19 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"BlockingStatuses"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "DeliveryBlock"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DeliveryBlockDesc"
+		}
+	],
+	"_Name": "BlockingStatus"
+}

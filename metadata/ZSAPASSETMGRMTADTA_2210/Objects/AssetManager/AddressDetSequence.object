@@ -1,0 +1,39 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"AddressDetSequences"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "BusinessObject"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PMObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SrcObjectTechEntityType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SrcObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SequenceNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Active"
+		}
+	],
+	"_Name": "AddressDetSequence"
+}

@@ -1,0 +1,24 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"PurchaseOrderSerialNumbers"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ItemNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PurchaseOrderId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SerialNumber"
+		}
+	],
+	"_Name": "PurchaseOrderSerialNumber"
+}

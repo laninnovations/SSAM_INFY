@@ -1,0 +1,36 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"MaterialSales"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ItemCategoryGoup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SalesOrg"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "DistributionChannel"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MaterialNum"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Material",
+			"Key": false,
+			"_Name": "Material_Nav"
+		}
+	],
+	"_Name": "MaterialSales"
+}

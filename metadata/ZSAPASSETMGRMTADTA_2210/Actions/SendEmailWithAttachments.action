@@ -1,0 +1,20 @@
+{
+	"_Type": "Action.Type.ODataService.CreateEntity",
+	"ActionResult": {
+		"_Name": "SendEmailWithOutAttachments"
+	},
+	"OnFailure": "/ZSAPASSETMGRMTADTA_2210/Rules/ShowFailureToastAndClose.js",
+	"OnSuccess": "/ZSAPASSETMGRMTADTA_2210/Actions/EmailSentSuccess.action",
+	"ShowActivityIndicator": true,
+	"Target": {
+		"Service": "/ZSAPASSETMGRMTADTA_2210/Services/OnlineAssetManager.service",
+		"EntitySet": "ZemailAttachmentset"
+	},
+	"Properties": {
+		"ZBody": "#Page:EmailClient/#Control:FormCellNote0/#Value",
+		"ZRecipient": "#Page:EmailClient/#Control:FormCellSimpleProperty1/#Value",
+		"ZSubject": "#Page:EmailClient/#Control:FormCellSimpleProperty2/#Value",
+		"Zhas_attachment": "X",
+		"ZUserName": "#Application/#AppData/UserId"
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"FuncLocStructInds"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "FuncLocStructInd"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EditMask"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "HierarchyLevels"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FuncLocStructIndDesc"
+		}
+	],
+	"_Name": "FuncLocStructInd"
+}

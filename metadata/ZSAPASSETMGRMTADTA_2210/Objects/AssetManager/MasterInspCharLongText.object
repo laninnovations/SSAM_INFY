@@ -1,0 +1,51 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"MasterInspCharLongTexts"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextString"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextObjType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MasterInspCharPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MasterInspChar"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MasterInspCharVersion"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MasterInspectionChar",
+			"Key": false,
+			"_Name": "MasterInspChar_Nav"
+		}
+	],
+	"_Name": "MasterInspCharLongText"
+}

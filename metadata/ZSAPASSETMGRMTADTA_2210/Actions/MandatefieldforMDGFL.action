@@ -1,0 +1,12 @@
+{
+	"_Type": "Action.Type.CheckRequiredFields",
+	"ActionResult": {
+		"_Name": "MandatefieldforMDGFL"
+	},
+	"RequiredFields": [
+		"MDGChangerequesttype",
+		"PlanningPlant",
+		"MP",
+		"MainWorkCenter"
+	]
+}

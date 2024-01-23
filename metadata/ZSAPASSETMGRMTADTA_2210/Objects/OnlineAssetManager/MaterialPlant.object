@@ -1,0 +1,41 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/OnlineAssetManager.service",
+	"Collection": [
+		"MaterialPlants"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BatchIndicator"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PurchasingGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MaterialNum"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Material",
+			"Key": false,
+			"_Name": "Material"
+		},
+		{
+			"_Type": "Collection(MaterialSLoc)",
+			"Key": false,
+			"_Name": "MaterialSLocs"
+		}
+	],
+	"_Name": "MaterialPlant"
+}

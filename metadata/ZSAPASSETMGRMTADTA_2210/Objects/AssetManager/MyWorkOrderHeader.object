@@ -1,0 +1,356 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"MyWorkOrderHeaders"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ScheduledStartTime"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ScheduledEndTime"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Phase"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Subphase"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LAMObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LAMTableKey"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ScheduledEndDate"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ScheduledStartDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PlannerGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PriorityType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WorkCenterInternalId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AccountingIndicator"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "RequestStartDate"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "DueDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MaintenancePlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MainWorkCenterPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MaintenanceActivityType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrderCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrderCurrency"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrderDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrderType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PlanningPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Priority"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BusinessArea"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ControllingArea"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "CreationDate"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "CreationTime"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "HeaderFunctionLocation"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "LastChangeTime"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MainWorkCenter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "OrderId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "HeaderEquipment"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NotificationNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AddressNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Assembly"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CostCenter"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Address",
+			"Key": false,
+			"_Name": "Address"
+		},
+		{
+			"_Type": "Material",
+			"Key": false,
+			"_Name": "Assembly_nav"
+		},
+		{
+			"_Type": "Collection(MyWorkOrderComponent)",
+			"Key": false,
+			"_Name": "Components"
+		},
+		{
+			"_Type": "Collection(Confirmation)",
+			"Key": false,
+			"_Name": "Confirmations"
+		},
+		{
+			"_Type": "Collection(EAMChecklistLink)",
+			"Key": false,
+			"_Name": "EAMChecklist_Nav"
+		},
+		{
+			"_Type": "MyEquipment",
+			"Key": false,
+			"_Name": "Equipment"
+		},
+		{
+			"_Type": "MyFunctionalLocation",
+			"Key": false,
+			"_Name": "FunctionalLocation"
+		},
+		{
+			"_Type": "Collection(Geometry)",
+			"Key": false,
+			"_Name": "Geometry_Nav"
+		},
+		{
+			"_Type": "Collection(MyWorkOrderHeaderLongText)",
+			"Key": false,
+			"_Name": "HeaderLongText"
+		},
+		{
+			"_Type": "Collection(InspectionLot)",
+			"Key": false,
+			"_Name": "InspectionLot_Nav"
+		},
+		{
+			"_Type": "Collection(LAMObjectDatum)",
+			"Key": false,
+			"_Name": "LAMObjectDatum_Nav"
+		},
+		{
+			"_Type": "MarkedJob",
+			"Key": false,
+			"_Name": "MarkedJob"
+		},
+		{
+			"_Type": "Collection(MaterialDocItem)",
+			"Key": false,
+			"_Name": "MaterialDocItem"
+		},
+		{
+			"_Type": "MyNotificationHeader",
+			"Key": false,
+			"_Name": "NotifHeader_Nav"
+		},
+		{
+			"_Type": "MyNotificationHeader",
+			"Key": false,
+			"_Name": "Notification"
+		},
+		{
+			"_Type": "Collection(MyWorkOrderOperation)",
+			"Key": false,
+			"_Name": "Operations"
+		},
+		{
+			"_Type": "PMMobileStatus",
+			"Key": false,
+			"_Name": "OrderMobileStatus_Nav"
+		},
+		{
+			"_Type": "Collection(PMMobileStatusHistory)",
+			"Key": false,
+			"_Name": "PMMobileStatusHistory_Nav"
+		},
+		{
+			"_Type": "Collection(NotificationHistory)",
+			"Key": false,
+			"_Name": "RelatedNotif_Nav"
+		},
+		{
+			"_Type": "Collection(WorkOrderHistory)",
+			"Key": false,
+			"_Name": "RelatedWOHistory"
+		},
+		{
+			"_Type": "Collection(MyRoute)",
+			"Key": false,
+			"_Name": "Route"
+		},
+		{
+			"_Type": "Collection(UserTimeEntry)",
+			"Key": false,
+			"_Name": "UserTimeEntry_Nav"
+		},
+		{
+			"_Type": "Collection(CatsTimesheet)",
+			"Key": false,
+			"_Name": "WOCatsTimesheet"
+		},
+		{
+			"_Type": "Collection(MyWorkOrderDocument)",
+			"Key": false,
+			"_Name": "WODocuments"
+		},
+		{
+			"_Type": "Collection(MyWorkOrderGeometry)",
+			"Key": false,
+			"_Name": "WOGeometries"
+		},
+		{
+			"_Type": "Collection(MyWorkOrderObjectList)",
+			"Key": false,
+			"_Name": "WOObjectList_Nav"
+		},
+		{
+			"_Type": "Collection(MyWorkOrderPartner)",
+			"Key": false,
+			"_Name": "WOPartners"
+		},
+		{
+			"_Type": "Priority",
+			"Key": false,
+			"_Name": "WOPriority"
+		},
+		{
+			"_Type": "MyWorkOrderSales",
+			"Key": false,
+			"_Name": "WOSales_Nav"
+		},
+		{
+			"_Type": "Collection(WorkOrderTransfer)",
+			"Key": false,
+			"_Name": "WOTransfer"
+		}
+	],
+	"_Name": "MyWorkOrderHeader"
+}

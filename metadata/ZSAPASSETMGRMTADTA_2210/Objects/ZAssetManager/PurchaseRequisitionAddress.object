@@ -1,0 +1,286 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"PurchaseRequisitionAddresses"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PurchaseReqNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PurchaseReqItemNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "AddressNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FormOfAddress"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Name"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Name2"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Name3"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Name4"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "COName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "City"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "District"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CityCode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PostalCode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "POBoxPostCde"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CompanyPostCd"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "POBox"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "POBoxCity"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DeliveryDist"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Street"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StreetCode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StreetAbbrev"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "HouseNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Street2"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Street3"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Street5"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Buildingcode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Floor"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RoomNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Country"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Language"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Region"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SearchTerm1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SearchTerm2"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TimeZone"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TaxJurisdiction"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Notes"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CommMethod"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Telephone"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Extension"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Fax"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Extension1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Street1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "District1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CheckStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CityCode1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TransportZone"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Supplement"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EmailAddress"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Street4"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Title"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ISOCode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LanguageCode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BuildingCode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StructureGroup"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "PurchaseRequisitionItem",
+			"Key": false,
+			"_Name": "PurchaseRequisitionItem_Nav"
+		}
+	],
+	"_Name": "PurchaseRequisitionAddress"
+}

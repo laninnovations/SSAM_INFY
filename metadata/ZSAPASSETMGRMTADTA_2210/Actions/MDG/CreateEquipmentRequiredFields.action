@@ -1,0 +1,28 @@
+{
+	"_Type": "Action.Type.CheckRequiredFields",
+	"ActionResult": {
+		"_Name": "CreateEquipmentRequiredFields"
+	},
+	"OnSuccessLog": {
+		"Message": "All fields mandate",
+		"Level": "Error"
+	},
+	"RequiredFields": [
+		"ABCIndicator",
+		"CatalogProfile",
+		"Category",
+		"CostCenter",
+		"EnggTagNumber",
+		"EquipmentText",
+		"Functionallocation",
+		"Location",
+		"MaintenacePlantLstPkr",
+		"MainWorkCenterLstPkr",
+		"MDGChangerequesttype",
+		"MDGChangerequestDesc",
+		"ObjectType",
+		"PlannerGroup",
+		"PlanningPlant",
+		"SortField"
+	]
+}

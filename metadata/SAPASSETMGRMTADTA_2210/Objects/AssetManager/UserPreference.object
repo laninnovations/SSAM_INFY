@@ -1,0 +1,34 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"UserPreferences"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PreferenceValue"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PreferenceGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PreferenceName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "UserGuid"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "RecordId"
+		}
+	],
+	"_Name": "UserPreference"
+}

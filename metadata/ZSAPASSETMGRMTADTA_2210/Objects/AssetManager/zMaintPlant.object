@@ -1,0 +1,29 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"zMaintPlantSet"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "zMaintPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zName1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zLocation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zName"
+		}
+	],
+	"_Name": "zMaintPlant"
+}

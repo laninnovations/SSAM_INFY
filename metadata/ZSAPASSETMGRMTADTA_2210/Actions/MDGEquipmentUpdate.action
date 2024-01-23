@@ -1,0 +1,30 @@
+{
+	"_Type": "Action.Type.ODataService.CreateEntity",
+	"ActionResult": {
+		"_Name": "MDGEquipmentUpdate"
+	},
+	"OnFailure": "/ZSAPASSETMGRMTADTA_2210/Actions/EquipmentCreateFailureMessage.action",
+	"OnSuccess": "/ZSAPASSETMGRMTADTA_2210/Actions/MDG/ChangeEquipmentSuccessMessage.action",
+	"RequiredFields": [
+        "MDGChangerequesttype",
+        "MDGChangerequestDesc",
+		"Equipment",
+        "ManufacturerOfAsset",
+        "ManufacturerSerialNo",
+		"ManufacturerModelNo",
+        "ManufacturerPartNo"
+    ],
+	"Target": {
+		"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+		"EntitySet": "ZEquipmentMDGSet"
+	},
+	"Properties": {
+		"zcrequest": "#Page:EquipmentUpdateviaMDG/#Control:MDGChangerequesttype/#Value",
+		"zcrdesc": "#Page:EquipmentUpdateviaMDG/#Control:MDGChangerequestDesc/#Value",
+		"zEquipment": "#Page:EquipmentUpdateviaMDG/#Control:Equipment/#Value",
+		"zManufacturer": "#Page:EquipmentUpdateviaMDG/#Control:ManufacturerOfAsset/#Value",
+		"zManufSerialNr": "#Page:EquipmentUpdateviaMDG/#Control:ManufacturerSerialNo/#Value",
+		"zModelnumber": "#Page:EquipmentUpdateviaMDG/#Control:ManufacturerModelNo/#Value",
+		"zManufPartNo": "#Page:EquipmentUpdateviaMDG/#Control:ManufacturerPartNo/#Value"
+  	}
+}

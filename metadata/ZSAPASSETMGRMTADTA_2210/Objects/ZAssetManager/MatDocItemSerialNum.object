@@ -1,0 +1,41 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"MatDocItemSerialNums"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UniversalItemId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MatDocItem"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SerialNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MaterialDocYear"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MaterialDocNumber"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MaterialDocItem",
+			"Key": false,
+			"_Name": "MatDocItem_Nav"
+		}
+	],
+	"_Name": "MatDocItemSerialNum"
+}

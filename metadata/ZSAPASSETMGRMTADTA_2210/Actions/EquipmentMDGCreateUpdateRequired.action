@@ -1,0 +1,25 @@
+{
+    "OnFailure": "/SAPAssetManager/Rules/Common/UpdateRequiredFailed.js",
+    "OnSuccess": "/ZSAPASSETMGRMTADTA_2210/Actions/MDGEquipmentCreate.action",
+    "_Type": "Action.Type.CheckRequiredFields",
+    "ShowActivityIndicator": true,
+    "ActivityIndicatorText" : "  ",
+    "RequiredFields": [
+		"MDGChangerequesttype",
+		"MDGChangerequestDesc",
+		"Functionallocation",
+		"EquipmentText",
+		"Category",
+		"ObjectType",
+		"MaintenacePlantLstPkr",
+		"Location",
+		"SortField",
+		"PlanningPlant",
+		"PlannerGroup",
+		"MainWorkCenterLstPkr",
+		"CatalogProfile",
+		"CostCenter",
+		"ABCIndicator",
+		"EnggTagNumber"
+	]
+}

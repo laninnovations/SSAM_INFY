@@ -1,0 +1,16 @@
+{
+  "name": "extension-FieldDataCapture",
+  "version": "2310.0.0",
+  "description": "A Dynamic Forms plugin for MDK",
+  "main": "index.js",
+   "nativescript": {
+      "platforms": {
+         "ios": "2310.0.0"
+      }
+   },
+  "scripts": {
+    "test": "test"
+  },
+  "author": "SAP",
+  "license": "ISC"
+}

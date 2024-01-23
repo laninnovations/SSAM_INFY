@@ -1,0 +1,384 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.FormCellContainer",
+			"_Name": "FormCellContainer",
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Value": "/SAPAssetManager/Rules/LAM/LAMLinearReferencePatternValue.js",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "LRPLstPkr",
+							"IsEditable": false,
+							"AllowMultipleSelection": false,
+							"Caption": "$(L,lin_ref_pattern)",
+							"OnValueChange": "/SAPAssetManager/Rules/LAM/CreateUpdate/LinearRefPatternOnChange.js",
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"BarcodeScanner": true,
+								"Delay": 500,
+								"MinimumCharacterThreshold": 3
+							},
+							"PickerItems": {
+								"DisplayValue": "{{#Property:LRPId}} - {{#Property:Description}}",
+								"ReturnValue": "{LRPId}",
+								"Target": {
+									"EntitySet": "LinearReferencePatternHeaders",
+									"Service": "/SAPAssetManager/Services/AssetManager.service"
+								}
+							}
+						},
+						{
+							"Value": "/SAPAssetManager/Rules/LAM/LAMCharacteristicValueStringToNumber.js",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "StartPoint",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "$(L,start_point)",
+							"PlaceHolder": "$(N,0.00)",
+							"OnValueChange": "/SAPAssetManager/Rules/LAM/LAMValuePointChanged.js",
+							"KeyboardType": "Number"
+						},
+						{
+							"Value": "/SAPAssetManager/Rules/LAM/LAMCharacteristicValueStringToNumber.js",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "EndPoint",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "$(L,end_point)",
+							"PlaceHolder": "$(N,0.00)",
+							"OnValueChange": "/SAPAssetManager/Rules/LAM/LAMValuePointChanged.js",
+							"KeyboardType": "Number"
+						},
+						{
+							"Value": "/SAPAssetManager/Rules/LAM/LAMCharacteristicValueStringToNumber.js",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "Length",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "$(L,length)",
+							"PlaceHolder": "$(N,0.00)",
+							"OnValueChange": "/SAPAssetManager/Rules/LAM/LAMValuePointChangedLength.js",
+							"KeyboardType": "Default"
+						},
+						{
+							"Value": "{UOM}",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "UOMLstPkr",
+							"IsEditable": true,
+							"AllowMultipleSelection": false,
+							"Caption": "$(L,uom)",
+							"OnValueChange": "/SAPAssetManager/Rules/LAM/CreateUpdate/LAMUOMUpdate.js",
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"AllowDefaultValueIfOneItem": true,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"BarcodeScanner": true,
+								"Delay": 500,
+								"MinimumCharacterThreshold": 3
+							},
+							"PickerItems": {
+								"DisplayValue": "{{#Property:UoM}} - {{#Property:Description}}",
+								"ReturnValue": "{UoM}",
+								"Target": {
+									"EntitySet": "UsageUoMs",
+									"Service": "/SAPAssetManager/Services/AssetManager.service",
+									"QueryOptions": "$filter=Dimension eq 'LENGTH'"
+								}
+							}
+						},
+						{
+							"Value": "{StartMarker}",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "StartMarkerLstPkr",
+							"IsEditable": true,
+							"AllowMultipleSelection": false,
+							"Caption": "$(L,start_marker)",
+							"OnValueChange": "/SAPAssetManager/Rules/LAM/CreateUpdate/LAMCreateUpdateValuesChanged.js",
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"BarcodeScanner": true,
+								"Delay": 500,
+								"MinimumCharacterThreshold": 3
+							},
+							"PickerItems": {
+								"DisplayValue": "{{#Property:Marker}}",
+								"ReturnValue": "{Marker}",
+								"Target": {
+									"EntitySet": "LinearReferencePatternItems",
+									"Service": "/SAPAssetManager/Services/AssetManager.service",
+									"QueryOptions": ""
+								}
+							}
+						},
+						{
+							"Value": "{StartMarkerDistance}",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "DistanceFromStart",
+							"IsEditable": false,
+							"IsVisible": true,
+							"Caption": "$(L,distance_from_start)",
+							"PlaceHolder": "$(N,0.00)",
+							"KeyboardType": "Number"
+						},
+						{
+							"Value": "{EndMarker}",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "EndMarkerLstPkr",
+							"IsEditable": true,
+							"AllowMultipleSelection": false,
+							"Caption": "$(L,end_marker)",
+							"OnValueChange": "/SAPAssetManager/Rules/LAM/CreateUpdate/LAMCreateUpdateValuesChanged.js",
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"BarcodeScanner": true,
+								"Delay": 500,
+								"MinimumCharacterThreshold": 3
+							},
+							"PickerItems": {
+								"DisplayValue": "{{#Property:Marker}}",
+								"ReturnValue": "{Marker}",
+								"Target": {
+									"EntitySet": "LinearReferencePatternItems",
+									"Service": "/SAPAssetManager/Services/AssetManager.service",
+									"QueryOptions": ""
+								}
+							}
+						},
+						{
+							"Value": "{EndMarkerDistance}",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "DistanceFromEnd",
+							"IsEditable": false,
+							"IsVisible": true,
+							"Caption": "$(L,distance_from_end)",
+							"PlaceHolder": "$(N,0.00)",
+							"KeyboardType": "Number"
+						},
+						{
+							"Value": "{MarkerUOM}",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "MarkerUOMLstPkr",
+							"IsEditable": true,
+							"AllowMultipleSelection": false,
+							"Caption": "$(L,uom)",
+							"OnValueChange": "/SAPAssetManager/Rules/LAM/CreateUpdate/LAMUOMUpdate.js",
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"BarcodeScanner": true,
+								"Delay": 500,
+								"MinimumCharacterThreshold": 3
+							},
+							"PickerItems": {
+								"DisplayValue": "{{#Property:UoM}} - {{#Property:Description}}",
+								"ReturnValue": "{UoM}",
+								"Target": {
+									"EntitySet": "UsageUoMs",
+									"Service": "/SAPAssetManager/Services/AssetManager.service",
+									"QueryOptions": "$filter=Dimension eq 'LENGTH'"
+								}
+							}
+						}
+					],
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"Value": "{Offset1Type}",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "Offset1TypeLstPkr",
+							"IsEditable": true,
+							"AllowMultipleSelection": false,
+							"Caption": "$(L,offset1_type)",
+							"OnValueChange": "/SAPAssetManager/Rules/LAM/LAMOffset1Validation.js",
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"BarcodeScanner": true,
+								"Delay": 500,
+								"MinimumCharacterThreshold": 3
+							},
+							"PickerItems": {
+								"DisplayValue": "{{#Property:OffsetTypeCode}} - {{#Property:Description}}",
+								"ReturnValue": "{OffsetTypeCode}",
+								"Target": {
+									"EntitySet": "LAMOffsetTypes",
+									"Service": "/SAPAssetManager/Services/AssetManager.service"
+								}
+							}
+						},
+						{
+							"Value": "{Offset1Value}",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "offset1",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "$(L,offset1)",
+							"PlaceHolder": "$(N,0.00)",
+							"OnValueChange": "/SAPAssetManager/Rules/LAM/LAMOffset1Validation.js",
+							"KeyboardType": "Number"
+						},
+						{
+							"Value": "{Offset1UOM}",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "Offset1UOMLstPkr",
+							"IsEditable": true,
+							"AllowMultipleSelection": false,
+							"Caption": "$(L,offset1_uom)",
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"BarcodeScanner": true,
+								"Delay": 500,
+								"MinimumCharacterThreshold": 3
+							},
+							"PickerItems": {
+								"DisplayValue": "{{#Property:UoM}} - {{#Property:Description}}",
+								"ReturnValue": "{UoM}",
+								"Target": {
+									"EntitySet": "UsageUoMs",
+									"Service": "/SAPAssetManager/Services/AssetManager.service",
+									"QueryOptions": "$filter=Dimension eq 'LENGTH'"
+								}
+							}
+						}
+					],
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"Value": "{Offset2Type}",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "Offset2TypeLstPkr",
+							"IsEditable": true,
+							"AllowMultipleSelection": false,
+							"Caption": "$(L,offset2_type)",
+							"OnValueChange": "/SAPAssetManager/Rules/LAM/LAMOffset1Validation.js",
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"BarcodeScanner": true,
+								"Delay": 500,
+								"MinimumCharacterThreshold": 3
+							},
+							"PickerItems": {
+								"DisplayValue": "{{#Property:OffsetTypeCode}} - {{#Property:Description}}",
+								"ReturnValue": "{OffsetTypeCode}",
+								"Target": {
+									"EntitySet": "LAMOffsetTypes",
+									"Service": "/SAPAssetManager/Services/AssetManager.service"
+								}
+							}
+						},
+						{
+							"Value": "{Offset2Value}",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "offset2",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "$(L,offset2)",
+							"PlaceHolder": "$(N,0.00)",
+							"OnValueChange": "/SAPAssetManager/Rules/LAM/LAMOffset1Validation.js",
+							"KeyboardType": "Number"
+						},
+						{
+							"Value": "{Offset2UOM}",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "Offset2UOMLstPkr",
+							"IsEditable": true,
+							"AllowMultipleSelection": false,
+							"Caption": "$(L,offset2_uom)",
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"BarcodeScanner": true,
+								"Delay": 500,
+								"MinimumCharacterThreshold": 3
+							},
+							"PickerItems": {
+								"DisplayValue": "{{#Property:UoM}} - {{#Property:Description}}",
+								"ReturnValue": "{UoM}",
+								"Target": {
+									"EntitySet": "UsageUoMs",
+									"Service": "/SAPAssetManager/Services/AssetManager.service",
+									"QueryOptions": "$filter=Dimension eq 'LENGTH'"
+								}
+							}
+						}
+					],
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"_Type": "Control.Type.FormCell.Button",
+							"_Name": "DiscardButton",
+							"IsVisible": "/SAPAssetManager/Rules/Common/IsDiscardButtonVisible.js",
+							"Styles": {
+								"Value": "ObjectCellStyleRed"
+							},
+							"Title": "$(L,discard)",
+							"TextAlignment": "/SAPAssetManager/Rules/Common/Platform/ModalButtonAlign.js",
+							"Alignment": "Center",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"OnPress": "/SAPAssetManager/Rules/Common/DiscardAction.js"
+						}
+					],
+					"Visible": true
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "LAMValuesCreateUpdatePage",
+	"Caption": "/SAPAssetManager/Rules/Classification/Characteristics/LAM/CharacteristicsLAMValuesCaption.js",
+	"OnLoaded": "/SAPAssetManager/Rules/LAM/CreateUpdate/LAMValuesCreateUpdateOnLoaded.js",
+	"ActionBar": {
+		"Items": [
+			{
+				"_Name": "ActionBarItem0",
+				"SystemItem": "Cancel",
+				"Position": "left",
+				"IsIconCircular": false,
+				"Visible": "/SAPAssetManager/Rules/WorkOrders/Complete/IsNotCompleteAction.js",
+				"OnPress": "/SAPAssetManager/Rules/Common/CheckForChangesBeforeClose.js",
+				"Text": ""
+			},
+			{
+				"_Name": "ActionBarItem1",
+				"SystemItem": "$(PLT,'Done','')",
+				"Position": "right",
+				"IsIconCircular": false,
+				"OnPress": "/SAPAssetManager/Actions/LAM/LAMValuesCreateUpdateRequired.action",
+				"Text": "/SAPAssetManager/Rules/Common/Platform/DoneText.js"
+			}
+		],
+		"_Name": "ActionBar1"
+	}
+}

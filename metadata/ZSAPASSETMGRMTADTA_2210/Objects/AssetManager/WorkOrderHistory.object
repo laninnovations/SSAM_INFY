@@ -1,0 +1,171 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"WorkOrderHistories"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PriorityType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PM_OBJTY"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PlanningPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WorkCenter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PlannerGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MainWorkCenter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "TechObject"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LongTextExists"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Priority"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PersonsName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrderType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrderDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FunctionalLocation"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "StartDate"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "EndDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "OrderId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ReferenceType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Equipment"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NotifNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ReferenceWorkOrder"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PersonalNumber"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Employee",
+			"Key": false,
+			"_Name": "Employee_Nav"
+		},
+		{
+			"_Type": "MyEquipment",
+			"Key": false,
+			"_Name": "Equipment_Nav"
+		},
+		{
+			"_Type": "MyFunctionalLocation",
+			"Key": false,
+			"_Name": "FuncLoc_Nav"
+		},
+		{
+			"_Type": "WorkOrderHistoryText",
+			"Key": false,
+			"_Name": "HistoryLongText"
+		},
+		{
+			"_Type": "Priority",
+			"Key": false,
+			"_Name": "HistoryPriority"
+		},
+		{
+			"_Type": "PMMobileStatus",
+			"Key": false,
+			"_Name": "PMMobileStatus_Nav"
+		},
+		{
+			"_Type": "PlannerGroup",
+			"Key": false,
+			"_Name": "PlannerGroup_Nav"
+		},
+		{
+			"_Type": "MyNotificationHeader",
+			"Key": false,
+			"_Name": "RelatedNotif_Nav"
+		},
+		{
+			"_Type": "WorkCenter",
+			"Key": false,
+			"_Name": "WorkCenter_Nav"
+		},
+		{
+			"_Type": "MyWorkOrderHeader",
+			"Key": false,
+			"_Name": "WorkOrderHeader"
+		}
+	],
+	"_Name": "WorkOrderHistory"
+}

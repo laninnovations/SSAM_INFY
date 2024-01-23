@@ -1,0 +1,196 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"LAMObjectData"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EndMarkerDistance"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ConfirmationCounter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ConfirmationNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NotifItemNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StartMarkerDistance"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Offset2Value"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Offset2Type"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Offset1Value"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Offset1Type"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LRPId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Length"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StartPoint"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EndMarker"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StartMarker"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EndPoint"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "TableKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrderId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EquipId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UOM"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MarkerUOM"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Offset1UOM"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Offset2UOM"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FuncLocIdIntern"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NotificationNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OperationNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MeasurementDocNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Point"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Confirmation",
+			"Key": false,
+			"_Name": "Confirmation_Nav"
+		},
+		{
+			"_Type": "MeasurementDocument",
+			"Key": false,
+			"_Name": "MeasurementDocument_Nav"
+		},
+		{
+			"_Type": "MeasuringPoint",
+			"Key": false,
+			"_Name": "MeasuringPoint_Nav"
+		},
+		{
+			"_Type": "MyEquipment",
+			"Key": false,
+			"_Name": "MyEquipment_Nav"
+		},
+		{
+			"_Type": "MyFunctionalLocation",
+			"Key": false,
+			"_Name": "MyFunctionalLocation_Nav"
+		},
+		{
+			"_Type": "MyNotificationHeader",
+			"Key": false,
+			"_Name": "MyNotificationHeader_Nav"
+		},
+		{
+			"_Type": "MyNotificationItem",
+			"Key": false,
+			"_Name": "MyNotificationItem_Nav"
+		},
+		{
+			"_Type": "MyWorkOrderHeader",
+			"Key": false,
+			"_Name": "MyWorkOrderHeader_Nav"
+		},
+		{
+			"_Type": "MyWorkOrderOperation",
+			"Key": false,
+			"_Name": "MyWorkOrderOperation_Nav"
+		}
+	],
+	"_Name": "LAMObjectDatum"
+}

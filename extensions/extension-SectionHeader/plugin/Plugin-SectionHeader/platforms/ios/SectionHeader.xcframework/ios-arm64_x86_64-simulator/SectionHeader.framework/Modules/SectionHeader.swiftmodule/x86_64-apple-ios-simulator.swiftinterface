@@ -1,0 +1,31 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target x86_64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SectionHeader
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import ExtensionUtils
+import Foundation
+import SAPFiori
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_Concurrency.MainActor public protocol SectionHeaderDelegate : ObjectiveC.NSObjectProtocol {
+  @objc @_Concurrency.MainActor optional func onCreate()
+  @objc @_Concurrency.MainActor optional func onPress(_ action: Swift.String)
+  @objc @_Concurrency.MainActor optional func localizedValue(_ key: Swift.String, params: Swift.String) -> Swift.String?
+}
+@objc @objcMembers @_Concurrency.MainActor public class SectionHeaderBridge : ObjectiveC.NSObject {
+  @objc @_Concurrency.MainActor public var delegate: (any SectionHeader.SectionHeaderDelegate)? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor public var viewController: UIKit.UIViewController
+  @objc @_Concurrency.MainActor public init(params: [Swift.String : Any])
+  @objc @_Concurrency.MainActor public func setSectionHeader(_ params: [Swift.String : Any])
+  @objc @_Concurrency.MainActor public func setStatusText(_ statusText: Swift.String)
+  @objc @_Concurrency.MainActor public func setLink(_ link: [Swift.String : Any])
+  @objc deinit
+}
+extension SectionHeader.SectionHeaderBridge : Swift.Sendable {}

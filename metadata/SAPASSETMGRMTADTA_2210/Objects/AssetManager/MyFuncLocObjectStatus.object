@@ -1,0 +1,36 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"MyFuncLocObjectStatuses"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FuncLocIdIntern"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Status"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MyFunctionalLocation",
+			"Key": false,
+			"_Name": "FunctionalLocation_Nav"
+		},
+		{
+			"_Type": "SystemStatus",
+			"Key": false,
+			"_Name": "SystemStatus_Nav"
+		}
+	],
+	"_Name": "MyFuncLocObjectStatus"
+}

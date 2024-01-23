@@ -1,0 +1,29 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"StagingAreas"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StagingAreaText"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DoorNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "WarehouseNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "StagingArea"
+		}
+	],
+	"_Name": "StagingArea"
+}

@@ -1,0 +1,19 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"OrderActivityTypes"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "OrderType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ActivityType"
+		}
+	],
+	"_Name": "OrderActivityType"
+}

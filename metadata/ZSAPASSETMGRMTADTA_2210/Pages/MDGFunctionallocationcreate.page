@@ -1,0 +1,457 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.FormCellContainer",
+			"_Name": "FormCellContainer0",
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Value": "ZFUNCL01",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "MDGCRType",
+							"IsEditable": false,
+							"IsVisible": true,
+							"Caption": "MDG CR Type",
+							"Enabled": false
+						},
+						{
+							"MaxNumberOfLines": 3,
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "Description",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "MDG CR Description",
+							"PlaceHolder": "MDG CR Description",
+							"Enabled": true
+						},
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "FL",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Functional Location",
+							"PlaceHolder": "Functional Location",
+							"Enabled": true
+						},
+						{
+							"MaxNumberOfLines": 3,
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "FLDesc",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Functional Location Description",
+							"PlaceHolder": "Functional Location Description",
+							"Enabled": true
+						},
+						{
+							"Value": [
+								"FLS01"
+							],
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "SI",
+							"IsEditable": true,
+							"IsVisible": true,
+							"AllowMultipleSelection": false,
+							"AllowEmptySelection": true,
+							"Caption": "Structure Indicator",
+							"DataPaging": {
+								"ShowLoadingIndicator": false,
+								"PageSize": 50
+							},
+							"PickerPrompt": "Please select one single item",
+							"IsSelectedSectionEnabled": false,
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"AllowDefaultValueIfOneItem": false,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"Delay": 500,
+								"MinimumCharacterThreshold": 1
+							},
+							"PickerItems": [
+								{
+									"DisplayValue": "FLS01-Core Business",
+									"ReturnValue": "FLS01"
+								},
+								{
+									"DisplayValue": "FLTAG-Tag ID (6th Level)",
+									"ReturnValue": "FLTAG"
+								}
+							]
+						},
+						{
+							"Value": "M",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "FLCategory",
+							"IsEditable": false,
+							"IsVisible": true,
+							"AllowMultipleSelection": false,
+							"AllowEmptySelection": true,
+							"Caption": "Functional Location Category",
+							"DataPaging": {
+								"ShowLoadingIndicator": false,
+								"PageSize": 50
+							},
+							"PickerPrompt": "Please select one single item",
+							"IsSelectedSectionEnabled": false,
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"AllowDefaultValueIfOneItem": false,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"Delay": 500,
+								"MinimumCharacterThreshold": 1
+							},
+							"PickerItems": {
+								"Target": {
+									"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+									"EntitySet": "FuncLocCategories"
+								},
+								"DisplayValue": "{{#Property:FuncLocCategory}} - {{#Property:FuncLocCategoryDesc}}",
+								"ReturnValue": "{FuncLocCategory}"
+							}
+						},
+						{
+							"PlaceHolder": "Object Type",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "OBType",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Object Type",
+							"DataPaging": {
+								"ShowLoadingIndicator": false,
+								"PageSize": 50
+							},
+							"PickerPrompt": "Please select one single item",
+							"IsSelectedSectionEnabled": false,
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"AllowDefaultValueIfOneItem": false,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"Delay": 500,
+								"MinimumCharacterThreshold": 1
+							},
+							"PickerItems": {
+								"Target": {
+									"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+									"EntitySet": "EquipObjectTypes"
+								},
+								"DisplayValue": "{{#Property:ObjectType}} - {{#Property:ObjectTypeDesc}}",
+								"ReturnValue": "{ObjectType}"
+							}
+						},
+						{
+							"Value": "Enter Date",
+							"_Type": "Control.Type.FormCell.DatePicker",
+							"_Name": "SUD",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Start-Up Date",
+							"Mode": "Date"
+						},
+						{
+							"PlaceHolder": "Maintenance Plant",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "MP",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Maintenance Plant",
+							"PickerPrompt": "Please select one single item",
+							"IsSelectedSectionEnabled": false,
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"AllowDefaultValueIfOneItem": false,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"Delay": 500,
+								"MinimumCharacterThreshold": 1
+							},
+							"PickerItems": {
+								"Target": {
+									"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+									"EntitySet": "Plants"
+								},
+								"DisplayValue": "{{#Property:Plant}} - {{#Property:PlantDescription}}",
+								"ReturnValue": "{Plant}"
+							}
+						},
+						{
+							"PlaceHolder": "Location",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "Location",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Location",
+							"PickerPrompt": "Please select one single item",
+							"IsSelectedSectionEnabled": false,
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"AllowDefaultValueIfOneItem": false,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"Delay": 500,
+								"MinimumCharacterThreshold": 1
+							},
+							"PickerItems": {
+								"Target": {
+									"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+									"EntitySet": "Locations"
+								},
+								"DisplayValue": "{{#Property:Location}} - {{#Property:LocationName}}",
+								"ReturnValue": "{Location}"
+							}
+						},
+						{
+							"PlaceHolder": "ABC Indicator",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "ABC",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "ABC Indicator",
+							"PickerPrompt": "Please select one single item",
+							"IsSelectedSectionEnabled": false,
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"AllowDefaultValueIfOneItem": false,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"Delay": 500,
+								"MinimumCharacterThreshold": 1
+							},
+							"PickerItems": [
+								{
+									"DisplayValue": "A - Critical",
+									"ReturnValue": "A"
+								},
+								{
+									"DisplayValue": "B - Important",
+									"ReturnValue": "B"
+								},
+								{
+									"DisplayValue": "C - Normal",
+									"ReturnValue": "C"
+								}
+							]
+						},
+						{
+							"Value": "1000",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "CC",
+							"IsEditable": true,
+							"IsVisible": false,
+							"Caption": "Company Code",
+							"PlaceHolder": "Company Code",
+							"Enabled": true
+						},
+						{
+							"PlaceHolder": "Cost Center",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "CostCenter",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Cost Center",
+							"PickerPrompt": "Please select one single item",
+							"IsSelectedSectionEnabled": false,
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"AllowDefaultValueIfOneItem": false,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"Delay": 500,
+								"MinimumCharacterThreshold": 1
+							},
+							"PickerItems": {
+								"Target": {
+									"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+									"EntitySet": "COActivityTypes"
+								},
+								"DisplayValue": "{{#Property:CostCenter}} - {{#Property:CostCenterDescription}}",
+								"ReturnValue": "{CostCenter}"
+							}
+						},
+						{
+							"PlaceHolder": "Planning Plant",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "PlanningPlant",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Planning Plant",
+							"PickerPrompt": "Please select one single item",
+							"IsSelectedSectionEnabled": false,
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"AllowDefaultValueIfOneItem": false,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"Delay": 500,
+								"MinimumCharacterThreshold": 1
+							},
+							"PickerItems": {
+								"Target": {
+									"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+									"EntitySet": "OrderTypes"
+								},
+								"DisplayValue": "{{#Property:PlanningPlant}} - {{#Property:PlantDescription}}",
+								"ReturnValue": "{PlanningPlant}"
+							}
+						},
+						{
+							"PlaceHolder": "Planner Group",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "PlannerGroup",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Planner Group",
+							"PickerPrompt": "Please select one single item",
+							"IsSelectedSectionEnabled": false,
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"AllowDefaultValueIfOneItem": false,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"Delay": 500,
+								"MinimumCharacterThreshold": 1
+							},
+							"PickerItems": {
+								"Target": {
+									"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+									"EntitySet": "PlannerGroups"
+								},
+								"DisplayValue": "{{#Property:PlannerGroup}} - {{#Property:PlannerGroupName}}",
+								"ReturnValue": "{PlannerGroup}"
+							}
+						},
+						{
+							"PlaceHolder": "Main Work Center",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "MainWorkCenter",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Main Work Center",
+							"PickerPrompt": "Please select one single item",
+							"IsSelectedSectionEnabled": false,
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"AllowDefaultValueIfOneItem": false,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"Delay": 500,
+								"MinimumCharacterThreshold": 1
+							},
+							"PickerItems": {
+								"Target": {
+									"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+									"EntitySet": "WorkCenters"
+								},
+								"DisplayValue": "{{#Property:ExternalWorkCenterId}} - {{#Property:WorkCenterDescr}}",
+								"ReturnValue": "{ExternalWorkCenterId}"
+							}
+						},
+						{
+							"PlaceHolder": "Catalog Profile",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "CatalogProfile",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Catalog Profile",
+							"PickerPrompt": "Please select one single item",
+							"IsSelectedSectionEnabled": false,
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"AllowDefaultValueIfOneItem": false,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"Delay": 500,
+								"MinimumCharacterThreshold": 1
+							},
+							"PickerItems": {
+								"Target": {
+									"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+									"EntitySet": "PMCatalogProfiles"
+								},
+								"DisplayValue": "{{#Property:CatalogProfile}} - {{#Property:CatalogProfileDesc}}",
+								"ReturnValue": "{CatalogProfile}"
+							}
+						},
+						{
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "iInstallallow",
+							"IsEditable": true,
+							"IsVisible": true,
+							"AllowMultipleSelection": false,
+							"AllowEmptySelection": true,
+							"Caption": "Installation Allow ",
+							"DataPaging": {
+								"ShowLoadingIndicator": false,
+								"PageSize": 50
+							},
+							"PickerPrompt": "Please select one single item",
+							"IsSelectedSectionEnabled": false,
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"AllowDefaultValueIfOneItem": false,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"Delay": 500,
+								"MinimumCharacterThreshold": 1
+							},
+							"PickerItems": [
+								{
+									"DisplayValue": "Yes",
+									"ReturnValue": "X"
+								},
+								{
+									"DisplayValue": "No",
+									"ReturnValue": " "
+								}
+							]
+						}
+					],
+					"Visible": true
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "MDGCRCreation",
+	"Caption": "MDG CR Creation - Functional Location",
+	"ActionBar": {
+		"Items": [
+			{
+				"Caption": "Item",
+				"_Name": "ActionBarItem0",
+				"SystemItem": "Cancel",
+				"Position": "Left",
+				"IsIconCircular": false,
+				"Visible": true,
+				"OnPress": "/ZSAPASSETMGRMTADTA_2210/Actions/ClosePage.action",
+				"Text": ""
+			},
+			{
+				"Caption": "Item",
+				"_Name": "ActionBarItem1",
+				"SystemItem": "Save",
+				"Position": "Right",
+				"IsIconCircular": false,
+				"Visible": true,
+				"OnPress": "/ZSAPASSETMGRMTADTA_2210/Rules/CreateFunctionalLocation.js",
+				"Text": ""
+			}
+		],
+		"_Name": "ActionBar1"
+	}
+}

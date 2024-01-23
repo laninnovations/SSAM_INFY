@@ -1,0 +1,46 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"MarkedJobs"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PreferenceValue"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PreferenceName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PreferenceGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UserGUID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RecordId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "OrderId"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MyWorkOrderHeader",
+			"Key": false,
+			"_Name": "WorkOrderHeader"
+		}
+	],
+	"_Name": "MarkedJob"
+}

@@ -1,0 +1,49 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"InspectionPointValuations"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "FieldCombination"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "InspectionPointType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SelectedSet"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AcceptedCodeGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AcceptedCode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RejectedCodeGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RejectedCode"
+		}
+	],
+	"_Name": "InspectionPointValuation"
+}

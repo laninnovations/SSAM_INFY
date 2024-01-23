@@ -1,0 +1,7 @@
+{
+	"_Type": "Action.Type.Navigation",
+	"ActionResult": {
+		"_Name": "NavigateToEmailPage"
+	},
+	"PageToOpen": "/ZSAPASSETMGRMTADTA_2210/Pages/EmailClient.page"
+}

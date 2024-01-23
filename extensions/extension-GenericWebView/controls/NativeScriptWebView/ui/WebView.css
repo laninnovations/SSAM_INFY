@@ -1,0 +1,14 @@
+.webviewPadding {
+  padding-left: 32;
+  padding-top: 15;
+  padding-right: 32;
+  padding-bottom: 15;
+}
+
+#webView {
+  width: 480;
+}
+
+#gridLayoutContent {
+  background-color: white;
+}

@@ -1,0 +1,154 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"ZFuncLocationMDGSet"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Zcrequest"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Zcrdesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "zFunctionalloc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zfldesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zStrIndicator"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zFunctLocCat"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zObjectType"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "zValidFrom"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zMaintPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zLocation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zABCIndic"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zCompanyCode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zCostCenter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zPlanningPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zPlannerGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zMainWorkCtr"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zCatalogProfile"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zEquipInstall"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zChangeRequest"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zObjtypetext"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zFLCategoryDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zABCIndicText"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zCatalogprofile"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zCostCentDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zAuthorizGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zModelnumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zManufacturer"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zManufPartNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zManufSerialNr"
+		}
+	],
+	"_Name": "ZFuncLocationMDG"
+}

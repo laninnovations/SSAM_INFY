@@ -1,0 +1,81 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"LAMCharacteristicValues"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "LAMInternCounter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "CharValCounter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjClassFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ClassType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "InternCounter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Table"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "InternCharacteristic"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StartPoint"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EndPoint"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Length"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UOM"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MyEquipClassCharValue",
+			"Key": false,
+			"_Name": "MyEquipClassCharValue_Nav"
+		},
+		{
+			"_Type": "MyFuncLocClassCharValue",
+			"Key": false,
+			"_Name": "MyFuncLocClassCharValue_Nav"
+		}
+	],
+	"_Name": "LAMCharacteristicValue"
+}

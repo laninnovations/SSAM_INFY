@@ -1,0 +1,4 @@
+framework module HierarchyFramework {
+  header "HierarchyFramework-Swift.h"
+  requires objc
+}

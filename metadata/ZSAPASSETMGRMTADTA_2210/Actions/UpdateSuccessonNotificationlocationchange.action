@@ -1,0 +1,9 @@
+{
+	"_Type": "Action.Type.Message",
+	"Message": "Location Captured Successfully",
+	"Title": "Location Capture On Update",
+	"OKCaption": "OK",
+	"ActionResult": {
+		"_Name": "UpdateSuccessonNotificationlocationchange"
+	}
+}

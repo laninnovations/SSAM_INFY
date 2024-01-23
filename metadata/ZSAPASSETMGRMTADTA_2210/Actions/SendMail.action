@@ -1,0 +1,17 @@
+{
+	"_Type": "Action.Type.ODataService.CreateEntity",
+	"Target": {
+		"Service": "/ZSAPASSETMGRMTADTA_2210/Services/OnlineAssetManager.service",
+		"EntitySet": "ZemailAttachmentset"
+	},
+	"Properties": {
+		"ZBody": "Please create a ticket and assign it to 'CMS_SAP PM CMS' team.",
+		"ZRecipient": "rohit.vashishtha@aramco.com",
+		"ZSubject": "Maintenance Mobility Solution Technical Issue",
+		"Zhas_attachment": "",
+		"ZUserName": "RV819581"
+	},
+	"ActionResult": {
+		"_Name": "SendMail"
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/ZAssetManager.service",
+	"Collection": [
+		"ShippingPoints"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ShippingPoint"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(ReceivingPoint)",
+			"Key": false,
+			"_Name": "ReceivingPoint_Nav"
+		}
+	],
+	"_Name": "ShippingPoint"
+}

@@ -1,0 +1,36 @@
+{
+	"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+	"Collection": [
+		"Regions"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Country"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Region"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(Address)",
+			"Key": false,
+			"_Name": "Addresses_Nav"
+		},
+		{
+			"_Type": "Country",
+			"Key": false,
+			"_Name": "Country_Nav"
+		}
+	],
+	"_Name": "Region"
+}

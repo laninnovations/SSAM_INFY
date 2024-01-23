@@ -1,0 +1,20 @@
+{
+	"_Type": "Action.Type.ODataService.Read",
+	"Target": {
+		"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
+		"EntitySet": "ZGeoInfoSet",
+		"QueryOptions": "$filter=zObjectType eq 'OR' and zTableKey eq '{OrderId}'\n",
+		"ReadLink": "{@odata.readLink}"
+	},
+	"Properties": [
+		"zHeight",
+		"zLatitude",
+		"zLongitude",
+		"zHeight1",
+		"zLatitude1",
+		"zLongitude1"
+	],
+	"ActionResult": {
+		"_Name": "LAMGEODATA"
+	}
+}
