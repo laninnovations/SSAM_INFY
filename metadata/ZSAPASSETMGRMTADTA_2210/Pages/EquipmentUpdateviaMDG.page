@@ -21,7 +21,7 @@
 							"_Name": "MDGChangerequestDesc",
 							"IsEditable": true,
 							"IsVisible": true,
-							"Caption": "MDG CR Description",
+							"Caption": "MDG CR Description/Justification",
 							"PlaceHolder": "MDG Change Request Description",
 							"Enabled": true
 						},

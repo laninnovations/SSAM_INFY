@@ -21,7 +21,7 @@
 							"_Name": "MDGChangerequestDesc",
 							"IsEditable": true,
 							"IsVisible": true,
-							"Caption": "MDG CR Description",
+							"Caption": "MDG CR Description/Justification",
 							"PlaceHolder": "MDG Change Request Description",
 							"Enabled": true
 						},
@@ -151,6 +151,9 @@
 						},
 						{
 							"PlaceHolder": "PlaceHolder",
+							"Value": [
+								"C"
+							],
 							"_Type": "Control.Type.FormCell.ListPicker",
 							"_Name": "ABCIndicator",
 							"IsEditable": true,
@@ -368,24 +371,24 @@
 	"ActionBar": {
 		"Items": [
 			{
-				"Caption": "Item",
+				"Text": "",
 				"_Name": "ActionBarItem1",
+				"Caption": "Item",
 				"SystemItem": "Cancel",
 				"Position": "Left",
 				"IsIconCircular": false,
 				"Visible": true,
-				"OnPress": "/ZSAPASSETMGRMTADTA_2210/Actions/ClosePage.action",
-				"Text": ""
+				"OnPress": "/ZSAPASSETMGRMTADTA_2210/Actions/ClosePage.action"
 			},
 			{
-				"Caption": "Item",
+				"Text": "",
 				"_Name": "ActionBarItem0",
+				"Caption": "Item",
 				"SystemItem": "Save",
 				"Position": "Right",
 				"IsIconCircular": false,
 				"Visible": true,
-				"OnPress": "/ZSAPASSETMGRMTADTA_2210/Actions/EquipmentMDGCreateUpdateRequired.action",
-				"Text": ""
+				"OnPress": "/ZSAPASSETMGRMTADTA_2210/Actions/EquipmentMDGCreateUpdateRequired.action"
 			}
 		],
 		"_Name": "ActionBar1"

@@ -167,14 +167,6 @@
 			"Target": "/SAPAssetManager/Rules/Notifications/CreateUpdate/RequiredFields.js"
 		},
 		{
-			"Source": "/ZSAPASSETMGRMTADTA_2210/Rules/Notes/NoteLibrary.js",
-			"Target": "/SAPAssetManager/Rules/Notes/NoteLibrary.js"
-		},
-		{
-			"Source": "/ZSAPASSETMGRMTADTA_2210/Rules/Confirmations/CreateUpdate/ConfirmationCreateUpdateAction.js",
-			"Target": "/SAPAssetManager/Rules/Confirmations/CreateUpdate/OnCommit/ConfirmationCreateUpdateAction.js"
-		},
-		{
 			"Source": "/ZSAPASSETMGRMTADTA_2210/Rules/WorkOrders/Operations/CreateUpdate/WorkOrderOperationBatchCreate.js",
 			"Target": "/SAPAssetManager/Rules/WorkOrders/Operations/CreateUpdate/WorkOrderOperationBatchCreate.js"
 		},
@@ -189,6 +181,14 @@
 		{
 			"Source": "/ZSAPASSETMGRMTADTA_2210/Rules/WorkOrders/CreateUpdate/WorkOrderCreateUpdateEditable.js",
 			"Target": "/SAPAssetManager/Rules/WorkOrders/CreateUpdate/WorkOrderCreateUpdateEditable.js"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Rules/Notifications/NotificationHeader.js",
+			"Target": "/SAPAssetManager/Rules/Notifications/NotificationHeader.js"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Actions/WorkOrders/WorkOrderOperationDetailsPopover.action",
+			"Target": "/SAPAssetManager/Actions/WorkOrders/Operations/WorkOrderOperationDetailsPopover.action"
 		}
 	]
 }

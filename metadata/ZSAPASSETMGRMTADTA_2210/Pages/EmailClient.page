@@ -32,14 +32,18 @@
 							"Enabled": false
 						},
 						{
+							"validationProperties": {
+								"ValidationMessage": "/ZSAPASSETMGRMTADTA_2210/Rules/emailbodylength.js"
+							},
 							"_Type": "Control.Type.FormCell.Note",
-							"_Name": "FormCellNote0",
+							"_Name": "EmailBody",
 							"IsEditable": true,
 							"IsVisible": true,
 							"Styles": {
 								"Value": "NoteFormCellValue"
 							},
 							"PlaceHolder": "Please add Issue Description",
+							"OnValueChange": "/ZSAPASSETMGRMTADTA_2210/Rules/emailbodylength.js",
 							"MaxNumberOfLines": 12,
 							"MinNumberOfLines": 1,
 							"Enabled": true
@@ -70,13 +74,13 @@
 	"ActionBar": {
 		"Items": [
 			{
-				"Text": "",
-				"_Name": "ActionBarItem0",
 				"Caption": "Send",
+				"_Name": "ActionBarItem0",
 				"Position": "Right",
 				"IsIconCircular": false,
 				"Visible": true,
-				"OnPress": "/ZSAPASSETMGRMTADTA_2210/Actions/EmailPageRequiredFields.action"
+				"OnPress": "/ZSAPASSETMGRMTADTA_2210/Actions/EmailPageRequiredFields.action",
+				"Text": ""
 			}
 		],
 		"_Name": "ActionBar1"

@@ -23,7 +23,6 @@
 								"Delay": 500,
 								"MinimumCharacterThreshold": 3
 							},
-							"Value": "",
 							"PickerItems": {
 								"Target": {
 									"Service": "/SAPAssetManager/Services/AssetManager.service",
@@ -174,12 +173,12 @@
 							"_Type": "Control.Type.FormCell.ListPicker",
 							"_Name": "VarianceReasonPkr",
 							"IsEditable": "/SAPAssetManager/Rules/Confirmations/CreateUpdate/IsWorkOrderSelected.js",
+							"IsVisible": false,
 							"AllowMultipleSelection": false,
 							"Caption": "$(L, variance_reason)",
 							"OnValueChange": "/SAPAssetManager/Rules/Confirmations/CreateUpdate/OnListPickerValueChanged.js",
 							"IsPickerDismissedOnSelection": true,
 							"IsSearchCancelledAfterSelection": true,
-							"IsVisible": false,
 							"PickerItems": {
 								"DisplayValue": "{{#Property:VarianceReason}} - {{#Property:ReasonText}}",
 								"ReturnValue": "{VarianceReason}",
@@ -195,12 +194,12 @@
 							"_Type": "Control.Type.FormCell.ListPicker",
 							"_Name": "AcctIndicatorPkr",
 							"IsEditable": true,
+							"IsVisible": false,
 							"AllowMultipleSelection": false,
 							"Caption": "$(L, account_indicator)",
 							"OnValueChange": "/SAPAssetManager/Rules/Confirmations/CreateUpdate/OnListPickerValueChanged.js",
 							"IsPickerDismissedOnSelection": true,
 							"IsSearchCancelledAfterSelection": true,
-							"IsVisible": false,
 							"PickerItems": {
 								"DisplayValue": "{{#Property:AcctIndicator}} - {{#Property:AcctIndicatorDesc}}",
 								"ReturnValue": "{AcctIndicator}",
@@ -212,7 +211,6 @@
 							}
 						},
 						{
-							"Value": "{IsFinal}",
 							"_Type": "Control.Type.FormCell.Switch",
 							"_Name": "IsFinalConfirmation",
 							"IsEditable": true,

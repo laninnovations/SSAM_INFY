@@ -1,0 +1,165 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable",
+			"Sections": [
+				{
+					"_Type": "Section.Type.SimplePropertyCollection",
+					"_Name": "SectionSimplePropertyCollection0",
+					"Header": {
+						"_Name": "SectionHeader0",
+						"UseTopPadding": false
+					},
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"SimplePropertyCells": [
+						{
+							"SimplePropertyCell": {
+								"IsEditable": true,
+								"_Name": "SectionSimplePropertyCell0",
+								"KeyName": "$(L,passcode)",
+								"AccessoryType": "disclosureIndicator",
+								"OnPress": "/SAPAssetManager/Rules/UserPreferences/ChangeUserPasscode.js"
+							}
+						},
+						{
+							"SimplePropertyCell": {
+								"_Name": "SectionSimplePropertyCell1",
+								"KeyName": "$(L,support)",
+								"AccessoryType": "disclosureIndicator",
+								"OnPress": "/SAPAssetManager/Rules/UserPreferences/UserSupportNav.js"
+							}
+						},
+						{
+							"SimplePropertyCell": {
+								"_Name": "SectionSimplePropertyCell2",
+								"KeyName": "$(L,privacy_policy)",
+								"AccessoryType": "disclosureIndicator",
+								"OnPress": "/SAPAssetManager/Rules/PrivacyPolicy/PrivacyPolicyLink.js"
+							}
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 1,
+						"MinimumInteritemSpacing": "$(PLT,66,0)"
+					}
+				},
+				{
+					"Controls": [
+						{
+							"validationProperties": {
+								"ValidationMessage": "$(L,location_tracking_enabled_prompt)",
+								"ValidationMessageColor": "929496",
+								"SeparatorIsHidden": false,
+								"ValidationViewIsHidden": false
+							},
+							"Value": "/SAPAssetManager/Rules/UserPreferences/LocationTrackingInitValue.js",
+							"_Type": "Control.Type.FormCell.Switch",
+							"_Name": "LocationTrackingSwitch",
+							"IsEditable": false,
+							"IsVisible": true,
+							"Caption": "$(L,location_tracking)",
+							"OnValueChange": "/SAPAssetManager/Rules/UserPreferences/LocationTrackingToggle.js"
+						}
+					],
+					"Visible": "/SAPAssetManager/Rules/UserPreferences/LocationTrackingIsVisible.js",
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"_Type": "Section.Type.FormCell",
+					"_Name": "LocationTrackingFormCell"
+				},
+				{
+					"Controls": [
+						{
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "SwitchPersonaLstPkr",
+							"IsVisible": "/SAPAssetManager/Rules/UserPersonas/ShowUserPersonas.js",
+							"AllowMultipleSelection": false,
+							"AllowEmptySelection": false,
+							"Caption": "$(L, switch_persona)",
+							"OnValueChange": "/SAPAssetManager/Rules/UserPreferences/SetLocationSwitch.js",
+							"IsPickerDismissedOnSelection": true,
+							"PickerItems": "/SAPAssetManager/Rules/UserPersonas/UserPersonas.js"
+						}
+					],
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"_Type": "Section.Type.FormCell",
+					"_Name": "SectionFormCell0"
+				},
+				{
+					"_Type": "Section.Type.ButtonTable",
+					"_Name": "SectionButtonTable0",
+					"Header": {
+						"_Name": "SectionHeader1",
+						"UseTopPadding": false
+					},
+					"Visible": "/SAPAssetManager/Rules/DigitalSignature/DeviceRegistrationIsVisible.js",
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Buttons": [
+						{
+							"_Name": "SectionButton0",
+							"Title": "$(L,register_digital_signature)",
+							"TextAlignment": "Center",
+							"OnPress": "/SAPAssetManager/Rules/DigitalSignature/TOTPDeviceRegistration.js"
+						}
+					]
+				},
+				{
+					"_Type": "Section.Type.ButtonTable",
+					"_Name": "SectionButtonTable1",
+					"Header": {
+						"_Name": "SectionHeader2",
+						"UseTopPadding": false
+					},
+					"Visible": "/SAPAssetManager/Rules/DigitalSignature/DeviceDeRegistrationIsVisible.js",
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Buttons": [
+						{
+							"_Name": "SectionButton1",
+							"Title": "$(L,unregister_device)",
+							"TextAlignment": "Center",
+							"OnPress": "/SAPAssetManager/Rules/DigitalSignature/UnRegisterDevice.js"
+						}
+					]
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "UserProfileSettings",
+	"Caption": "$(L,profile)",
+	"PrefersLargeCaption": true,
+	"OnLoaded": "/SAPAssetManager/Rules/UserSettings/OnloadUserSettings.js",
+	"ActionBar": {
+		"Items": [
+			{
+				"Caption": "",
+				"_Name": "ActionBarItem0",
+				"SystemItem": "/SAPAssetManager/Rules/UserPreferences/UserProfileCloseIcon.js",
+				"Position": "left",
+				"IsIconCircular": false,
+				"OnPress": "/SAPAssetManager/Rules/UserPreferences/CheckForChangesBeforeCancel.js",
+				"Text": "$(L,cancel)"
+			},
+			{
+				"Caption": "",
+				"_Name": "ActionBarItem1",
+				"Position": "right",
+				"IsIconCircular": false,
+				"OnPress": "/SAPAssetManager/Actions/User/UserProfileRequiredFields.action",
+				"Text": "$(L, done)"
+			}
+		],
+		"_Name": "ActionBar1"
+	}
+}

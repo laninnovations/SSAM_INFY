@@ -11,7 +11,7 @@
             "platform": "ios",
             "sourceMaps": true,
             "watch": true,
-            "appRoot": "/Users/sabarish/Desktop/Infosys_Aramco/SAM2210_IOS_23.8.3/MDKClient_SDK/CMW"
+            "appRoot": "/Users/sabarish/Desktop/Infosys_Aramco/SSAM2210_IOS_23.4.6/MDKClient_SDK/CMW"
         },
         {
             "name": "MDK Attach on iOS",
@@ -20,7 +20,7 @@
             "platform": "ios",
             "sourceMaps": true,
             "watch": false,
-            "appRoot": "/Users/sabarish/Desktop/Infosys_Aramco/SAM2210_IOS_23.8.3/MDKClient_SDK/CMW"
+            "appRoot": "/Users/sabarish/Desktop/Infosys_Aramco/SSAM2210_IOS_23.4.6/MDKClient_SDK/CMW"
         },
         {
             "name": "MDK Launch on Android",
