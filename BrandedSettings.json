@@ -4,12 +4,12 @@
   "ConnectionSettings": {
     "EnableOverrides": false,
     "AppId": "com.sap.sam2210.oauth",
-    "ClientId": "86b9afaa-2398-45c3-9f78-695aff550f0e",
-    "SapCloudPlatformEndpoint": "https://mobile-kp6qlz5cpf.sa1.hana.ondemand.com",
-    "ServerUrl": "https://mobile-kp6qlz5cpf.sa1.hana.ondemand.com/",
-    "AuthorizationEndpointUrl": "https://oauthasservices-kp6qlz5cpf.sa1.hana.ondemand.com/oauth2/api/v1/authorize",
-    "RedirectUrl": "https://oauthasservices-kp6qlz5cpf.sa1.hana.ondemand.com",
-    "TokenUrl": "https://oauthasservices-kp6qlz5cpf.sa1.hana.ondemand.com/oauth2/api/v1/token",
+    "ClientId": "5c5e71a8-f428-4d75-943c-fbf288746f75",
+    "SapCloudPlatformEndpoint": "https://mobile-a4mel9cxg6.sa1.hana.ondemand.com",
+    "ServerUrl": "https://mobile-a4mel9cxg6.sa1.hana.ondemand.com/",
+    "AuthorizationEndpointUrl": "https://oauthasservices-a4mel9cxg6.sa1.hana.ondemand.com/oauth2/api/v1/authorize",
+    "RedirectUrl": "https://oauthasservices-a4mel9cxg6.sa1.hana.ondemand.com",
+    "TokenUrl": "https://oauthasservices-a4mel9cxg6.sa1.hana.ondemand.com/oauth2/api/v1/token",
     "MultiUserSettings":{
       "MultiUserEnabled": true
     }  
@@ -42,7 +42,7 @@
       "mdk.trace.ui"
     ]
   },
-  "SecureDatabaseEncryptionKey" : true,
+  "SecureDatabaseEncryptionKey" : false,
   "SigninButtonText": "$(L,signin_button_text)",
   "SkipEula": true,
   "OnboardingCustomizations": {

@@ -187,11 +187,6 @@
 	],
 	"NavigationProperties": [
 		{
-			"_Type": "EAMChecklistLink",
-			"Key": false,
-			"_Name": "EAMChecklist_Nav"
-		},
-		{
 			"_Type": "InspectionCatalogValuation",
 			"Key": false,
 			"_Name": "InspValuation_Nav"

@@ -307,11 +307,6 @@
 			"_Name": "DefectClass_Nav"
 		},
 		{
-			"_Type": "EAMChecklistLink",
-			"Key": false,
-			"_Name": "EAMChecklist_Nav"
-		},
-		{
 			"_Type": "InspectionCharStatus",
 			"Key": false,
 			"_Name": "InspCharStatus_Nav"

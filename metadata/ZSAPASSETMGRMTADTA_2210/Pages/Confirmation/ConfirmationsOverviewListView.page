@@ -1,0 +1,63 @@
+{
+	"Controls": [
+		{
+			"DataSubscriptions": [
+				"Confirmations",
+				"ConfirmationOverviewRows"
+			],
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable",
+			"Sections": [
+				{
+					"Header": {
+						"_Name": "SectionHeader0",
+						"UseTopPadding": false
+					},
+					"_Type": "Section.Type.ObjectTable",
+					"Target": {
+						"EntitySet": "ConfirmationOverviewRows",
+						"Service": "/SAPAssetManager/Services/AssetManager.service",
+						"QueryOptions": "/SAPAssetManager/Rules/Confirmations/ConfirmationOverviewRowsQuery.js"
+					},
+					"_Name": "WorkOrdersListSection",
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"ObjectCell": {
+						"Title": "/SAPAssetManager/Rules/Confirmations/OverviewListView/FormattedPostingDate.js",
+						"Subhead": "/SAPAssetManager/Rules/Confirmations/ConfirmationTotalDuration.js",
+						"PreserveIconStackSpacing": true,
+						"AccessoryType": "disclosureIndicator",
+						"Icons": "/SAPAssetManager/Rules/Confirmations/OverviewListView/OverviewRowIcons.js",
+						"Tags": [
+						],
+						"OnPress": "/SAPAssetManager/Actions/Confirmations/ConfirmationsListViewNav.action",
+						"ContextMenu": {
+							"Items": [
+							],
+							"PerformFirstActionWithFullSwipe": true
+						}
+					}
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "ConfirmationsOverviewListView",
+	"Caption": "/SAPAssetManager/Rules/Confirmations/ListView/ConfirmationListViewCaption.js",
+	"PrefersLargeCaption": true,
+	"ActionBar": {
+		"Items": [
+			{
+				"_Name": "ActionBarItem0",
+				"SystemItem": "Add",
+				"Position": "right",
+				"IsIconCircular": false,
+				"Visible": false,
+				"OnPress": "/SAPAssetManager/Rules/Confirmations/CreateUpdate/ConfirmationCreateUpdateNav.js",
+				"Text": ""
+			}
+		],
+		"_Name": "ActionBar1"
+	}
+}

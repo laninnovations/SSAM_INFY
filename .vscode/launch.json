@@ -36,7 +36,8 @@
             "request": "attach",
             "platform": "android",
             "sourceMaps": true,
-            "watch": false
+            "watch": false,
+            "appRoot": "/Users/sabarish/Desktop/Infosys_Aramco/SSAM2210_Android_23.4.6/MDKClient_SDK/CMW"
         }
     ]
 }

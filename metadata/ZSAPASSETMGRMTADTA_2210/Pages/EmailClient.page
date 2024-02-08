@@ -22,7 +22,7 @@
 							"Enabled": false
 						},
 						{
-							"Value": "Connected Maintenance Worker",
+							"Value": "Connected Maintenance Workforce",
 							"_Type": "Control.Type.FormCell.SimpleProperty",
 							"_Name": "FormCellSimpleProperty2",
 							"IsEditable": false,
@@ -74,13 +74,13 @@
 	"ActionBar": {
 		"Items": [
 			{
-				"Caption": "Send",
+				"Text": "",
 				"_Name": "ActionBarItem0",
+				"Caption": "Send",
 				"Position": "Right",
 				"IsIconCircular": false,
 				"Visible": true,
-				"OnPress": "/ZSAPASSETMGRMTADTA_2210/Actions/EmailPageRequiredFields.action",
-				"Text": ""
+				"OnPress": "/ZSAPASSETMGRMTADTA_2210/Actions/EmailPageRequiredFields.action"
 			}
 		],
 		"_Name": "ActionBar1"

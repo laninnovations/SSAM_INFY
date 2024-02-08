@@ -80,11 +80,6 @@
 			"_Type": "Collection(StorageLocation)",
 			"Key": false,
 			"_Name": "StorageLocations_Nav"
-		},
-		{
-			"_Type": "Collection(UserTrunkAssignment)",
-			"Key": false,
-			"_Name": "UserTrunkAssignment_Nav"
 		}
 	],
 	"_Name": "Plant"

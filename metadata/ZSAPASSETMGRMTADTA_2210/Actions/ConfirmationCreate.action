@@ -15,7 +15,6 @@
 		"ReverseIndicator": "",
 		"VarianceReason": "#Property:VarianceReason",
 		"StartTime": "/SAPAssetManager/Rules/Confirmations/CreateUpdate/OnCommit/GetStartTime.js",
-		"ActualDuration": "/SAPAssetManager/Rules/Confirmations/CreateUpdate/OnCommit/GetDuration.js",
 		"AccountingIndicator": "#Property:AccountingIndicator",
 		"CompleteFlag": "",
 		"PersonnelNumber": "/SAPAssetManager/Rules/TimeSheets/CreateUpdate/TimeSheetCreateUpdatePersonnelNumber.js",
@@ -32,7 +31,8 @@
 		"Operation": "#Property:Operation",
 		"SubOperation": "#Property:SubOperation",
 		"ActualWorkUOM": "H",
-		"ActualDurationUOM": "H"
+		"ActualDuration": "/SAPAssetManager/Rules/Confirmations/CreateUpdate/OnCommit/GetDuration.js",
+        "ActualDurationUOM": "H"
 	},
 	"CreateLinks": "/SAPAssetManager/Rules/Confirmations/CreateUpdate/OnCommit/CreateLinks.js",
 	"Headers": {

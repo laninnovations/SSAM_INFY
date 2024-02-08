@@ -14,7 +14,7 @@
 		{
 			"Title": "$(L,add_part)",
 			"OnPress": "/SAPAssetManager/Rules/Parts/CreateUpdate/PartCreateNav.js",
-			"Visible": "/SAPAssetManager/Rules/UserAuthorizations/WorkOrders/EnableWorkOrderEdit.js"
+			"Visible": false
 		},
 		{
 			"Title": "/SAPAssetManager/Rules/Notes/NotePopoverSelectionText.js",

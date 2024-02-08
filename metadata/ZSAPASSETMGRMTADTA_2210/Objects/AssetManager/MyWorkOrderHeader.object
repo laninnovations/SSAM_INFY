@@ -222,11 +222,6 @@
 			"_Name": "Confirmations"
 		},
 		{
-			"_Type": "Collection(EAMChecklistLink)",
-			"Key": false,
-			"_Name": "EAMChecklist_Nav"
-		},
-		{
 			"_Type": "MyEquipment",
 			"Key": false,
 			"_Name": "Equipment"

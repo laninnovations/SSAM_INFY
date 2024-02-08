@@ -1,0 +1,16 @@
+{
+    "OnFailure": "/SAPAssetManager/Rules/Common/UpdateRequiredFailed.js",
+    "OnSuccess": "/ZSAPASSETMGRMTADTA_2210/Actions/MDGEquipmentUpdate.action",
+    "_Type": "Action.Type.CheckRequiredFields",
+    "ShowActivityIndicator": true,
+    "ActivityIndicatorText" : "  ",
+    "RequiredFields": [
+        "MDGChangerequesttype",
+        "MDGChangerequestDesc",
+		"Equipment",
+        "ManufacturerOfAsset",
+        "ManufacturerSerialNo",
+		"ManufacturerModelNo",
+        "ManufacturerPartNo"
+	]
+}

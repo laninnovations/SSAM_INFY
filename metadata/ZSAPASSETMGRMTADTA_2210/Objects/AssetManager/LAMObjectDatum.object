@@ -7,41 +7,6 @@
 		{
 			"_Type": "Edm.String",
 			"Key": false,
-			"_Name": "zLatitude1"
-		},
-		{
-			"_Type": "Edm.String",
-			"Key": false,
-			"_Name": "zLatitude"
-		},
-		{
-			"_Type": "Edm.String",
-			"Key": false,
-			"_Name": "zHeight1"
-		},
-		{
-			"_Type": "Edm.String",
-			"Key": false,
-			"_Name": "zHeight"
-		},
-		{
-			"_Type": "Edm.String",
-			"Key": false,
-			"_Name": "zLongitude1"
-		},
-		{
-			"_Type": "Edm.String",
-			"Key": false,
-			"_Name": "zLongitude"
-		},
-		{
-			"_Type": "Edm.String",
-			"Key": false,
-			"_Name": "zDatasource"
-		},
-		{
-			"_Type": "Edm.String",
-			"Key": false,
 			"_Name": "EndMarkerDistance"
 		},
 		{
@@ -178,6 +143,41 @@
 			"_Type": "Edm.String",
 			"Key": false,
 			"_Name": "Point"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zLatitude1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zLatitude"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zHeight1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zHeight"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zLongitude1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zLongitude"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zDatasource"
 		}
 	],
 	"NavigationProperties": [

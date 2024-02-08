@@ -2,7 +2,7 @@
 	"Controls": [
 		{
 			"_Type": "Control.Type.SectionedTable",
-			"_Name": "MDG Equipment Update",
+			"_Name": "FormCellContainer",
 			"Sections": [
 				{
 					"Controls": [
@@ -110,7 +110,7 @@
 				"Position": "Right",
 				"IsIconCircular": false,
 				"Visible": true,
-				"OnPress": "/ZSAPASSETMGRMTADTA_2210/Actions/MDGEquipmentUpdate.action"
+				"OnPress": "/ZSAPASSETMGRMTADTA_2210/Actions/EquipmentMDGChangeUpdateRequired.action"
 			}
 		],
 		"_Name": "ActionBar1"

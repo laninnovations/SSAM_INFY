@@ -6,8 +6,18 @@
 	"Properties": [
 		{
 			"_Type": "Edm.String",
-			"Key": true,
-			"_Name": "zcrequest"
+			"Key": false,
+			"_Name": "zChangeRequest"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zFunctionalloc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zEquipment"
 		},
 		{
 			"_Type": "Edm.String",
@@ -62,11 +72,6 @@
 		{
 			"_Type": "Edm.String",
 			"Key": false,
-			"_Name": "zABCIndic"
-		},
-		{
-			"_Type": "Edm.String",
-			"Key": false,
 			"_Name": "zSortField"
 		},
 		{
@@ -97,26 +102,6 @@
 		{
 			"_Type": "Edm.String",
 			"Key": false,
-			"_Name": "zFunctionalloc"
-		},
-		{
-			"_Type": "Edm.String",
-			"Key": false,
-			"_Name": "zEnggTagNumber"
-		},
-		{
-			"_Type": "Edm.String",
-			"Key": false,
-			"_Name": "zEquipment"
-		},
-		{
-			"_Type": "Edm.String",
-			"Key": false,
-			"_Name": "zChangeRequest"
-		},
-		{
-			"_Type": "Edm.String",
-			"Key": false,
 			"_Name": "zObjtypetext"
 		},
 		{
@@ -143,6 +128,21 @@
 			"_Type": "Edm.String",
 			"Key": false,
 			"_Name": "zCostCentDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "zcrequest"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zABCIndic"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "zEnggTagNumber"
 		},
 		{
 			"_Type": "Edm.String",

@@ -3,17 +3,8 @@
 	"ActionResult": {
 		"_Name": "MDGEquipmentUpdate"
 	},
-	"OnFailure": "/ZSAPASSETMGRMTADTA_2210/Actions/EquipmentCreateFailureMessage.action",
+	"OnFailure": "/SAPAssetManager/Rules/Common/UpdateRequiredFailed.js",
 	"OnSuccess": "/ZSAPASSETMGRMTADTA_2210/Actions/MDG/ChangeEquipmentSuccessMessage.action",
-	"RequiredFields": [
-        "MDGChangerequesttype",
-        "MDGChangerequestDesc",
-		"Equipment",
-        "ManufacturerOfAsset",
-        "ManufacturerSerialNo",
-		"ManufacturerModelNo",
-        "ManufacturerPartNo"
-    ],
 	"Target": {
 		"Service": "/ZSAPASSETMGRMTADTA_2210/Services/AssetManager.service",
 		"EntitySet": "ZEquipmentMDGSet"

@@ -182,11 +182,6 @@
 			"_Name": "Assembly_Nav"
 		},
 		{
-			"_Type": "ChecklistType",
-			"Key": false,
-			"_Name": "ChecklistType_Nav"
-		},
-		{
 			"_Type": "Collection(MyWorkOrderComponent)",
 			"Key": false,
 			"_Name": "Components"
@@ -195,11 +190,6 @@
 			"_Type": "Collection(Confirmation)",
 			"Key": false,
 			"_Name": "Confirmations"
-		},
-		{
-			"_Type": "Collection(EAMChecklistLink)",
-			"Key": false,
-			"_Name": "EAMChecklist_Nav"
 		},
 		{
 			"_Type": "Employee",

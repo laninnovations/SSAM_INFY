@@ -25,11 +25,6 @@
 			"_Type": "Plant",
 			"Key": false,
 			"_Name": "Plant_Nav"
-		},
-		{
-			"_Type": "Collection(UserTrunkAssignment)",
-			"Key": false,
-			"_Name": "UserTrunkAssignment_Nav"
 		}
 	],
 	"_Name": "StorageLocation"

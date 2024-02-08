@@ -8,6 +8,7 @@ export default function WorkOrderCreateUpdateRequiredFields(context) {
         'TypeLstPkr',
         'PrioritySeg',
         'MainWorkCenterLstPkr',
+        'PMActivityTypeLstPkr'
     ];
 
     return libWo.isSoldPartyRequired(context).then((required) => {

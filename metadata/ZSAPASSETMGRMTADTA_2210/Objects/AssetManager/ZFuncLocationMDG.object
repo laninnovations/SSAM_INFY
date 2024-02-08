@@ -7,17 +7,12 @@
 		{
 			"_Type": "Edm.String",
 			"Key": false,
-			"_Name": "Zcrequest"
+			"_Name": "zChangeRequest"
 		},
 		{
 			"_Type": "Edm.String",
 			"Key": false,
 			"_Name": "Zcrdesc"
-		},
-		{
-			"_Type": "Edm.String",
-			"Key": true,
-			"_Name": "zFunctionalloc"
 		},
 		{
 			"_Type": "Edm.String",
@@ -97,11 +92,6 @@
 		{
 			"_Type": "Edm.String",
 			"Key": false,
-			"_Name": "zChangeRequest"
-		},
-		{
-			"_Type": "Edm.String",
-			"Key": false,
 			"_Name": "zObjtypetext"
 		},
 		{
@@ -123,6 +113,16 @@
 			"_Type": "Edm.String",
 			"Key": false,
 			"_Name": "zCostCentDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Zcrequest"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "zFunctionalloc"
 		},
 		{
 			"_Type": "Edm.String",

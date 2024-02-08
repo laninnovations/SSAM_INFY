@@ -6,46 +6,6 @@
 	"Properties": [
 		{
 			"_Type": "Edm.String",
-			"Key": true,
-			"_Name": "ZObjectType"
-		},
-		{
-			"_Type": "Edm.String",
-			"Key": true,
-			"_Name": "ZObjectkey"
-		},
-		{
-			"_Type": "Edm.String",
-			"Key": true,
-			"_Name": "ZTransactionMode"
-		},
-		{
-			"_Type": "Edm.String",
-			"Key": false,
-			"_Name": "ZUserName"
-		},
-		{
-			"_Type": "Edm.DateTime",
-			"Key": false,
-			"_Name": "ZCreatedOn"
-		},
-		{
-			"_Type": "Edm.Time",
-			"Key": false,
-			"_Name": "ZTime"
-		},
-		{
-			"_Type": "Edm.Double",
-			"Key": false,
-			"_Name": "ZLongitudeDegree"
-		},
-		{
-			"_Type": "Edm.Double",
-			"Key": false,
-			"_Name": "ZLatitudeDegree"
-		},
-		{
-			"_Type": "Edm.String",
 			"Key": false,
 			"_Name": "ZFLAG"
 		},
@@ -63,6 +23,16 @@
 			"_Type": "Edm.String",
 			"Key": false,
 			"_Name": "ZCostCenter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ZObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ZObjectkey"
 		},
 		{
 			"_Type": "Edm.String",
@@ -85,9 +55,39 @@
 			"_Name": "ZPlannerGroup"
 		},
 		{
+			"_Type": "Edm.Double",
+			"Key": false,
+			"_Name": "ZLongitudeDegree"
+		},
+		{
+			"_Type": "Edm.Double",
+			"Key": false,
+			"_Name": "ZLatitudeDegree"
+		},
+		{
 			"_Type": "Edm.String",
 			"Key": false,
 			"_Name": "ZMobileObjectStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ZTransactionMode"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ZCreatedOn"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "ZTime"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ZUserName"
 		}
 	],
 	"_Name": "ZLocation"

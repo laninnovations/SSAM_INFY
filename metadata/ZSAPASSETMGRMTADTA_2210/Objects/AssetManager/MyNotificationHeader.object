@@ -267,11 +267,6 @@
 			"_Name": "Assembly_Nav"
 		},
 		{
-			"_Type": "EAMChecklistLink",
-			"Key": false,
-			"_Name": "EAMChecklist_Nav"
-		},
-		{
 			"_Type": "MyEquipment",
 			"Key": false,
 			"_Name": "Equipment"

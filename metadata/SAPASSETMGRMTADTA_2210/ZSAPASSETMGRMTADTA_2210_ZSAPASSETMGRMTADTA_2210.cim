@@ -189,6 +189,10 @@
 		{
 			"Source": "/ZSAPASSETMGRMTADTA_2210/Actions/WorkOrders/WorkOrderOperationDetailsPopover.action",
 			"Target": "/SAPAssetManager/Actions/WorkOrders/Operations/WorkOrderOperationDetailsPopover.action"
+		},
+		{
+			"Source": "/ZSAPASSETMGRMTADTA_2210/Pages/Confirmation/ConfirmationsOverviewListView.page",
+			"Target": "/SAPAssetManager/Pages/Confirmations/ConfirmationsOverviewListView.page"
 		}
 	]
 }

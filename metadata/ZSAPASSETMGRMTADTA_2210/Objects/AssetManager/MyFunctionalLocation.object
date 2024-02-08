@@ -262,11 +262,6 @@
 			"_Name": "Classes"
 		},
 		{
-			"_Type": "Collection(EAMChecklistLink)",
-			"Key": false,
-			"_Name": "EAMChecklist_Nav"
-		},
-		{
 			"_Type": "Collection(MyEquipment)",
 			"Key": false,
 			"_Name": "Equipments"
