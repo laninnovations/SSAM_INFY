@@ -36,7 +36,7 @@
 								"ValidationMessage": "/ZSAPASSETMGRMTADTA_2210/Rules/emailbodylength.js"
 							},
 							"_Type": "Control.Type.FormCell.Note",
-							"_Name": "EmailBody",
+							"_Name": "FormCellNote0",
 							"IsEditable": true,
 							"IsVisible": true,
 							"Styles": {

@@ -1651,6 +1651,10 @@ export class WorkOrderControlsLibrary {
                         priortiyCtrlSpecifier.setQueryOptions('$orderby=Priority');
                     }
 
+                    if(myOrderTypes.getItem(0).OrderType === "PM01") {
+                        priortiyCtrlSpecifier.setQueryOptions(`$filter=PriorityType eq '${priorityType}' and Priority eq '1'`);
+                    }
+
                     return priorityControl.setTargetSpecifier(priortiyCtrlSpecifier).then(() => {
                         priorityControl.setValue(ConstantsLibrary.defaultPriority);
                         return Promise.resolve(true);
